@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -42,3 +42,17 @@ ht-degree: 0%
 2. 購物車放棄——中—高參與度，一般
 3. 歡迎電子郵件— 高參與度，但可以根據您的清單收集方法，包含不良的地址
 4. Winback電子郵件— 通常情況下，
+
+## 產品特定資源
+
+**Campaign**
+
+* 在[本節](/help/putting-it-in-practice/ac-starting-new-platform.md)中，進一步瞭解如何在啟動具有Adobe Campaign的新平台時管理交付能力。
+* 在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves)中瞭解如何使用多波與Adobe Campaign Classic一起傳送。
+* 瞭解如何在[本節](/help/putting-it-in-practice/ac-domain-name-setup.md)中將子網域完全委派給Adobe Campaign Classic或標準。
+* [控制面板：完整子網域委派（教學課程）](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派給Adobe Campaign Classic。*
+* [控制面板：完整子網域委派（教學課程）](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派給Adobe Campaign Standard。*
+
+## 其他資源
+
+* 在[本節](/help/additional-resources/increase-reputation-with-ip-warming.md)中，進一步瞭解如何提高您電子郵件的知名度。
