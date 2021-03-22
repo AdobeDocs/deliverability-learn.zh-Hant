@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 3%
+source-wordcount: '454'
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 3%
 
 回收的垃圾郵件陷阱是曾經有效但不再使用的地址。 要盡可能保持清晰的清單，一個關鍵方法是定期傳送電子郵件至您的整個清單，並適當地抑制被拒收的電子郵件。 這有助於隔離已放棄的電子郵件地址，並阻止其繼續使用。
 
-在某些情況下，地址可在30天內循環使用。 定期發送是良好清單衛生的重要方面，也是定期抑制不活躍用戶的重要方面。 **[重新參與](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/re-engagement-best-practices.html?lang=en#sending-messages)** 促銷活動通常是複雜電子郵件行銷計畫的一部分。此促銷活動樣式可讓傳送者嘗試讓原本不會再寄回的使用者回來。
+在某些情況下，地址可在30天內循環使用。 定期發送是良好清單衛生的重要方面，也是定期抑制不活躍用戶的重要方面。 **重新參與促銷** 活動通常是複雜電子郵件行銷計畫的一部分。此促銷活動樣式可讓傳送者嘗試讓原本不會再寄回的使用者回來。
 
 ## Typo
 
@@ -35,11 +35,17 @@ ht-degree: 3%
 
 原始垃圾郵件陷阱是指沒有最終用戶且從未有最終用戶的地址。 此地址的建立純粹是為了識別垃圾電子郵件。 這是最具影響力的垃圾郵件陷阱，因為幾乎無法識別，而且需要付出大量努力才能從清單中清除。 大多數攔截器利用原始垃圾郵件陷阱來列出信譽不佳的發件人。 避免原始垃圾訊息陷阱感染更廣泛行銷電子郵件清單的唯一方法，是使用&#x200B;**雙重加入程式**&#x200B;來收集清單。
 
+## 其他資源
+
+* 進一步瞭解在[本節](/help/additional-resources/all-about-spam-traps.md)中識別和避免垃圾訊息陷阱。
+* 進一步瞭解如何透過[本節](/help/additional-resources/re-engagement.md)中的重新參與策略來改善傳遞能力。
+
 ## 產品特定資源
 
 **Adobe Campaign Classic**
 
 * [SpamAssassin](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/spamassassin.html?lang=en#using-spamassassin)
+* [建立包含雙重選擇加入的訂閱表單](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
 
 **Adobe Campaign Standard**
 
