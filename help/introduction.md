@@ -8,7 +8,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 7e9cc30c6d3fb69f557b17f452b43de08ae85a03
+source-git-commit: 6297a3331b458b88ce2141a6fa30bbc69190b524
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 15%
@@ -39,7 +39,7 @@ ht-degree: 15%
 7. [發件人永久性](/help/sender-permanence.md)
 8. [網際網路服務供應商的特定資訊](/help/internet-service-provider-specifics/overview.md)
 9. [持續監控](/help/ongoing-monitoring.md)
-10. [付諸實踐](/help/putting-it-in-practice/how-to-reach-success.md)
+10. [付諸實踐](/help/putting-it-in-practice/putting-it-in-practice.md)
 11. [其他資源](/help/additional-resources/general-resources.md)
 
 ## 來源
