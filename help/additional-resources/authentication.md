@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 0%
@@ -56,7 +56,7 @@ DKIM已更換&#x200B;**DomainKeys**&#x200B;驗證。
 * **安全性**:加密是DKIM的關鍵元素。為確保DKIM的安全級別，建議使用1024b作為最佳做法。 大部分的存取提供者不認為低DKIM金鑰有效。
 * **聲譽**:信譽是以IP和／或網域為基礎，但較不透明的DKIM選擇器也是需要考慮的關鍵元素。選擇選擇器很重要：避免保留任何人都能使用的「違約」，因此名聲不佳。 您必須為&#x200B;**保留與贏取通訊**&#x200B;實施不同的選擇器，以進行驗證。
 
-在[本節](/help/putting-it-in-practice/acc-technical-recommendations.md#dkim-acc)中使用Campaign Classic時，進一步瞭解DKIM先決條件。
+在[本節](/help/additional-resources/acc-technical-recommendations.md#dkim-acc)中使用Campaign Classic時，進一步瞭解DKIM先決條件。
 
 ## DMARC {#dmarc}
 
