@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 9e4c4c56a09fb505a431d3799104c2684aed4a70
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 ---
 
 
-# 如何在切換電子郵件平台時順暢地轉換。
+# 如何在切換電子郵件平台時順暢地轉換
 
 移動電子郵件服務供應商(ESP)時，無法同時轉換您現有的已建立IP位址。 重新開始時，您必須遵循最佳實務，以建立良好的聲譽。 由於您將使用的新IP位址尚無名氣，ISP無法完全信任來自他們的郵件，因此需要謹慎對待他們允許的郵件。
 
