@@ -8,10 +8,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 0%
+source-wordcount: '132'
+ht-degree: 1%
 
 ---
 
@@ -25,3 +25,7 @@ ISP有不同的規則和不同的流量觀察方式。 例如，Gmail是最成�
 * [Gmail](/help/internet-service-provider-specifics/gmail.md)
 * [Microsoft（Hotmail、Outlook、Windows Live等）](/help/internet-service-provider-specifics/microsoft.md)
 * [Verizon Media Group（Yahoo、AOL、Verizon等）](/help/internet-service-provider-specifics/verizon-media-group.md)
+
+## 其他資源
+
+* 在[本節](/help/additional-resources/increase-reputation-with-ip-warming.md)中，進一步瞭解如何提高您電子郵件的知名度。
