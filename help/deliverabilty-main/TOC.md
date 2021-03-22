@@ -3,10 +3,10 @@ user-guide-title: 傳遞性最佳實務指南
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: 了解傳遞能力的重要用語、概念和方法，讓您能夠確保行銷方案成功推行。
 translation-type: tm+mt
-source-git-commit: 96ed84da391faaabd3001ddd6a411ddc1f46b033
+source-git-commit: a823349a7619595c6dc3e0d135c253bc5150046e
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 22%
+source-wordcount: '160'
+ht-degree: 23%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 22%
    + [Verizon Media Group（Yahoo、AOL、Verizon等）](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [持續監控](/help/ongoing-monitoring.md)
 + 付諸實踐{#putting-it-in-practice}
-   + [如何取得成功](/help/putting-it-in-practice/how-to-reach-success.md)
+   + [概述](/help/putting-it-in-practice/putting-it-in-practice.md)
    + 促銷活動 {#campaign}
       + [網域名稱設定](/help/putting-it-in-practice/ac-domain-name-setup.md)
       + [SSL憑證要求程式](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
