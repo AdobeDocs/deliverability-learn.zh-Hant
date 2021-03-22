@@ -9,9 +9,9 @@ doc-type: article
 activity: understand
 team: TM
 translation-type: tm+mt
-source-git-commit: 131e3f06ac8d593d4b67711ee3688ff895aa380c
+source-git-commit: ec0bb2f9ee514cc94c764744e0cc51e62e811c20
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 * 未確認的電子郵件地址可能有錯字或格式錯誤、不正確或惡意使用。 打字錯誤和格式錯誤的地址會造成高反彈率，這可能並確實會引發ISP或IP信譽損失。
 
-* 惡意提交已知垃圾郵件陷阱（有時稱為「清單中毒」），如果該陷阱的擁有者採取行動，可能會導致嚴重的傳遞和信譽問題。 如果收件者不經確認，就無法得知是否真要加入行銷清單。 這同樣不可能設定收件者的期望，而且可能導致垃圾郵件投訴增加，有時候，如果收集的電子郵件剛好是垃圾郵件陷阱，則會列入黑名單。
+* 惡意提交已知垃圾郵件陷阱（有時稱為「清單中毒」），如果該陷阱的擁有者採取行動，可能會導致嚴重的傳遞和信譽問題。 如果收件者不經確認，就無法得知是否真要加入行銷清單。 這同樣不可能設定收件人的期望，並導致垃圾郵件投訴的增加。 而且，如果收集的電子郵件恰好是垃圾郵件陷阱，有時會封鎖清單。
 
 有關如何最小化實體商店和單一選擇加入中所呈現問題的指導，請至本指南的[資料品質和衛生](#data-quality-and-hygiene)一節，以取得雙重選擇加入的詳細資訊和優點。
 
@@ -88,5 +88,17 @@ DOI包括傳送確認電子郵件給已註冊至您電子郵件程式的訂閱�
 **貿易展會或其他活動收**
 集在展位或透過其他官方、明確品牌化方式收集地址會很有用。風險在於，許多類似事件會收集所有位址，並透過事件啟動程式或主機來分發。 這表示這些電子郵件地址的擁有者從未要求接收您品牌的電子郵件。 這些訂閱者可能會抱怨您的郵件並標示為垃圾訊息，而且他們可能沒有提供正確的聯絡資訊。
 
-**SweepstakesSweepstakes**
-可快速提供大量的電子郵件地址。但這些訂閱者希望獲得獎品，而非您的電子郵件。 他們甚至可能沒有關注誰會主動聯繫他們。 他們可能會抱怨您的郵件並將其標示為垃圾郵件，而且他們可能不會參與或購買郵件。
+**抽獎活動**
+
+抽獎活動可快速提供大量電子郵件地址。 但這些訂閱者希望獲得獎品，而非您的電子郵件。 他們甚至可能沒有關注誰會主動聯繫他們。 他們可能會抱怨您的郵件並將其標示為垃圾郵件，而且他們可能不會參與或購買郵件。
+
+## 產品特定資源
+
+**Adobe Campaign Classic**
+
+* [建立包含雙重選擇加入的訂閱表單](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+
+**Adobe Campaign Standard**
+
+* [雙重加入程式](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
+
