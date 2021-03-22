@@ -9,10 +9,10 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: d42a8c3b06308fca0cf3e9db8d634a767fc0cdc6
+source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 1%
+source-wordcount: '924'
+ht-degree: 2%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 1%
 
 ## 回覆也是參與
 
-將回覆電子郵件設為「無回覆」地址很容易，但這是忽略大局的錯誤。
+將回覆電子郵件設為「無回覆」地址很容易，但這會忽略大局。
 
 當收件者回覆行銷電子郵件時，會有回應。 啟用&#x200B;**回覆與回覆系統**，將有助於提升傳送者聲譽。 這將提高正面傳遞能力和收件匣放置率的可能性。
 
@@ -57,7 +57,16 @@ ht-degree: 1%
 
 ## 產品特定資源
 
+**Adobe Campaign Classic**
+
+* [定義正確受眾](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html#communication-channels)
+* [壓力規則](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
+
 **Adobe Campaign Standard**
 
 * [定義正確受眾](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
-* [疲勞規則（產品檔案）](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+* [疲勞規則](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
+
+## 其他資源
+
+* 進一步瞭解[本節](/help/additional-resources/re-engagement.md)中的重新參與（或贏回）策略。
