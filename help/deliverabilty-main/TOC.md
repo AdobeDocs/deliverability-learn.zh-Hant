@@ -3,10 +3,10 @@ user-guide-title: 傳遞性最佳實務指南
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: 了解傳遞能力的重要用語、概念和方法，讓您能夠確保行銷方案成功推行。
 translation-type: tm+mt
-source-git-commit: a823349a7619595c6dc3e0d135c253bc5150046e
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 23%
+source-wordcount: '165'
+ht-degree: 21%
 
 ---
 
@@ -40,19 +40,20 @@ ht-degree: 23%
    + [Microsoft（Hotmail、Outlook、Windows Live等）](/help/internet-service-provider-specifics/microsoft.md)
    + [Verizon Media Group（Yahoo、AOL、Verizon等）](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [持續監控](/help/ongoing-monitoring.md)
-+ 付諸實踐{#putting-it-in-practice}
-   + [概述](/help/putting-it-in-practice/putting-it-in-practice.md)
-   + 促銷活動 {#campaign}
-      + [網域名稱設定](/help/putting-it-in-practice/ac-domain-name-setup.md)
-      + [SSL憑證要求程式](/help/putting-it-in-practice/ac-ssl-certificate-request.md)
-      + [啟動新平台](/help/putting-it-in-practice/ac-starting-new-platform.md)
-      + [Campaign Classic-技術建議](/help/putting-it-in-practice/acc-technical-recommendations.md)
-+ 其他資源 {#additional-resources}
++ [付諸實踐](/help/putting-it-in-practice.md)
++ 附錄：其他資源{#additional-resources}
    + [概述](/help/additional-resources/general-resources.md)
-   + [關於垃圾郵件陷阱](/help/additional-resources/all-about-spam-traps.md)
-   + [透過IP變暖提高您的電子郵件聲譽](/help/additional-resources/increase-reputation-with-ip-warming.md)
-   + [驗證](/help/additional-resources/authentication.md)
-   + [複製](/help/additional-resources/duplicates.md)
-   + [重新參與的最佳實務](/help/additional-resources/re-engagement.md)
-   + [即時黑洞清單](/help/additional-resources/blocklist-databases.md)
-   + [疑難排解](/help/additional-resources/troubleshooting.md)
+   + 一般資源{#generic-resources}
+      + [關於垃圾郵件陷阱](/help/additional-resources/all-about-spam-traps.md)
+      + [透過IP變暖提高您的電子郵件聲譽](/help/additional-resources/increase-reputation-with-ip-warming.md)
+      + [驗證](/help/additional-resources/authentication.md)
+      + [複製](/help/additional-resources/duplicates.md)
+      + [重新參與的最佳實務](/help/additional-resources/re-engagement.md)
+      + [即時黑洞清單](/help/additional-resources/blocklist-databases.md)
+      + [疑難排解](/help/additional-resources/troubleshooting.md)
+   + 產品特定資源{#product-specific-resources}
+      + 促銷活動 {#campaign}
+         + [網域名稱設定](/help/additional-resources/ac-domain-name-setup.md)
+         + [SSL憑證要求程式](/help/additional-resources/ac-ssl-certificate-request.md)
+         + [啟動新平台](/help/additional-resources/ac-starting-new-platform.md)
+         + [Campaign Classic-技術建議](/help/additional-resources/acc-technical-recommendations.md)
