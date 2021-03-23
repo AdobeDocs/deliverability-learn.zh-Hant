@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Adobe平台上新寄件者的上線程式包括設定您的傳送網域，以及
 
 制定結構完善的智慧財產權戰略有助於建立良好的聲譽，這一點非常重要。 IP的數量和設定會視您的業務模式和行銷目標而有所不同。 與專家合作，制定清楚的策略，從頭開始。 請考慮以下重要事項：
 
-* **太多** IPscan會觸發信譽問題，因為它是垃圾郵件發送者對 ****&#x200B;雪鞋的常見策略，此策略是垃圾郵件發送者使用的策略，其中流量會在許多IP之間傳播，以最大化垃圾郵件的發送。即使您不是垃圾郵件發送者，但如果您使用過多的IP，尤其是當這些IP之前沒有任何流量時，您看起來可能就像一個。
+* **太多** IPscan會觸發信譽問題，因為它是垃圾郵件發送者對 ****&#x200B;雪鞋的常見策略，此策略是垃圾郵件發送者使用的策略，其中流量會在許多IP之間傳播，以最大化垃圾郵件的發送。即使您不是垃圾郵件發送者，但如果您使用過多的IP，尤其是當這些IP之前沒有任何流量時，您看起來可能就像一個垃圾郵件發送者。
 * **IPscan太少會** 導致吞吐量問題，並可能觸發信譽問題。吞吐量因ISP而異。 ISP願意接受的速度和速度通常取決於其基礎架構和發送信譽閾值。
 * 隔離傳訊類型的流量是關鍵。 至少在裸機上，在單獨的IP池上分別使用行銷和事務性郵件非常重要。
 * 根據您的郵件策略，如果您的信譽大不相同，也建議您在不同IP池上分隔不同的產品或行銷流。 部分行銷人員也依地區劃分。 將信譽較低的流量IP區隔開，並不能解決信譽問題，但能防止「信譽良好」的電子郵件傳送問題。 畢竟，您不想為了風險更高的受眾而犧牲好的受眾。
@@ -65,10 +65,10 @@ Adobe平台上新寄件者的上線程式包括設定您的傳送網域，以及
 
 **Campaign**
 
-* 瞭解如何在[本節](/help/putting-it-in-practice/ac-domain-name-setup.md)中將子網域完全委派給Adobe Campaign Classic或標準。
+* 瞭解如何在[本節](/help/additional-resources/ac-domain-name-setup.md)中將子網域完全委派給Adobe Campaign Classic或標準。
 * [控制面板：完整子網域委派（教學課程）](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派給Adobe Campaign Classic。*
 * [控制面板：完整子網域委派（教學課程）](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派給Adobe Campaign Standard。*
-* 進一步瞭解如何在[本節](/help/putting-it-in-practice/acc-technical-recommendations.md#feedback-loop-acc)中實作Campaign Classic例項的回饋回圈。
+* 進一步瞭解如何在[本節](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc)中實作Campaign Classic例項的回饋回圈。
 
 ## 其他資源
 
