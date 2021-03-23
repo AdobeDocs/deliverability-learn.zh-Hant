@@ -9,7 +9,7 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 0%
@@ -47,9 +47,9 @@ ht-degree: 0%
 
 **Campaign**
 
-* 在[本節](/help/putting-it-in-practice/ac-starting-new-platform.md)中，進一步瞭解如何在啟動具有Adobe Campaign的新平台時管理交付能力。
+* 在[本節](/help/additional-resources/ac-starting-new-platform.md)中，進一步瞭解如何在啟動具有Adobe Campaign的新平台時管理交付能力。
 * 在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves)中瞭解如何使用多波與Adobe Campaign Classic一起傳送。
-* 瞭解如何在[本節](/help/putting-it-in-practice/ac-domain-name-setup.md)中將子網域完全委派給Adobe Campaign Classic或標準。
+* 瞭解如何在[本節](/help/additional-resources/ac-domain-name-setup.md)中將子網域完全委派給Adobe Campaign Classic或標準。
 * [控制面板：完整子網域委派（教學課程）](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派給Adobe Campaign Classic。*
 * [控制面板：完整子網域委派（教學課程）](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派給Adobe Campaign Standard。*
 
