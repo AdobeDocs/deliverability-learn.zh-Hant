@@ -3,7 +3,7 @@ user-guide-title: 傳遞性最佳實務指南
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: 了解傳遞能力的重要用語、概念和方法，讓您能夠確保行銷方案成功推行。
 translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+source-git-commit: 5a7e8ef210941b79bd5eb31b27041ca329e301f2
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 80%
