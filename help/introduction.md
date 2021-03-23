@@ -8,9 +8,9 @@ doc-type: article
 activity: understand
 team: ACS
 translation-type: tm+mt
-source-git-commit: 6297a3331b458b88ce2141a6fa30bbc69190b524
+source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '431'
 ht-degree: 15%
 
 ---
@@ -39,8 +39,11 @@ ht-degree: 15%
 7. [發件人永久性](/help/sender-permanence.md)
 8. [網際網路服務供應商的特定資訊](/help/internet-service-provider-specifics/overview.md)
 9. [持續監控](/help/ongoing-monitoring.md)
-10. [付諸實踐](/help/putting-it-in-practice/putting-it-in-practice.md)
-11. [其他資源](/help/additional-resources/general-resources.md)
+10. [付諸實踐](/help/putting-it-in-practice.md)
+
+>[!NOTE]
+>
+>下載[adobe-deliverability-best-practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)
 
 ## 來源
 
@@ -50,4 +53,4 @@ ht-degree: 15%
 
 ## 其他資源
 
-下載[adobe-deliverability-best-practice-guide.pdf](/help/assets/adobe-deliverability-best-practice-guide.pdf)
+[附錄：其他資源](/help/additional-resources/general-resources.md)
