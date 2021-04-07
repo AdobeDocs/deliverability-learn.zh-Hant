@@ -8,11 +8,11 @@ thumbnail: kt7050.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 87%
 
 回收的垃圾郵件陷阱是曾經有效但不再使用的地址。要盡可能保持清晰的清單，一個關鍵方法是定期傳送電子郵件至您的整個清單，並適當地管理被拒收的電子郵件。這有助於隔離已放棄的電子郵件地址，並阻止其繼續使用。
 
-在某些情況下，地址可在 30 天內循環使用。定期發送是維持清單整潔的重要方面，也是定期抑制不活躍用戶的重要方面。**重新參與促銷** 活動通常是複雜電子郵件行銷計畫的一部分。此行銷活動可讓傳送者嘗試讓原本不會再收到郵件的使用者回來。
+在某些情況下，地址可在 30 天內循環使用。定期發送是維持清單整潔的重要方面，也是定期抑制不活躍用戶的重要方面。**重新參與行銷活動**&#x200B;通常是複雜電子郵件行銷方案的一部分。此行銷活動可讓傳送者嘗試讓原本不會再收到郵件的使用者回來。
 
 ## 錯字
 
@@ -37,18 +37,18 @@ ht-degree: 87%
 
 ## 其他資源
 
-* 進一步瞭解在[本節](/help/additional-resources/all-about-spam-traps.md)中識別和避免垃圾訊息陷阱。
-* 進一步瞭解如何透過[本節](/help/additional-resources/re-engagement.md)中的重新參與策略來改善傳遞能力。
+* 在[本節](/help/additional-resources/all-about-spam-traps.md)中進一步瞭解識別和避免垃圾郵件陷阱。
+* 在[本節](/help/additional-resources/re-engagement.md)中，進一步瞭解如何透過重新參與策略來改善傳遞能力。
 
 ## 產品特定資源
 
 **Adobe Campaign Classic**
 
-* [SpamAssassin](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/spamassassin.html?lang=en#using-spamassassin)
-* [建立包含雙重選擇加入的訂閱表單](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in)
+* [SpamAssassin](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/spamassassin.html?lang=zh-Hant#using-spamassassin)
+* [建立包含雙重選擇加入的訂閱表單](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=zh-Hant#create-a-subscription--form-with-double-opt-in)
 
 **Adobe Campaign Standard**
 
 * [預覽您的電子郵件和反垃圾郵件分析](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html?lang=zh-Hant#designing-content)
-* [雙重加入流程](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=en#communication-channels)
+* [雙重選擇加入流程](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=zh-Hant#communication-channels)
 
