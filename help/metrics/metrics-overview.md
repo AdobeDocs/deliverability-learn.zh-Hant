@@ -1,5 +1,5 @@
 ---
-title: 傳遞性量度
+title: 傳遞能力的量度
 description: 瞭解要監控的關鍵傳遞能力量度，以及如何使用它們來確認信譽問題。
 feature: 量度
 topics: Deliverability
@@ -8,16 +8,16 @@ thumbnail: kt5256.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
 
-# 傳遞性量度
+# 傳遞能力的量度
 
 確認傳送信譽問題的最佳方式之一，就是透過量度。讓我們來看看要監控的一些關鍵傳遞能力量度，以及如何使用它們來確認信譽問題。
 
@@ -30,12 +30,12 @@ ht-degree: 62%
 
 **Adobe Campaign Classic**
 
-* [傳送監控](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html)
-* [監視傳遞能力](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html)
-* [瞭解傳送故障](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html)
+* [傳遞監視](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hant)
+* [監視傳遞能力](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/monitoring-deliverability.html?lang=zh-Hant)
+* [瞭解傳遞失敗](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=zh-Hant)
 
 **Adobe Campaign Standard**
 
-* [監視](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html)
-* [監視傳遞能力](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=en#testing-and-sending)
-* [瞭解傳送故障](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html)
+* [監視傳遞](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=zh-Hant)
+* [監視傳遞能力](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=zh-Hant#testing-and-sending)
+* [瞭解傳遞失敗](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-delivery-failures.html?lang=zh-Hant)
