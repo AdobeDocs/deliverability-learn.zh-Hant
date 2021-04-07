@@ -7,11 +7,11 @@ thumbnail: kt5321.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 99%
 本《傳遞能力最佳實踐指南》涵蓋以下主題：
 
 1. [傳遞能力策略和定義](/help/deliverability-strategy-and-definition.md)
-2. [傳遞能力量度](/help/metrics/metrics-overview.md)
+2. [傳遞能力的量度](/help/metrics/metrics-overview.md)
 3. [參與](/help/engagement.md)
-4. [轉換過程 - 轉換電子郵件平台](/help/transition-process/switching-email-platforms.md)
+4. [轉換過程 - 交換電子郵件平台](/help/transition-process/switching-email-platforms.md)
 5. [第一印象 - 列出系列和歡迎電子郵件](/help/first-impressions/address-collection-and-list-growth.md)
 6. [最佳化傳遞能力的內容最佳實務](/help/content-best-practices-for-optimal-delivery.md)
 7. [發件人永久性](/help/sender-permanence.md)
-8. [網路服務供應商的特定資訊](/help/internet-service-provider-specifics/overview.md)
+8. [網路服務提供商具體資訊](/help/internet-service-provider-specifics/overview.md)
 9. [持續監控](/help/ongoing-monitoring.md)
 10. [付諸實踐](/help/putting-it-in-practice.md)
 
