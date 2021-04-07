@@ -8,11 +8,11 @@ thumbnail: kt7051.jpg
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283f1cb2bb40818e11daa1a3753e8428b47e08ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,4 +33,4 @@ ht-degree: 93%
 
 ## 其他資源
 
-* 進一步瞭解[即時黑洞清單](/help/additional-resources/blocklist-databases.md)，這些清單會維護垃圾郵件發送者可能使用的IP位址和網域資料庫。
+* 進一步瞭解[即時黑洞清單](/help/additional-resources/blocklist-databases.md)，這些清單會記錄垃圾郵件傳送者可能使用的 IP 位址和網域資料庫。
