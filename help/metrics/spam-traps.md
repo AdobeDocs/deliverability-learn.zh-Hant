@@ -8,14 +8,14 @@ thumbnail: kt7050.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: ffacc1b1-bf3f-466e-9a1d-63aad4d2ec45
 translation-type: ht
-source-git-commit: 550821608eb7049f739a156536dd31b6b2faa2fa
+source-git-commit: e433002423bd1ab2f4a89425198c16160dae0719
 workflow-type: ht
 source-wordcount: '454'
 ht-degree: 100%
 
 ---
-
 
 # 垃圾郵件陷阱
 
@@ -51,4 +51,3 @@ ht-degree: 100%
 
 * [預覽您的電子郵件和反垃圾郵件分析](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/email-designer/preview-your-email.html?lang=zh-Hant#designing-content)
 * [雙重選擇加入流程](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/landing-pages/setting-up-a-double-opt-in-process.html?lang=zh-Hant#communication-channels)
-
