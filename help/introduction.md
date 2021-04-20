@@ -1,7 +1,7 @@
 ---
 title: 傳遞能力最佳實務簡介
 description: 了解傳遞能力的重要用語、概念和方法，讓您能夠確保行銷方案成功推行。
-feature: 傳遞能力
+feature: Deliverability
 kt: 5321
 thumbnail: kt5321.jpg
 doc-type: article

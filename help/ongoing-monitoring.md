@@ -1,7 +1,7 @@
 ---
 title: 持續監控
 description: 您需要留意哪些問題。
-feature: 監控
+feature: Monitoring
 topics: Deliverability
 kt: 5263
 thumbnail: kt5263.jpg

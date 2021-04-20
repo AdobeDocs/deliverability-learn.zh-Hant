@@ -1,7 +1,7 @@
 ---
 title: 付諸實踐
 description: 發送持久性是建立一致發送量和策略以維護ISP信譽的過程。
-feature: 傳送能力
+feature: Deliverability
 topics: Deliverability
 kt: 5264
 thumbnail: kt5264.jpg

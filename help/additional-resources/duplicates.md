@@ -1,7 +1,7 @@
 ---
 title: 複製
 description: 瞭解如何識別和限制重複項目，以改善傳遞能力。
-feature: 其他資源
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

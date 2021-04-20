@@ -1,7 +1,7 @@
 ---
 title: 內容最佳實務，以最佳化傳遞能力
 description: 內容是關鍵。 您已閱讀我們對相關性的看法，但以下是在內容方面最佳化傳遞能力的額外秘訣。
-feature: 內容
+feature: Content
 topics: Deliverability
 kt: 5260
 thumbnail: kt5260.jpg

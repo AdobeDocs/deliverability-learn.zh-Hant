@@ -1,7 +1,7 @@
 ---
 title: 跳出
 description: 瞭解不同類型的跳出。
-feature: 量度
+feature: Metrics
 topics: Deliverability
 kt: 7047
 thumbnail: kt7047.jpg

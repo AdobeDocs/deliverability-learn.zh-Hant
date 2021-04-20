@@ -1,7 +1,7 @@
 ---
 title: 其他資源
 description: 本節列出有關可交付性的一些額外資源。
-feature: 其他資源
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

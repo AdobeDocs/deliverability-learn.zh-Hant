@@ -1,7 +1,7 @@
 ---
 title: 可傳遞性疑難排解
 description: 瞭解如何識別和解決傳遞性問題。
-feature: 其他資源
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

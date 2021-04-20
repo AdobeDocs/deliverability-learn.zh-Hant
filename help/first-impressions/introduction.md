@@ -1,7 +1,7 @@
 ---
 title: 第一印象——列出系列和歡迎電子郵件
 description: '瞭解如何讓您留下良好的第一印象，以便為成功的電子郵件計畫做好準備。 '
-feature: 對象、電子郵件
+feature: Audiences, Email
 topics: Deliverability
 kt: 5258
 thumbnail: kt5258.jpg

@@ -1,7 +1,7 @@
 ---
 title: 垃圾郵件陷阱
 description: 瞭解不同類型的垃圾郵件陷阱。
-feature: 量度
+feature: Metrics
 topics: Deliverability
 kt: 7050
 thumbnail: kt7050.jpg

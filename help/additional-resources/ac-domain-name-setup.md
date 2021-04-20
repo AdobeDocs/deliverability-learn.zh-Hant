@@ -1,7 +1,7 @@
 ---
 title: 網域名稱設定
 description: 瞭解如何將子網域委派給Adobe Campaign。
-feature: 付諸實踐
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

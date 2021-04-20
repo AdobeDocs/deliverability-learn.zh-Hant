@@ -1,7 +1,7 @@
 ---
 title: 何謂傳遞能力策略及如何定義傳遞能力
 description: 瞭解傳遞能力的定義、其重要性以及關鍵傳遞性指標。
-feature: 傳遞能力
+feature: Deliverability
 topics: Deliverability
 kt: 5255
 thumbnail: kt5255.jpg

@@ -1,7 +1,7 @@
 ---
 title: SSL憑證要求程式
 description: 瞭解如何在您委派給Adobe的子網域上安裝SSL憑證。
-feature: 付諸實踐
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

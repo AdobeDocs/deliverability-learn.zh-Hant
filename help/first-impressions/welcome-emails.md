@@ -1,7 +1,7 @@
 ---
 title: 歡迎電子郵件
 description: 瞭解在建立歡迎電子郵件時要考慮的關鍵元素。
-feature: 電子郵件
+feature: Email
 topics: Deliverability
 kt: 7064
 thumbnail: kt7064.jpg

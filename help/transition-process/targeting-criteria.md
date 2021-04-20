@@ -1,7 +1,7 @@
 ---
 title: 定位條件
 description: 瞭解如何從行動中建立良好聲譽，以有效建立信任，然後才能吸引參與度較低的受眾。
-feature: 轉換程式
+feature: Transition Process
 topics: Deliverability
 kt: 7053
 thumbnail: kt7053.jpg

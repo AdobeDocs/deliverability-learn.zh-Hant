@@ -1,7 +1,7 @@
 ---
 title: 音量——如何順暢轉換的秘訣
 description: 您所傳送的郵件數量對於建立良好聲譽至關重要。 瞭解您可以做些什麼，讓轉換更順暢。
-feature: 轉換程式
+feature: Transition Process
 topics: Deliverability
 kt: 7055
 thumbnail: kt7055.jpg

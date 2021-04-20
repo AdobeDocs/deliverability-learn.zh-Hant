@@ -1,7 +1,7 @@
 ---
 title: 膨脹和封鎖電子郵件
 description: 瞭解 ISP 為何將電子郵件訊息放入大量資料夾或加以封鎖。
-feature: 量度
+feature: Metrics
 topics: Deliverability
 kt: 7051
 thumbnail: kt7051.jpg

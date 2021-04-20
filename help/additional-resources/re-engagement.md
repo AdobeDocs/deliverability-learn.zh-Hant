@@ -1,7 +1,7 @@
 ---
 title: 重新參與的最佳實務
 description: 瞭解如何透過重新參與策略來改善傳遞能力。
-feature: 其他資源
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

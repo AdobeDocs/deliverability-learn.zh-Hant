@@ -1,7 +1,7 @@
 ---
 title: 透過IP變暖提高您的電子郵件聲譽
 description: 瞭解為何在IP升溫下改善電子郵件聲譽非常重要，以及如何繼續最佳化傳遞能力。
-feature: 其他資源
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

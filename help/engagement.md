@@ -1,7 +1,7 @@
 ---
 title: 參與
 description: 參與已成為影響收件箱放置決策的最重要因素。
-feature: 參與
+feature: Engagement
 topics: Deliverability
 kt: 5257
 thumbnail: kt5257.jpg

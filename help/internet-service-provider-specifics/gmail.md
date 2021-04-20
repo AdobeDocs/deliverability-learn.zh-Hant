@@ -1,7 +1,7 @@
 ---
 title: Gmail
 description: Gmail是大多數發件人的電子郵件清單中的最大部分。 他們對電子郵件的態度也比其他人略有不同。
-feature: ISP
+feature: ISPs
 topics: Deliverability
 kt: 5262
 doc-type: article

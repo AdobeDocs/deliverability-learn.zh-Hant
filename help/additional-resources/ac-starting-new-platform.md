@@ -1,7 +1,7 @@
 ---
 title: 啟動新平台
 description: 進一步瞭解在與Adobe Campaign合作建立新平台時如何管理可傳遞性。
-feature: 付諸實踐
+feature: Putting it in practice
 topics: Deliverability
 kt: null
 thumbnail: null

@@ -1,7 +1,7 @@
 ---
 title: 傳遞能力的量度
 description: 瞭解要監控的關鍵傳遞能力量度，以及如何使用它們來確認信譽問題。
-feature: 量度
+feature: Metrics
 topics: Deliverability
 kt: 5256
 thumbnail: kt5256.jpg

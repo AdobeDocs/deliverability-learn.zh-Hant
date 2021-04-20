@@ -1,7 +1,7 @@
 ---
 title: 如何在切換電子郵件平台時順暢地轉換。
 description: '在移動電子郵件服務供應商(ESP)時，您無法同時轉換現有的IP位址。 重新開始時，您必須遵循最佳實務，以建立良好的聲譽。 '
-feature: 傳送能力
+feature: Deliverability
 topics: Deliverability
 kt: 5259
 thumbnail: kt5259.jpg

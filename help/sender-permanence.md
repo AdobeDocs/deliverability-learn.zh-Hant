@@ -1,7 +1,7 @@
 ---
 title: 發件人永久性
 description: 發送持久性是建立一致發送量和策略以維護ISP信譽的過程。
-feature: 傳送者永久性
+feature: Sender Permanence
 topics: Deliverability
 kt: 5261
 thumbnail: kt5261.jpg

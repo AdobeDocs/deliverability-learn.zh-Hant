@@ -1,7 +1,7 @@
 ---
 title: 即時黑洞清單
 description: 瞭解維護可能由垃圾郵件發送者使用之IP位址和網域清單的組織。
-feature: 其他資源
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

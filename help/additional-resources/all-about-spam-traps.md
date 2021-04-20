@@ -1,7 +1,7 @@
 ---
 title: 關於垃圾郵件陷阱
 description: 瞭解如何在管理傳遞能力時瞭解、識別和避免垃圾訊息陷阱。
-feature: 其他資源
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

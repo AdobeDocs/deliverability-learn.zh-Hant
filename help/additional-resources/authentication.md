@@ -1,7 +1,7 @@
 ---
 title: 驗證
 description: 進一步瞭解SPF、DKIM和DMARC驗證方法。
-feature: 其他資源
+feature: Additional resources
 topics: Deliverability
 kt: null
 thumbnail: null

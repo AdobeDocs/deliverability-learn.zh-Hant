@@ -1,7 +1,7 @@
 ---
 title: 基礎架構
 description: '瞭解正確建構電子郵件基礎架構所需的內容。 '
-feature: 轉換程式
+feature: Transition Process
 topics: Deliverability
 kt: 7052
 thumbnail: kt7052.jpg
