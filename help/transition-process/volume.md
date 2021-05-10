@@ -1,21 +1,21 @@
 ---
 title: 音量——如何順暢轉換的秘訣
 description: 您所傳送的郵件數量對於建立良好聲譽至關重要。 瞭解您可以做些什麼，讓轉換更順暢。
-feature: Transition Process
+feature: 轉換程式
 topics: Deliverability
 kt: 7055
 thumbnail: kt7055.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
 translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+source-git-commit: 65eb1fd03e6a6617ef24661c371f850d1f8e6054
 workflow-type: tm+mt
 source-wordcount: '575'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # 卷
 
@@ -50,8 +50,8 @@ ht-degree: 0%
 * 在[本節](/help/additional-resources/ac-starting-new-platform.md)中，進一步瞭解如何在啟動具有Adobe Campaign的新平台時管理交付能力。
 * 在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves)中瞭解如何使用多波與Adobe Campaign Classic一起傳送。
 * 瞭解如何在[本節](/help/additional-resources/ac-domain-name-setup.md)中將子網域完全委派給Adobe Campaign Classic或標準。
-* [控制面板：完整子網域委派（教學課程）](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派給Adobe Campaign Classic。*
-* [控制面板：完整子網域委派（教學課程）](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派給Adobe Campaign Standard。*
+* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派給Adobe Campaign Classic。*
+* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派給Adobe Campaign Standard。*
 
 ## 其他資源
 
