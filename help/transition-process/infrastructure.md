@@ -1,21 +1,21 @@
 ---
 title: 基礎架構
-description: '瞭解正確建構電子郵件基礎架構所需的內容。 '
-feature: Transition Process
+description: '了解適當地建構電子郵件基礎結構所需的條件。 '
+feature: 轉換程式
 topics: Deliverability
 kt: 7052
 thumbnail: kt7052.jpg
 doc-type: article
 activity: understand
 team: ACS
+exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
 translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+source-git-commit: 65eb1fd03e6a6617ef24661c371f850d1f8e6054
 workflow-type: tm+mt
 source-wordcount: '912'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
-
 
 # 基礎架構
 
@@ -36,7 +36,7 @@ Adobe平台上新寄件者的上線程式包括設定您的傳送網域，以及
 
 制定結構完善的智慧財產權戰略有助於建立良好的聲譽，這一點非常重要。 IP的數量和設定會視您的業務模式和行銷目標而有所不同。 與專家合作，制定清楚的策略，從頭開始。 請考慮以下重要事項：
 
-* **太多** IPscan會觸發信譽問題，因為它是垃圾郵件發送者對 ****&#x200B;雪鞋的常見策略，此策略是垃圾郵件發送者使用的策略，其中流量會在許多IP之間傳播，以最大化垃圾郵件的發送。即使您不是垃圾郵件發送者，但如果您使用過多的IP，尤其是當這些IP之前沒有任何流量時，您看起來可能就像一個垃圾郵件發送者。
+* **太多** IPscan會觸發信譽問題，因為它是垃圾郵件發送者對 ****&#x200B;雪鞋的常見策略，此策略是垃圾郵件發送者使用的策略，其中流量會在許多IP之間傳播，以最大化垃圾郵件的發送。即使您不是垃圾郵件發送者，但如果您使用過多的IP，尤其是當這些IP之前沒有任何流量時，您看起來可能就像一個。
 * **IPscan太少會** 導致吞吐量問題，並可能觸發信譽問題。吞吐量因ISP而異。 ISP願意接受的速度和速度通常取決於其基礎架構和發送信譽閾值。
 * 隔離傳訊類型的流量是關鍵。 至少在裸機上，在單獨的IP池上分別使用行銷和事務性郵件非常重要。
 * 根據您的郵件策略，如果您的信譽大不相同，也建議您在不同IP池上分隔不同的產品或行銷流。 部分行銷人員也依地區劃分。 將信譽較低的流量IP區隔開，並不能解決信譽問題，但能防止「信譽良好」的電子郵件傳送問題。 畢竟，您不想為了風險更高的受眾而犧牲好的受眾。
@@ -45,7 +45,7 @@ Adobe平台上新寄件者的上線程式包括設定您的傳送網域，以及
 
 在幕後，Adobe平台正在處理有關回報、投訴、取消訂閱等資料。 這些反饋迴路的設定是實現能力的一個重要方面。 投訴可能會損及聲譽，因此您應以電子郵件寄送來自目標受眾的投訴。 請務必注意，Gmail無法提供這些資料。 清單取消訂閱標題和參與篩選對於Gmail訂閱者尤其重要，因為Gmail訂閱者目前佔大部分訂閱者資料庫。
 
-## 驗證{#authentication}
+## 驗證 {#authentication}
 
 身份驗證是ISP用於驗證發送者身份的過程。 最常見的兩種身份驗證協定是[!DNL Sender Policy Framework](SPF)和[!DNL DomainKeys Identified Mail](DKIM)。 使用者無法看到這些內容，但確實可協助ISP篩選經驗證寄件者寄送的電子郵件。 [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC)越來越受歡迎，不過其政策尚未納入所有ISP的聲譽系統。
 
@@ -66,8 +66,8 @@ Adobe平台上新寄件者的上線程式包括設定您的傳送網域，以及
 **Campaign**
 
 * 瞭解如何在[本節](/help/additional-resources/ac-domain-name-setup.md)中將子網域完全委派給Adobe Campaign Classic或標準。
-* [控制面板：完整子網域委派（教學課程）](https://experienceleague.corp.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派給Adobe Campaign Classic。*
-* [控制面板：完整子網域委派（教學課程）](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派給Adobe Campaign Standard。*
+* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派給Adobe Campaign Classic。*
+* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派給Adobe Campaign Standard。*
 * 進一步瞭解如何在[本節](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc)中實作Campaign Classic例項的回饋回圈。
 
 ## 其他資源
