@@ -1,18 +1,18 @@
 ---
-title: Apple Mail隱私保護常見問題集2021年6月23日
-description: Apple Mail隱私保護常見問題集2021年6月23日
+title: Apple Mail隱私保護常見問題集
+description: Apple Mail隱私保護常見問題集
 feature: 傳遞能力
 topics: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: fe42e3a1edfb48192fd1bb3b811247fcd528ab05
+source-git-commit: cc0f8f4d8a5f4584d30b281492c2f948624ce1c1
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
 
-# Apple Mail隱私保護常見問題集2021年6月23日
+# Apple Mail隱私保護常見問題集
 
 本常見問題集針對Apple發佈的iOS 15版本提供初始指引，包括[Mail Privacy Protection](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/)。 這些變更將於9月推出，我們將繼續更新本檔案，並為客戶提供指引。
 
