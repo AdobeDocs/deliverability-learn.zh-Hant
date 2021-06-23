@@ -2,22 +2,21 @@
 user-guide-title: 傳遞性最佳實務指南
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: 了解傳遞能力的重要用語、概念和方法，讓您能夠確保行銷方案成功推行。
-translation-type: ht
-source-git-commit: 5a7e8ef210941b79bd5eb31b27041ca329e301f2
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: fb66dc0e4efc61b6303b7857b9c56b2c478642c4
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 97%
 
 ---
 
 
-# Adobe Campaign 傳遞性最佳實務指南{#deliverability-best-practice-guide}
+# Adobe Campaign 傳遞性最佳實務指南 {#deliverability-best-practice-guide}
 
 + [簡介](/help/introduction.md)
 + [傳遞能力策略和定義](/help/deliverability-strategy-and-definition.md)
 + 傳遞能力的量度{#metrics-for-deliverability}
    + [量度概觀](/help/metrics/metrics-overview.md)
-   + [跳出數](/help/metrics/bounces.md)
+   + [跳出](/help/metrics/bounces.md)
    + [投訴](/help/metrics/complaints.md)
    + [垃圾郵件陷阱](/help/metrics/spam-traps.md)
    + [膨脹和封鎖](/help/metrics/bulking-and-blocking.md)
@@ -35,7 +34,7 @@ ht-degree: 100%
 + [最佳化傳遞能力的內容最佳實務](/help/content-best-practices-for-optimal-delivery.md)
 + [發件人永久性](/help/sender-permanence.md)
 + 網路服務提供商具體資訊{#internet-service-provider-specifics}
-   + [概述](/help/internet-service-provider-specifics/overview.md)
+   + [概覽](/help/internet-service-provider-specifics/overview.md)
    + [Gmail](/help/internet-service-provider-specifics/gmail.md)
    + [Microsoft（Hotmail、Outlook、Windows Live 等）](/help/internet-service-provider-specifics/microsoft.md)
    + [Verizon Media Group（Yahoo、AOL、Verizon 等）](/help/internet-service-provider-specifics/verizon-media-group.md)
@@ -57,3 +56,6 @@ ht-degree: 100%
          + [SSL 憑證請求流程](/help/additional-resources/ac-ssl-certificate-request.md)
          + [開始新平台](/help/additional-resources/ac-starting-new-platform.md)
          + [Campaign Classic - 技術建議](/help/additional-resources/acc-technical-recommendations.md)
++ 技術檔案（隱藏）{#technotes}
+   + [Apple隱私](/help/technotes/apple-mail-privacy-faq.md)
+
