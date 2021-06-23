@@ -5,7 +5,7 @@ feature: 傳遞能力
 topics: Deliverability
 hide: true
 hidefromtoc: true
-source-git-commit: cc0f8f4d8a5f4584d30b281492c2f948624ce1c1
+source-git-commit: 7b0f59aed1e4074cb93fdd762bab0b7302a6cbdd
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
@@ -30,8 +30,7 @@ Apple Mail中的追蹤像素將會停用，這表示行銷人員將無法再可�
 
 ## 還有其他影響嗎？
 
-依預設，Apple會隱藏其原生Mail應用程式、Safari瀏覽器和iCloud服務中的IP位址資訊。 測量開放率並非受Apple郵件隱私權保護影響之電子郵件行銷的唯一方面。 電子郵件會開啟傳送時間最佳化策略、即時個人化、重新參與行銷活動，以及自動化的多波行銷活動。 這些變更代表行銷人員
-必須開始規劃，以決定在iOS 15發行且隱私權保護功能今年秋天生效後，這些策略對Apple使用者會是什麼樣子。 Adobe將透過更新、指引和思維領導力，協助客戶導覽這些變更。
+依預設，Apple會隱藏其原生Mail應用程式、Safari瀏覽器和iCloud服務中的IP位址資訊。 測量開放率並非受Apple郵件隱私權保護影響之電子郵件行銷的唯一方面。 電子郵件會開啟傳送時間最佳化策略、即時個人化、重新參與行銷活動，以及自動化的多波行銷活動。 這些變更意味著，一旦iOS 15發佈，且隱私權保護功能於今年秋天正式啟用，行銷人員必須開始規劃，以判斷這些策略對Apple使用者會是什麼樣子。 Adobe將透過更新、指引和思維領導力，協助客戶導覽這些變更。
 
 ## 此公告是否與Apple裝置上開啟的所有電子郵件有關？
 
