@@ -1,17 +1,15 @@
 ---
 title: 傳遞能力最佳實務簡介
 description: 了解傳遞能力的重要用語、概念和方法，讓您能夠確保行銷方案成功推行。
-feature: Deliverability
 kt: 5321
 thumbnail: kt5321.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
-translation-type: ht
-source-git-commit: e433002423bd1ab2f4a89425198c16160dae0719
-workflow-type: ht
-source-wordcount: '431'
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+workflow-type: tm+mt
+source-wordcount: '430'
 ht-degree: 100%
 
 ---
@@ -33,7 +31,7 @@ ht-degree: 100%
 1. [傳遞能力策略和定義](/help/deliverability-strategy-and-definition.md)
 2. [傳遞能力的量度](/help/metrics/metrics-overview.md)
 3. [參與](/help/engagement.md)
-4. [轉換過程 - 交換電子郵件平台](/help/transition-process/switching-email-platforms.md)
+4. [轉變過程 - 變換電子郵件平台](/help/transition-process/switching-email-platforms.md)
 5. [第一印象 - 列出系列和歡迎電子郵件](/help/first-impressions/address-collection-and-list-growth.md)
 6. [最佳化傳遞能力的內容最佳實務](/help/content-best-practices-for-optimal-delivery.md)
 7. [發件人永久性](/help/sender-permanence.md)
