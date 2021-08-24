@@ -1,30 +1,28 @@
 ---
 title: 其他資源
-description: 本節列出有關可交付性的一些額外資源。
-feature: Additional resources
+description: 本節列出有關傳遞能力的其他資源數量。
 topics: Deliverability
 kt: null
 thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
-translation-type: tm+mt
-source-git-commit: 1e539b5df54250a5927701009e7a9c84e5d73fae
+exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
+source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 12%
+source-wordcount: '99'
+ht-degree: 39%
 
 ---
 
-
-# 其他資源——概觀
+# 其他資源 — 概觀
 
 ## 一般資源
 
-本節列出一些有關可交付性的額外資源，例如特定建議和最佳實務、其他工具或疑難排解程式。
+本節列出一些有關傳遞能力的其他資源，例如特定建議和最佳實務、其他工具或疑難排解程式。
 
 * [關於垃圾郵件陷阱](../../help/additional-resources/all-about-spam-traps.md)
-* [透過IP變暖提高您的電子郵件聲譽](../../help/additional-resources/increase-reputation-with-ip-warming.md)
+* [透過 IP 暖身提高您的電子郵件信譽](../../help/additional-resources/increase-reputation-with-ip-warming.md)
 * [驗證](../../help/additional-resources/authentication.md)
 * [複製](../../help/additional-resources/duplicates.md)
 * [重新參與的最佳實務](../../help/additional-resources/re-engagement.md)
@@ -37,11 +35,11 @@ ht-degree: 12%
 
 ## 產品特定資源
 
-此外，本節列出許多特定產品的資源，以協助您建置可傳遞性，並透過您的Adobe解決方案獲得成功。
+此外，本節還列出一些產品專屬資源，可協助您實作傳遞能力，並使用您的Adobe解決方案邁向成功。
 
 **Campaign**
 
 * [網域名稱設定](../../help/additional-resources/ac-domain-name-setup.md)
 * [CSR和SSL憑證要求程式](../../help/additional-resources/ac-ssl-certificate-request.md)
-* [啟動新平台](../../help/additional-resources/ac-starting-new-platform.md)
-* [Campaign Classic-技術建議](../../help/additional-resources/acc-technical-recommendations.md)
+* [開始新平台](../../help/additional-resources/ac-starting-new-platform.md)
+* [Campaign Classic - 技術建議](../../help/additional-resources/acc-technical-recommendations.md)
