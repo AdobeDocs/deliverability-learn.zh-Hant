@@ -2,15 +2,13 @@
 title: 重新參與的最佳實務
 description: 了解如何透過重新參與策略來改善傳遞能力。
 topics: Deliverability
-kt: null
-thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
@@ -30,7 +28,7 @@ ht-degree: 1%
 
 多年來，ISP一直使用使用者的參與回饋量度來決定要放置訊息的位置，或者決定要放置訊息的位置。 使用者[參與](/help/engagement.md)包含正反饋和負反饋，ISP會持續監控兩者。 沒有參與也許是消極參與的主要貢獻者之一。 從傳遞能力的角度來看，持續傳送行銷活動給未顯示參與的使用者，也會降低IP位址和網域的整體信譽。
 
-Gmail、Microsoft和OATH等ISP會將非參與視為不需要的電子郵件，並開始將訊息重新導向至垃圾郵件資料夾。 此外，這些訂閱者可能不再擁有電子郵件帳戶，這可作為「回收」垃圾訊息陷阱。 這表示該地址在某段時間內無效，且所有消息都被拒絕。 如果您的訂閱者管理系統未刪除「硬退信」地址，則很可能寄送至垃圾郵件陷阱，而這可能導致重大傳送問題。
+Gmail、Microsoft®和OATH等ISP會將非參與視為不需要的電子郵件，並開始將郵件重新導向至垃圾郵件資料夾。 此外，這些訂閱者可能不再擁有電子郵件帳戶，這可作為「回收」垃圾訊息陷阱。 這表示該地址在某段時間內無效，並且所有消息都被拒絕。 如果您的訂閱者管理系統未刪除「硬退信」地址，則可能會寄送至垃圾郵件陷阱，而這可能導致重大的傳送問題。
 
 ## 您應該如何處於閒置狀態？ {#how-should-you-approach-inactivity-}
 
@@ -65,7 +63,7 @@ Gmail、Microsoft和OATH等ISP會將非參與視為不需要的電子郵件，�
 ### 階段4 {#phase-4}
 
 * 下一階段是識別持續不顯示任何活動的訂閱者，並逐步減少一段時間內傳送電子郵件給他們的次數。 如果過去一年內沒有任何活動，最好將訂閱者電子郵件訂閱擱置。 雖然他們對電子郵件內容並不感興趣，但總是有最後一次機會透過傳送一次性重新確認促銷活動，讓他們重新啟用訂閱。
-* 重新確認促銷活動是詢問訂閱者是否希望保留在訂閱清單上，而他們在一段時間內處於非活動狀態的好方法。 建立促銷活動時，建議您新增「按一下這裡」連結，以便他們確認動作並驗證其位址。 這樣，動作便可記錄在資料庫中。 以下是重新確認電子郵件的範例：
+* 若要詢問訂閱者是否想要保留在訂閱清單上，再確認促銷活動是詢問他們是否在長時間內未活動的好方法。 建立促銷活動時，建議您新增「按一下這裡」連結，以便他們確認動作並驗證其位址。 這樣，動作便可記錄在資料庫中。 以下是重新確認電子郵件的範例：
 
    ![](../../help/assets/deliverability_implementation_3.png)
 
@@ -73,7 +71,7 @@ Gmail、Microsoft和OATH等ISP會將非參與視為不需要的電子郵件，�
 
    ![](../../help/assets/deliverability_implementation_4.png)
 
-## 產品特定資源
+## 產品專屬資源
 
 **Adobe Campaign**
 
@@ -82,4 +80,4 @@ Gmail、Microsoft和OATH等ISP會將非參與視為不需要的電子郵件，�
 
 **Adobe客戶歷程管理**
 
-* [訊息追蹤](https://experienceleague.adobe.com/docs/customer-journey-management/using/reporting/message-tracking.html)
+* [訊息追蹤](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/message-tracking.html?lang=zh-Hant)
