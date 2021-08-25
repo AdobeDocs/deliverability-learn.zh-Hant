@@ -2,13 +2,11 @@
 title: 開始新平台
 description: 進一步了解在使用Adobe Campaign啟動新平台時如何管理傳遞能力。
 topics: Deliverability
-kt: null
-thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 6c9ade01-3052-4311-af80-888294820024
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 8%
