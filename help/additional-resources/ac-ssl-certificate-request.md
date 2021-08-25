@@ -2,15 +2,13 @@
 title: SSL憑證要求程式
 description: 了解如何在您委派給Adobe的子網域上安裝SSL憑證。
 topics: Deliverability
-kt: null
-thumbnail: null
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2265'
 ht-degree: 1%
 
 ---
@@ -209,7 +207,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->對於Campaign Classic，要更新的URL主要位於[部署嚮導](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard)和[外部帳戶](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/external-accounts.html#installing-campaign-classic)（跟蹤、鏡像頁和公共資源域）中。 如需Campaign Standard，請參閱[品牌設定](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity)。
+>對於Campaign Classic，要更新的URL主要位於[部署嚮導](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard)和[外部帳戶](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html)（跟蹤、鏡像頁和公共資源域）中。 如需Campaign Standard，請參閱[品牌設定](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity)。
 
 更新設定後，新電子郵件將會以HTTPS URL傳送，而非HTTP。 若要檢查URL現在是否安全，您可以快速執行下列測試：
 
