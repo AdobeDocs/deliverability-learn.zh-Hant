@@ -23,7 +23,7 @@ ht-degree: 11%
 
 ![轉換過程](../assets/transition-process.png)
 
-您IP位址和網域的溫暖時間可能會有所不同，但一般傳送者通常最多可使用8週的基準，以在大部分第1層ISP（Gmail、Microsoft、Verizon/Yahoo/AOL等）建立信譽。
+您IP位址和網域的熱化時間可能會有所不同，但一般傳送者通常最多可使用8週的基準，以在大部分第1層ISP(Gmail、Microsoft、Verizon/Yahoo/AOL等)建立信譽。
 
 在接下來的幾節中，我們將調查一些要重點關注的關鍵領域，以便正確上線：
 

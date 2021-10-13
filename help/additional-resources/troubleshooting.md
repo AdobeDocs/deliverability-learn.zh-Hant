@@ -44,7 +44,7 @@ Seed accounts show filtered or non-delivered mailings.
 
 ### 投訴
 
-[](/help/metrics/complaints.md) 投訴由從收件匣按一下對應按鈕以回報電子郵件為垃圾訊息的訂閱者所定義。
+[](/help/metrics/complaints.md) 投訴由從收件匣按一下對應按鈕以回報電子郵件為垃圾郵件的訂閱者所定義。
 
 如果您的傳送問題是由投訴造成：
 * 您必須嘗試判斷收件者抱怨的原因。

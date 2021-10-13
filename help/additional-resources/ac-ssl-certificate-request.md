@@ -199,7 +199,7 @@ ht-degree: 1%
 
 * 建立支援票證，以在憑證到期日期前至少兩週請求更新的憑證。 除非CSR詳細資訊已變更，否則您不需要請求額外的CSR。
 
-* 如果您可以存取[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)，並且您的環境是由AWS環境中的Adobe托管，則您可以使用控制面板在憑證過期之前續約憑證。 進一步了解[本節](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates)。
+* 如果您有[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)的存取權，且您的環境是由AWS環境中的Adobe托管，則可以使用「控制面板」在憑證過期之前續約憑證。 進一步了解[本節](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates)。
 
 ### 步驟8 — 更新任何特定設定 {#update-configuration}
 

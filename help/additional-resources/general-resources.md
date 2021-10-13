@@ -6,14 +6,21 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: f441fe45b5b7309082c8eea7423d40003b913b7b
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 39%
+source-wordcount: '126'
+ht-degree: 31%
 
 ---
 
 # 其他資源 — 概觀
+
+## 新增功能
+
+請參閱下列技術檔案，進一步了解關於傳遞能力的最新更新。
+
+* [實作Gmail的品牌指標以識別訊息(BIMI)](../technotes/implement-bimi.md)
+* [Apple郵件隱私權保護常見問題集](../technotes/apple-mail-privacy-faq.md)
 
 ## 一般資源
 
@@ -35,7 +42,7 @@ ht-degree: 39%
 
 此外，本節還列出一些產品專屬資源，可協助您實作傳遞能力，並使用您的Adobe解決方案邁向成功。
 
-**Campaign**
+**[!DNL Adobe Campaign]**
 
 * [網域名稱設定](../../help/additional-resources/ac-domain-name-setup.md)
 * [CSR和SSL憑證要求程式](../../help/additional-resources/ac-ssl-certificate-request.md)

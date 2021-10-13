@@ -1,6 +1,6 @@
 ---
 title: Microsoft（Hotmail、Outlook、Windows Live 等）
-description: Microsoft通常是第二或第三大提供商，具體取決於清單的組成，它們處理的流量與其他ISP稍有不同。
+description: Microsoft通常是第二或第三大提供者，端視您的清單組成而定，而他們處理的流量確實與其他ISP稍有不同。
 topics: Deliverability
 kt: 5319
 doc-type: article

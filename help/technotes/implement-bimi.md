@@ -2,21 +2,19 @@
 title: 實作Gmail的品牌指標以識別訊息(BIMI)
 description: 了解如何實作BIMI
 topics: Deliverability
-hide: true
-hidefromtoc: true
-source-git-commit: ab1595bac7ef136eb001609b9017950a2d01cbb4
+exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
+source-git-commit: a4d2a75e85f37f48aa3246707b98e473682e13f6
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
 
-
-# 實作Gmail的品牌指標以識別訊息(BIMI)
+# 實作Gmail的[!DNL Brand Indicators for Message Identification](BIMI)
 
 Gmail最近宣佈將[推出BIMI](https://cloud.google.com/blog/products/identity-security/bringing-bimi-to-gmail-in-google-workspace)的一般支援。 您必須先處理許多項目，才能善加利用，但包括：已驗證標籤證書、商標標識、格式正確的徽標、DMARC設定，並最終將BIMI記錄發佈到您的DNS。 我們將在本文中檢閱所有這些步驟。
 
-報文標識的品牌指標(BIMI)是一個行業標準，允許在參與的平台中發送者的電子郵件旁邊顯示一個經過批准的徽標。 這種吸引眼球的做法不僅可能會促進參與，還有助於確認發送者的真實性，從而降低網路釣魚和其他垃圾郵件策略的風險。
+[!DNL Brand Indicators for Message Identification] (BIMI)是業界標準，可讓已核准的標誌出現在參與平台中寄件者的電子郵件旁邊。這種吸引眼球的做法不僅可能會促進參與，還有助於確認發送者的真實性，從而降低網路釣魚和其他垃圾郵件策略的風險。
 
 ## 已驗證標籤證書
 
@@ -26,7 +24,7 @@ VMC在某些方面與SSL憑證類似。 對於要顯示的每個徽標，您都�
 
 ## 標誌商標
 
-取得VMC之前，還有另一個重要步驟必須完成：要獲取VMC，您要顯示的徽標必須註冊到8個經批准的全球商標和專利局之一。
+在獲取VMC之前，還有一個關鍵步驟必須完成。 要獲取VMC，您要顯示的徽標必須註冊到8個經批准的全球商標和專利局之一。
 
 * 美國專利和商標局(USPTO)
 * 加拿大智慧財產權局
@@ -41,7 +39,9 @@ VMC在某些方面與SSL憑證類似。 對於要顯示的每個徽標，您都�
 
 ## 標誌影像格式
 
-這也是確保您的徽標符合BIMI徽標格式要求的好時機。 它必須為SVG格式，並符合SVG Portable/Secure(SVG-P/S)設定檔。 關於如何這樣做的指導可在[BIMI工作組](https://bimigroup.org/svg-conversion-tools-released)上找到。
+這也是確保您的徽標符合BIMI徽標格式要求的好時機。
+
+其格式必須為SVG格式，並符合SVG可攜式/安全(SVG-P/S)設定檔。 關於如何這樣做的指導可在[BIMI工作組](https://bimigroup.org/svg-conversion-tools-released)上找到。
 
 ## DMARC
 
@@ -64,7 +64,7 @@ default._bimi.[domain] IN TXT “v=BIMI1; l=[SVG URL]
 
 ## 主要優點
 
-如果您是Adobe Campaign或Marketo用戶端，Adobe可協助您建立BIMI DNS更新：請連絡Adobe客戶服務以請求。 如果BIMI無法為您正常運作，Adobe也有助於疑難排解。
+如果您是[!DNL Adobe Campaign]或Marketo客戶端，Adobe可以幫助您建立BIMI DNS更新：請連絡Adobe客戶服務以請求。 如果BIMI無法為您正常運作，Adobe也有助於疑難排解。
 
 如需商標或已驗證標籤憑證的協助，請與您的法律團隊和授權的VMC廠商合作。
 

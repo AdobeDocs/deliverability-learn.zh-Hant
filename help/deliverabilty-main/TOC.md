@@ -2,10 +2,10 @@
 user-guide-title: 傳遞性最佳實務指南
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: 了解傳遞能力的重要用語、概念和方法，讓您能夠確保行銷方案成功推行。
-source-git-commit: ab1595bac7ef136eb001609b9017950a2d01cbb4
+source-git-commit: 3e933104107cd4f62eab99c66957ccd9acb51409
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 98%
+source-wordcount: '169'
+ht-degree: 95%
 
 ---
 
@@ -50,12 +50,11 @@ ht-degree: 98%
       + [重新參與的最佳實務](/help/additional-resources/re-engagement.md)
       + [即時黑洞清單](/help/additional-resources/blocklist-databases.md)
       + [疑難排解](/help/additional-resources/troubleshooting.md)
-   + 產品特定資源 {#product-specific-resources}
-      + 行銷活動 {#campaign}
-         + [網域名稱設定](/help/additional-resources/ac-domain-name-setup.md)
-         + [SSL 憑證請求流程](/help/additional-resources/ac-ssl-certificate-request.md)
-         + [開始新平台](/help/additional-resources/ac-starting-new-platform.md)
-         + [Campaign Classic - 技術建議](/help/additional-resources/acc-technical-recommendations.md)
-+ 技術檔案 (hidden){#technotes}
-   + [Apple 隱私常見問題集](/help/technotes/apple-mail-privacy-faq.md)
-   + [實作BIMI](/help/technotes/implement-bimi.md)
+   + [!DNL Adobe Campaign] {#campaign}的資源
+      + [網域名稱設定](/help/additional-resources/ac-domain-name-setup.md)
+      + [SSL 憑證請求流程](/help/additional-resources/ac-ssl-certificate-request.md)
+      + [開始新平台](/help/additional-resources/ac-starting-new-platform.md)
+      + [Campaign Classic - 技術建議](/help/additional-resources/acc-technical-recommendations.md)
+   + Technotes{#technotes}
+      + [Apple隱私權常見問題集](/help/technotes/apple-mail-privacy-faq.md)
+      + [實作BIMI](/help/technotes/implement-bimi.md)
