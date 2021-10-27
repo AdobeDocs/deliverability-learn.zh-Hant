@@ -8,7 +8,7 @@ activity: understand
 team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '430'
 ht-degree: 100%
 
@@ -32,10 +32,10 @@ ht-degree: 100%
 2. [傳遞能力的量度](/help/metrics/metrics-overview.md)
 3. [參與](/help/engagement.md)
 4. [轉變過程 - 變換電子郵件平台](/help/transition-process/switching-email-platforms.md)
-5. [第一印象 - 列出系列和歡迎電子郵件](/help/first-impressions/address-collection-and-list-growth.md)
+5. [第一印象 - 列出集合和歡迎電子郵件](/help/first-impressions/address-collection-and-list-growth.md)
 6. [最佳化傳遞能力的內容最佳實務](/help/content-best-practices-for-optimal-delivery.md)
 7. [發件人永久性](/help/sender-permanence.md)
-8. [網路服務提供商具體資訊](/help/internet-service-provider-specifics/overview.md)
+8. [網路服務提供者具體資訊](/help/internet-service-provider-specifics/overview.md)
 9. [持續監控](/help/ongoing-monitoring.md)
 10. [付諸實踐](/help/putting-it-in-practice.md)
 
