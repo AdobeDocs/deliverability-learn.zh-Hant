@@ -1,22 +1,22 @@
 ---
-title: Apple郵件隱私權保護常見問題集
-description: Apple郵件隱私權保護常見問題集
+title: Apple 郵件隱私權保護常見問題集
+description: Apple 郵件隱私權保護常見問題集
 topics: Deliverability
 exl-id: c4b9839d-db1a-4bbc-a1d5-385dddca95a8
-source-git-commit: c66a1d519ab844d103de5b6dd64c5f7f40c3d8d9
+source-git-commit: 994e31f8038f2a6d9ec986f93dc2640e6a8796d7
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 0%
+source-wordcount: '1106'
+ht-degree: 1%
 
 ---
 
-# Apple郵件隱私權保護常見問題集
+# Apple 郵件隱私權保護常見問題集
 
-針對Apple發佈的iOS 15版本相關公告，本常見問題集提供初始指引，包括[Mail Privacy Protection](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/)。 這些變更將於9月推出，我們將繼續更新本檔案，並為客戶提供指引。
+針對Apple發佈的iOS 15版本，本常見問題集提供初始指引，包括 [郵件隱私保護](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/). 這些變更將於9月推出，我們將繼續更新本檔案，並為客戶提供指引。
 
 ## Apple宣佈了什麼？
 
-6月7日，在Apple年度全球開發人員大會(WWDC 2021)上，他們在其iOS 15版本中宣佈，所有Apple裝置(iPhone、iPad和Mac)的原生郵件應用程式將啟用[郵件隱私保護](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/)。 根據Apple的說法，「郵件隱私保護」禁止發件人使用隱藏的像素來收集有關用戶的資訊，這使發件人無法知道何時開啟電子郵件並遮罩其IP地址，因此無法將其連結到其他線上活動或用於確定其位置。」 行銷人員的意思是，他們不知道使用者何時或是否在Apple的郵件應用程式中開啟電子郵件。 這項限制需要使用者同意，適用於Apple郵件應用程式（Gmail、Yahoo、Outlook等）上開啟的任何電子郵件。
+6月7日，在Apple年度全球開發商大會(WWDC 2021)上，他們在iOS 15版中宣佈： [郵件隱私保護](https://www.apple.com/newsroom/2021/06/apple-advances-its-privacy-leadership-with-ios-15-ipados-15-macos-monterey-and-watchos-8/) 會在所有Apple裝置(iPhone、iPad和Mac)上的原生郵件應用程式中啟用。 根據Apple的說法，「郵件隱私保護」禁止發件人使用隱藏的像素來收集有關用戶的資訊，這使發件人無法知道何時開啟電子郵件並遮罩其IP地址，因此無法將其連結到其他線上活動或用於確定其位置。」 行銷人員的意思是，他們不知道使用者何時或是否在Apple的郵件應用程式中開啟電子郵件。 這項限制需要使用者同意，適用於Apple郵件應用程式（Gmail、Yahoo、Outlook等）上開啟的任何電子郵件。
 
 ## 這什麼時候會生效？
 
@@ -24,7 +24,9 @@ iOS 15版將於今秋推出，最早可能在9月推出。 雖然目前對電子
 
 ## 這對追蹤和測量電子郵件行銷活動的結果有何影響？
 
-Apple Mail中的追蹤像素將會停用，這表示行銷人員將無法再可靠得知電子郵件何時開啟。 雖然停用追蹤像素並非新功能，但過去有數個提供者已採取類似措施。 Apple的Mail應用程式已廣泛採用於許多供應商。 因此，當其他提供者選擇依預設停用追蹤像素時，此影響可能會比之前更顯著。 需要使用者同意的隱私保護措施，將適用於Apple郵件應用程式（Gmail、Yahoo、Outlook等）上開啟的任何電子郵件。 如果使用者使用Gmail應用程式或其他郵件應用程式，隱私權控制將不會受影響。 就內容而言，第1季的[Apple行動裝置市場份額](https://www.counterpointresearch.com/global-smartphone-share/)為全球17%，美國55%。
+來自Apple Mail中追蹤像素的資料將不再準確，這表示行銷人員將無法再可靠判斷電子郵件何時開啟。 雖然預先載入影像和像素以及使用代理匿名處理資料並非新鮮事，但過去有數家提供者已採取類似措施，實作的範圍、方法和範圍都是新的。
+
+Apple的Mail應用程式已廣泛採用於許多供應商。 因此，當其他提供者選擇依預設停用追蹤像素時，此影響可能會比之前更顯著。 需要使用者同意的隱私保護措施，將適用於Apple郵件應用程式（Gmail、Yahoo、Outlook等）上開啟的任何電子郵件。 如果使用者使用Gmail應用程式或其他郵件應用程式，隱私權控制將不會受影響。 若為內容， [Apple行動裝置市場份額](https://www.counterpointresearch.com/global-smartphone-share/) 第1季度的GDP為17%，美國為55%。
 
 ## 還有其他影響嗎？
 
@@ -52,4 +54,4 @@ Apple Mail中的追蹤像素將會停用，這表示行銷人員將無法再可�
 
 ## Adobe如何支援我們的客戶？
 
-我們將發佈其他內容，概述我們的觀點和建議的戰略（近期和長期）。 此外，客戶可下載[傳遞能力指南](../introduction.md)、參加[傳遞能力課程](http://bit.ly/Deliverability-Course)，並觀看[最近的網路研討會](https://primetime.bluejeans.com/a2m/events/playback/29edda30-a9b8-4e4b-a460-e829c02c912a)，了解傳遞能力，以跟上最新趨勢和最佳實務。 客戶當然可以留意未來的部落格文章、網路研討會和有關傳遞能力的更新，以及其他與隱私權相關的不斷演變的動態。
+我們將發佈其他內容，概述我們的觀點和建議的戰略（近期和長期）。 此外，客戶可下載 [傳遞能力指南](../introduction.md)，取得 [傳遞能力課程](http://bit.ly/Deliverability-Course)，並檢視 [近期網路研討會](https://primetime.bluejeans.com/a2m/events/playback/29edda30-a9b8-4e4b-a460-e829c02c912a) 提供最新趨勢和最佳實務。 客戶當然可以留意未來的部落格文章、網路研討會和有關傳遞能力的更新，以及其他與隱私權相關的不斷演變的動態。
