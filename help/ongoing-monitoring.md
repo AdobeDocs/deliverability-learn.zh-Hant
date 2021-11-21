@@ -40,4 +40,4 @@ ht-degree: 35%
 
 ## 其他資源
 
-* 在[本小節](/help/additional-resources/troubleshooting.md)了解如何解決傳遞能力問題。
+* 了解如何在 [本節](/help/additional-resources/troubleshooting.md).

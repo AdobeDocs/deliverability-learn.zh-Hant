@@ -27,7 +27,7 @@ ht-degree: 22%
 
 **Analytics**
 
-* [如何提高參與度和保留率（教學課程）](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *使用同類群組透過其行為識別參與的受眾，並了解造成行動應用程式黏著度的根本原因。使用市場 IQ 中的資料科學算法，了解市場之間的差異和相似性。*
+* [如何提高參與度和保留率（教學課程）](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics): *使用同類群組透過其行為識別參與的受眾，並了解造成行動應用程式黏著度的根本原因。 使用市場 IQ 中的資料科學算法，了解市場之間的差異和相似性。*
 
 **Campaign Standard**
 

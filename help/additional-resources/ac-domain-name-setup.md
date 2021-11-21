@@ -19,24 +19,23 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->您也可以使用「控制面板」（以測試版形式提供）來設定新的子網域。 進一步了解[本節](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#must-read)。
+>您也可以使用「控制面板」（以測試版形式提供）來設定新的子網域。 深入了解 [本節](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#must-read).
 
 ## 子網域
 
 透過Adobe，數位行銷可真正成為情境式引擎，為您品牌的客戶互動行銷計畫提供動力。  電子郵件仍是數位行銷計畫的基礎。 但是，到達收件匣變得比以往更加困難。
 
-為電子郵件行銷活動建立子網域可讓品牌將各種類型的流量（行銷與公司等）隔離至特定IP池和特定網域，借此加速[IP暖化程式](../../help/additional-resources/increase-reputation-with-ip-warming.md)並改善整體傳遞能力。 如果您共用網域，且該網域遭到封鎖或新增至封鎖清單，可能會影響您的公司郵件傳送。 不過，您電子郵件行銷通訊專屬網域的信譽問題或區塊，只會影響電子郵件的流程。  將主域用作多個郵件流的發件人地址或「發件人」地址也可能會中斷電子郵件身份驗證，從而導致郵件被阻止或放在垃圾郵件資料夾中。
+為電子郵件行銷活動建立子網域可讓品牌將各種類型的流量（例如行銷與公司）隔離到特定IP池中，並搭配特定網域，進而加速 [IP預熱過程](../../help/additional-resources/increase-reputation-with-ip-warming.md) 並全面提高傳遞能力。 如果您共用網域，且該網域遭到封鎖或新增至封鎖清單，可能會影響您的公司郵件傳送。 不過，您電子郵件行銷通訊專屬網域的信譽問題或區塊，只會影響電子郵件的流程。  將主域用作多個郵件流的發件人地址或「發件人」地址也可能會中斷電子郵件身份驗證，從而導致郵件被阻止或放在垃圾郵件資料夾中。
 
 ### 委派
 
-域名委派是一種允許域名所有者的方法(技術上：DNS區域)，以委派DNS的細分(技術上：其下的DNS區域，可稱為子區域)，傳至其他實體。 基本上，如果客戶處理區域「example.com」，他可以將子區域「marketing.example.com」委派給Adobe Campaign。
+域名委派是一種允許域名所有者的方法(技術上：DNS區域)，以委派DNS區域(技術上：其下的DNS區域，可稱為子區域)，傳至其他實體。 基本上，如果客戶處理區域「example.com」，他可以將子區域「marketing.example.com」委派給Adobe Campaign。
 
 這表示Adobe Campaign的DNS伺服器只會在該區域上擁有完整權限，而不會擁有頂層網域。 Adobe Campaign的DNS伺服器將針對該區域中的網域名稱查詢提供權威答案，例如&quot;t.marketing.example.com&quot;本身，但不提供&quot;www.example.com&quot;。
 
 透過委派子網域以與Adobe Campaign搭配使用，客戶可仰賴Adobe來維護必要的DNS基礎架構，以符合其電子郵件行銷傳送網域的業界標準傳遞能力需求，同時持續維護和控制其內部電子郵件網域的DNS。  子網域委派允許：
 
-使用域名的DNS別名來保留其品牌形象的用戶端
-Adobe自主實施所有技術最佳實務，以在電子郵件傳送期間完全最佳化傳遞能力
+用戶端可使用網域名稱Adobe的DNS別名來保留其品牌形象，以自主實作所有技術最佳實務，以在電子郵件傳送期間完全最佳化傳遞能力
 
 ## DNS設定選項
 
@@ -54,7 +53,7 @@ Adobe自主實施所有技術最佳實務，以在電子郵件傳送期間完全
 | MX | 為傳入郵件指定郵件伺服器 | <i>email.example.com</i></br><i>10 inbound.email.example.com</i> |
 | SPF(TXT) | 發件人策略框架 | <i>email.example.com</i></br>&quot;v=spf1 redirect=__spf.campaign.adobe.com&quot; |
 | DKIM(TXT) | 已標識的DomainKeys Mail | <i>用戶端。_domainkey.email.example.com</i></br>&quot;v=DKIM1;k=rsa;&quot; &quot;DKIMPUBLICKEY HERE&quot; |
-| 主機記錄(A) | 鏡像頁面、影像托管和追蹤連結，所有傳送網域 | m.email.example.com，位於123.111.100.99</br>t.email.example.com，位於123.111.100.98</br>email.example.com，位於123.111.100.97 |
+| 主機記錄(A) | 鏡像頁面、影像托管和追蹤連結，所有傳送網域 | m.email.example.com,A 123.111.100.99</br>t.email.example.com,A 123.111.100.98</br>email.example.com,A 123.111.100.97 |
 | 反向DNS(PTR) | 將客戶機IP地址映射到客戶機品牌主機名 | 18.101.100.192.in-addr.arpa域名指針r18.email.example.com |
 | CNAME | 為其他域名提供別名 | t1.email.example.com是t1.email.example.campaign.adobe.com的別名 |
 
@@ -112,7 +111,7 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 >[!NOTE]
 >
 >* 「回復地址」欄位的目的是讓收件者回覆「寄件者地址」以外的其他地址。  雖然不是必填欄位，但Adobe強烈建議「回復地址」有效並連結到受監控的郵箱。  此郵箱必須由客戶托管。  可能是支援信箱，例如customercare@customer.com，可讀取和回應電子郵件。
->* 如果客戶未選擇「回復地址」，則預設地址始終為`<tenant>-<type>-<env>@<subdomain>`。
+>* 如果客戶未選擇「回復地址」，則預設地址始終為 `<tenant>-<type>-<env>@<subdomain>`.
 >* 以此方式設定「回復地址」時，會將回復發送到未監視的郵箱。
 >* 從Adobe Campaign傳送電子郵件時，不會監控「寄件者地址」信箱，且行銷使用者無法存取此信箱。 Adobe Campaign也不提供自動回覆或自動轉送電子郵件功能。
 >* 促銷活動寄件者/寄件者位址和錯誤位址不能是「濫用」或「郵遞員」。
@@ -124,7 +123,7 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 
 | 委派的子網域 | DNS指示 |
 |--- |--- |
-| `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com。  </br> `<subdomain>` NS b.ns.campaign.adobe.com。  </br> `<subdomain>` NS c.ns.campaign.adobe.com。  </br> `<subdomain>` NS d.ns.campaign.adobe.com。 |
+| `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com。 </br> `<subdomain>` NS b.ns.campaign.adobe.com。 </br> `<subdomain>` NS c.ns.campaign.adobe.com。 </br> `<subdomain>` NS d.ns.campaign.adobe.com。 |
 
 ## 追蹤，鏡像頁面，資源
 
@@ -134,7 +133,7 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 |--- |--- |
 | 鏡像頁面 | m.`<subdomain>` |
 | 追蹤 | t.`<subdomain>` |
-| 資源 | res.`<subdomain>` |
+| 資源 | 雷斯。`<subdomain>` |
 
 ## 雲端部署（可選）
 
@@ -167,7 +166,7 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 
 | 委派的子網域 | DNS指示 |
 |--- |--- |
-| `<subdomain>` | `<subdomain>` CNAME  `<internal customer server>` |
+| `<subdomain>` | `<subdomain>` CNAME `<internal customer server>` |
 
 ## 已提供服務
 
@@ -206,4 +205,4 @@ CLIENT隨時都能提出書面要求，不再從委派服務中受益，並自�
 
 >[!NOTE]
 >
->[控制](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant) 面板僅適用於使用Adobe Managed Services的客戶。
+>[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant) 僅限使用Adobe Managed Services的客戶使用。

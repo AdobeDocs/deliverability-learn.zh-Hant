@@ -23,13 +23,13 @@ ht-degree: 1%
 
 以下是如何順利轉換的提示和秘訣清單：
 
-* **** 權限是任何成功電子郵件計畫的基礎。
-* **低速**  — 從低傳送量開始，然後隨著您建立寄件者信譽而增加。
-* **串列郵寄策略**&#x200B;可讓您在使用目前的ESP進行卷減時，提高Campaign的流量，而不會中斷您的電子郵件日曆。
-* **參與很重要**  — 從定期開啟並點擊電子郵件的訂閱者開始。
-* **遵循計畫**  — 我們的建議已協助數百個Campaign客戶成功加速其電子郵件方案。
-* **監視您的回覆電子郵件帳戶**。使用noreply@xyz.com或未回應對您的客戶而言是不好的體驗。
-* 非作用中的地址可能會對傳送能力產生負面影響。 **在您目前的平台**（而非新IP）上重新啟用並重新取得權限。
+* **權限** 是任何成功電子郵件計畫的基礎。
+* **慢慢**  — 從低發送量開始，然後在建立發件人信譽時增加。
+* A **串聯郵寄策略** 可讓您在使用目前的ESP進行卷減時，提高Campaign的流量，而不會中斷您的電子郵件行事歷。
+* **參與事項**  — 從定期開啟並點擊電子郵件的訂閱者開始。
+* **按照計畫進行**  — 我們的建議已協助數以百計的Campaign客戶成功加速其電子郵件方案。
+* **監視您的回覆電子郵件帳戶**. 使用noreply@xyz.com或未回應對您的客戶而言是不好的體驗。
+* 非作用中的地址可能會對傳送能力產生負面影響。 **在您目前的平台上重新啟用並重新取得權限**，而非您的新IP。
 * **網域**  — 使用傳送網域，此網域是您公司實際網域的子網域
    * 例如，如果您的公司網域是xyz.com,email.xyz.com比xyzemail.com為ISP提供更多可信度
 * **透明度**  — 您電子郵件網域的註冊詳細資訊應公開提供，且不應為私人。
@@ -45,12 +45,12 @@ ht-degree: 1%
 
 **Campaign**
 
-* 在[本小節](/help/additional-resources/ac-starting-new-platform.md)中，深入了解如何在使用Adobe Campaign啟動新平台時管理傳遞能力。
-* 在[本小節](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves)中了解如何使用多波次搭配Adobe Campaign Classic進行傳送。
-* 在[本小節](/help/additional-resources/ac-domain-name-setup.md)中了解如何將子網域完全委派給Adobe Campaign Classic或Standard。
-* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) -  *了解如何將子網域完全委派給Adobe Campaign Classic。*
-* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) -  *了解如何將子網域完全委派給Adobe Campaign Standard。*
+* 進一步了解在以Adobe Campaign啟動新平台時，如何管理傳遞能力。 [本節](/help/additional-resources/ac-starting-new-platform.md).
+* 了解如何透過Adobe Campaign Classic(位於 [本節](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves).
+* 了解如何將子網域完全委派至Adobe Campaign Classic或Standard，於 [本節](/help/additional-resources/ac-domain-name-setup.md).
+* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *了解如何將子網域完全委派至Adobe Campaign Classic。*
+* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *了解如何將子網域完全委派至Adobe Campaign Standard。*
 
 ## 其他資源
 
-* 在[本小節](/help/additional-resources/increase-reputation-with-ip-warming.md)中，深入了解如何透過IP暖機提升電子郵件信譽。
+* 進一步了解如何透過 [本節](/help/additional-resources/increase-reputation-with-ip-warming.md).

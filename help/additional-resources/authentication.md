@@ -21,11 +21,11 @@ SPF（發件人策略框架）是電子郵件驗證標準，允許域的所有�
 
 >[!NOTE]
 >
->您可以使用[此外部工具](https://www.kitterman.com/spf/validate.html)來驗證SPF記錄。
+>您可以使用 [這個外部工具](https://www.kitterman.com/spf/validate.html) 驗證SPF記錄。
 
 SPF是一種技術，在某種程度上，它使您能夠確保電子郵件中使用的域名不偽造。 從域接收消息時，將查詢該域的DNS伺服器。 回應是簡短記錄（SPF記錄），詳細說明哪些伺服器已獲授權從此網域傳送電子郵件。 如果我們假定只有域的所有者有更改此記錄的手段，我們可以認為此技術不允許偽造發件人地址，至少不允許偽造「@」右側的部分。
 
-在最終的[RFC 4408規範](https://www.rfc-editor.org/info/rfc4408)中，消息的兩個元素用於確定被視為發送者的域：由SMTP &quot;HELO&quot;（或&quot;EHLO&quot;）命令指定的域以及由&quot;Return-Path&quot;（或&quot;MAIL FROM&quot;）標頭的地址指定的域，也是退信地址。 不同的考量使得僅考慮這些值之一；建議確保兩個來源指定相同的網域。
+最後 [RFC 4408規範](https://www.rfc-editor.org/info/rfc4408)，會使用訊息的兩個元素來判斷被視為傳送者的網域：由SMTP &quot;HELO&quot;（或&quot;EHLO&quot;）命令指定的域以及由&quot;Return-Path&quot;（或&quot;MAIL FROM&quot;）標頭的地址指定的域，也是退信地址。 不同的考量使得僅考慮這些值之一；建議確保兩個來源指定相同的網域。
 
 檢查SPF可評估發送者域的有效性：
 
@@ -34,7 +34,7 @@ SPF是一種技術，在某種程度上，它使您能夠確保電子郵件中�
 * **通過**:域被認為是真的。
 * **失敗**:域已偽造，應拒絕消息。
 * **SoftFail**:域可能是偽造的，但不應僅基於此結果拒絕消息。
-* **TempError**:暫時錯誤停止了評估。可以拒絕該消息。
+* **TempError**:暫時錯誤停止了評估。 可以拒絕該消息。
 * **PermError**:域的SPF記錄無效。
 
 值得注意的是，在DNS伺服器級別進行的記錄最多需要48小時才能列入考量。 此延遲取決於接收伺服器的DNS快取刷新頻率。
@@ -45,14 +45,14 @@ DKIM(DomainKeys Indified Mail)身份驗證是SPF的後繼身份驗證。 它使�
 
 DKIM來自DomainKeys、Yahoo! 和Cisco識別的Internet Mail驗證原則，用於檢查發件人域的真實性並保證郵件的完整性。
 
-DKIM已取代&#x200B;**DomainKeys**&#x200B;驗證。
+已更換DKIM **DomainKeys** 驗證。
 
 使用DKIM需要一些必要條件：
 
-* **安全性**:加密是DKIM的關鍵元素。為確保DKIM的安全級別，1024b是建議的最佳加密大小。 大多數訪問提供商不認為較低的DKIM密鑰有效。
-* **聲譽**:信譽以IP和/或網域為基礎，但較不透明的DKIM選取器也是需要考慮的關鍵元素。選擇選取器很重要：避免保留任何人都可以使用的「預設」，因此聲譽不佳。 您必須針對&#x200B;**保留與贏取通訊**&#x200B;實作不同的選取器，並進行驗證。
+* **安全性**:加密是DKIM的關鍵元素。 為確保DKIM的安全級別，1024b是建議的最佳加密大小。 大多數訪問提供商不認為較低的DKIM密鑰有效。
+* **聲譽**:信譽以IP和/或網域為基礎，但較不透明的DKIM選取器也是需要考慮的關鍵元素。 選擇選取器很重要：避免保留任何人都可以使用的「預設」，因此聲譽不佳。 您必須為 **保留與贏取通訊** 和進行驗證。
 
-在[此區段](/help/additional-resources/acc-technical-recommendations.md#dkim-acc)中使用Campaign Classic時，進一步了解DKIM必備條件。
+進一步了解在中使用Campaign Classic時的DKIM先決條件 [本節](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
 
 ## DMARC {#dmarc}
 
@@ -63,4 +63,4 @@ DMARC（基於域的郵件驗證、報告和符合性）是最新的電子郵件
 
 >[!NOTE]
 >
->DMARC可以利用[250ok](https://250ok.com/)產生的報表。
+>DMARC可運用 [250ok](https://250ok.com/).

@@ -31,19 +31,19 @@ ISP自然會懷疑從未用於傳送電子郵件的IP位址，而且會突然開
 
 * 設定專用的子網域，專用於從Adobe傳送的電子郵件促銷活動。
 
-* 如果您有此資訊，**會將無效地址導入隔離表**。
+* 如果你有這些資訊， **將無效地址導入隔離表中**.
 首次使用可能未完全限定的地址清單時，通常會啟動平台。 如果您傳送至無效地址或Honeypot地址，這將有助於降低平台的信譽。
 
-   * 如果您有無效地址的清單，在首次發送前將其導入隔離表中符合您的最佳利益。 隔離表可通過&#x200B;**[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**(Campaign Classic)和&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Addresses]**(Campaign Standard)菜單使用。
+   * 如果您有無效地址的清單，在首次發送前將其導入隔離表中符合您的最佳利益。 隔離表可通過 **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic)和 **[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard)功能表。
 
    * 儘管如此，如果您希望重新確認無效地址，則最好在建立平台的信譽後再逐個地執行此操作，以便隨著時間的推移「稀釋」壞地址的使用。
 
-* **通過限制** 匹配項數來限制吞吐量速率。如需調整此類技術設定的詳細資訊，請聯絡您的Adobe Campaign管理員。
+* **限制吞吐量速率** 限制母親數量。 如需調整此類技術設定的詳細資訊，請聯絡您的Adobe Campaign管理員。
 
-* **逐步增加發送的卷** ，以避免標籤為垃圾郵件。從頭開始，請勿鎖定整個資料庫，而是每次您傳送時，新增清單的額外部分。 這應可讓您在每個步驟增加卷，同時降低無效地址的總體速率。 為確保啟動階段的順利開發，可使用波。
+* **逐步增加發送的卷** 以避免被標示為垃圾訊息。 從頭開始，請勿鎖定整個資料庫，而是每次您傳送時，新增清單的額外部分。 這應可讓您在每個步驟增加卷，同時降低無效地址的總體速率。 為確保啟動階段的順利開發，可使用波。
 
-* **定期傳送**。從某種程度上說，定期傳送小鏡頭比偶爾傳送大型行銷活動更好。
-* **請密切注意傳送報表**。錯誤指標高可能表示技術設定配置錯誤。
+* **定期傳送**. 從某種程度上說，定期傳送小鏡頭比偶爾傳送大型行銷活動更好。
+* **請密切注意傳送報表**. 錯誤指標高可能表示技術設定配置錯誤。
 
 ## 其他資源
 

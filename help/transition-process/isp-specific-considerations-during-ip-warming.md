@@ -19,7 +19,7 @@ ht-degree: 16%
 
 ISP有不同的規則和不同的流量查看方式。 例如，Gmail是最精密的ISP之一，因為除了所有其他聲譽指標外，Gmail還非常嚴格地考慮參與（開啟和點按）。 這需要一個定製計畫，該計畫只針對起始時參與最多的用戶。 其他ISP也可能需要相同的ISP。 請與您的Adobe傳遞能力顧問合作，諮詢特定計畫。
 
-有關以下所選提供程式組之間的重要差異的詳細資訊，請參閱[Internet服務提供程式詳細資訊](/help/internet-service-provider-specifics/overview.md)部分：
+請參閱 [網際網路服務提供商詳情](/help/internet-service-provider-specifics/overview.md) 一節，了解以下所選提供者組之間的重要差異：
 
 * [Gmail](/help/internet-service-provider-specifics/gmail.md)
 * [Microsoft（Hotmail、Outlook、Windows Live 等）](/help/internet-service-provider-specifics/microsoft.md)
@@ -27,4 +27,4 @@ ISP有不同的規則和不同的流量查看方式。 例如，Gmail是最精�
 
 ## 其他資源
 
-* 在[本小節](/help/additional-resources/increase-reputation-with-ip-warming.md)中，深入了解如何透過IP暖機提升電子郵件信譽。
+* 進一步了解如何透過 [本節](/help/additional-resources/increase-reputation-with-ip-warming.md).

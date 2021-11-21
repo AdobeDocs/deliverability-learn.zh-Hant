@@ -34,8 +34,8 @@ Adobe平台上新發件人的上線流程包括設定您的發送域並確保正
 
 制定結構完善的智慧財產權戰略有助於建立良好的聲譽，這一點非常重要。 IP的數量和設定會依您的商業模式和行銷目標而有所不同。 與專家合作，制定一個明確的戰略，從頭開始。 請考量下列需要注意的重要事項：
 
-* **太多的** IPscan會觸發信譽問題，因為這是垃圾郵件發送者對 **Snowshoe**&#x200B;的常見策略，垃圾郵件發送者會使用這種策略，在此策略中，流量會在許多IP之間傳播，以最大限度地發送垃圾郵件。即使您不是垃圾郵件發送者，如果您使用太多IP，尤其是如果這些IP之前沒有任何流量，您可能看起來就像一個垃圾郵件發送者。
-* **IPscan太少會** 導致吞吐量問題，並可能觸發信譽問題。吞吐量因ISP而異。 ISP願意接受的數量和速度通常取決於其基礎架構和發送信譽閾值。
+* **IP太多** 會觸發聲譽問題，因為這是垃圾郵件製造者的常見策略 **雪鞋**，此策略是垃圾郵件發送者使用的策略，在此策略中，流量會分佈在許多IP上，以最大化垃圾郵件的傳送。 即使您不是垃圾郵件發送者，如果您使用太多IP，尤其是如果這些IP之前沒有任何流量，您可能看起來就像一個垃圾郵件發送者。
+* **IP太少** 可能會導致輸送量問題，並可能觸發信譽問題。 吞吐量因ISP而異。 ISP願意接受的數量和速度通常取決於其基礎架構和發送信譽閾值。
 * 分離訊息類型的流量是關鍵。 至少要在單獨的IP池上獨立地分開行銷和交易式郵件，這一點非常重要。
 * 根據您的郵件策略，如果您的信譽大不相同，建議您將不同的產品或營銷流分隔到不同的IP池上。 有些行銷人員也會依地區劃分。 將信譽較低的流量IP分離，不會修正信譽問題，但可防止傳送「良好」信譽的電子郵件時發生問題。 畢竟，你不想為了風險更高而犧牲好受眾。
 
@@ -45,7 +45,7 @@ Adobe平台上新發件人的上線流程包括設定您的發送域並確保正
 
 ## 驗證 {#authentication}
 
-驗證是ISP用來驗證寄件者身分的程式。 最常見的兩種身份驗證協定是[!DNL Sender Policy Framework](SPF)和[!DNL DomainKeys Identified Mail](DKIM)。 最終用戶看不到這些郵件，但ISP可以過濾來自已驗證發件人的電子郵件。 [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC)越來越受歡迎，儘管其政策尚未被所有ISP納入其聲譽體系。
+驗證是ISP用來驗證寄件者身分的程式。 最常見的兩種驗證協定是 [!DNL Sender Policy Framework] (SPF)和 [!DNL DomainKeys Identified Mail] (DKIM)。 最終用戶看不到這些郵件，但ISP可以過濾來自已驗證發件人的電子郵件。 [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC)越來越受歡迎，儘管其政策尚未被所有ISP納入其聲譽體系。
 
 ### SPF
 
@@ -53,22 +53,22 @@ Adobe平台上新發件人的上線流程包括設定您的發送域並確保正
 
 ### DKIM
 
-[!DNL Domain Keys Identified Mail] (DKIM)是一種驗證方法，用於偵測偽造的寄件者位址（通常稱為欺騙）。如果啟用DKIM，則允許接收者確認寄件者是否獲得從該網域傳送郵件的授權。
+[!DNL Domain Keys Identified Mail] (DKIM)是一種驗證方法，用於偵測偽造的寄件者位址（通常稱為欺騙）。 如果啟用DKIM，則允許接收者確認寄件者是否獲得從該網域傳送郵件的授權。
 
 ### DMARC
 
-[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)是一種驗證方法，可讓網域擁有者保護其網域不遭未經授權的使用。DMARC使用SPF或DKIM或兩者，以允許域所有者控制驗證失敗的郵件發生的情況：已傳送、隔離或已拒絕。
+[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)是一種驗證方法，可讓網域擁有者保護其網域不遭未經授權的使用。 DMARC使用SPF或DKIM或兩者，以允許域所有者控制驗證失敗的郵件發生的情況：已傳送、隔離或已拒絕。
 
 ## 產品特定資源
 
 **Campaign**
 
-* 在[本小節](/help/additional-resources/ac-domain-name-setup.md)中了解如何將子網域完全委派給Adobe Campaign Classic或Standard。
-* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) -  *了解如何將子網域完全委派給Adobe Campaign Classic。*
-* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) -  *了解如何將子網域完全委派給Adobe Campaign Standard。*
-* 在[本小節](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc)中深入了解如何為Campaign Classic例項實作回饋回圈。
+* 了解如何將子網域完全委派至Adobe Campaign Classic或Standard，於 [本節](/help/additional-resources/ac-domain-name-setup.md).
+* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *了解如何將子網域完全委派至Adobe Campaign Classic。*
+* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *了解如何將子網域完全委派至Adobe Campaign Standard。*
+* 進一步了解如何在中為Campaign Classic例項實作意見回圈 [本節](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
 
 ## 其他資源
 
-* 在[本小節](/help/additional-resources/authentication.md)中了解有關SPF、DKIM和DMARC驗證方法的詳細資訊。
-* 在[本小節](/help/additional-resources/increase-reputation-with-ip-warming.md)中，深入了解如何透過IP暖機提升電子郵件信譽。
+* 深入了解SPF、DKIM和DMARC驗證方法，位於 [本節](/help/additional-resources/authentication.md).
+* 進一步了解如何透過 [本節](/help/additional-resources/increase-reputation-with-ip-warming.md).

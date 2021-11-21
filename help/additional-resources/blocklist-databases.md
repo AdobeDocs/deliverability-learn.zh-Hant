@@ -23,35 +23,35 @@ ht-degree: 6%
 * 按發件人域：列出發送垃圾郵件或配置不正確的發件人域（退信地址的完整域）。
 * 按Web域：列出在垃圾郵件內容中包含的連結和影像的URL中找到的域（註冊為註冊者的高級域）。 在Adobe解決方案中，要考慮的網域通常是用於追蹤的位址。
 
-以下是最常使用RBL的清單。 如需更完整的清單，請參閱[https://www.dnsstuff.com/](https://tools.dnsstuff.com/)。
+以下是最常使用RBL的清單。 如需更完整的清單，您可以參閱 [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
 
 * **斯帕姆豪斯**
 
-   請參閱[https://www.spamhaus.org/](https://www.spamhaus.org/)
+   請參閱 [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-   資料庫更重要。 被列入這份名單通常是一種嚴重的情況。 如果發生此情況，您必須立即採取行動並警告商業服務、傳遞能力和[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
+   資料庫更重要。 被列入這份名單通常是一種嚴重的情況。 如果發生此情況，您必須立即採取行動，並警告商業服務、傳遞能力，以及 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **SpamCop**
 
-   請參閱[https://www.spamcop.net/](https://www.spamcop.net/)
+   請參閱 [https://www.spamcop.net/](https://www.spamcop.net/)
 
    它是最著名的資料庫之一。 如果您的其中一個IP地址被放在此清單上，這通常表示SpamCop用戶已將您的郵件聲明為垃圾郵件，或者您已將郵件發送到SpamCop蜜罐。
 
 * **URIBL**
 
-   請參閱[https://www.uribl.com/](https://www.uribl.com/)
+   請參閱 [https://www.uribl.com/](https://www.uribl.com/)
 
-   此清單可識別經常出現在宣告為垃圾訊息中的網域。 如果您的網域出現在此清單中，可能會顯著影響您的傳遞能力。 您應立即通知傳遞服務和[Adobe客戶服務](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
+   此清單可識別經常出現在宣告為垃圾訊息中的網域。 如果您的網域出現在此清單中，可能會顯著影響您的傳遞能力。 您應通知傳遞服務，並 [Adobe客戶服務](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 立即。
 
 * **SURBL**
 
-   請參閱[http://www.surbl.org/](http://www.surbl.org/)
+   請參閱 [http://www.surbl.org/](http://www.surbl.org/)
 
-   SURBL識別經常出現垃圾郵件的網站。 如果您的網域出現在此清單中，可能會顯著影響您的傳遞能力。 您應立即通知傳遞服務和[Adobe客戶服務](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
+   SURBL識別經常出現垃圾郵件的網站。 如果您的網域出現在此清單中，可能會顯著影響您的傳遞能力。 您應通知傳遞服務，並 [Adobe客戶服務](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 立即。
 
 * **iX馬尼圖**
 
-   這是一份IP清單，在德國廣泛使用。 請參閱[https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
+   這是一份IP清單，在德國廣泛使用。 請參閱 [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
 <!--* SORBS
 
