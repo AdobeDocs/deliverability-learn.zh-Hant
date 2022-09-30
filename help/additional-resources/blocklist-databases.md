@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: e7427d6109f3201affa58decde36294d1631bf5b
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 6%
@@ -45,7 +45,7 @@ ht-degree: 6%
 
 * **SURBL**
 
-   請參閱 [http://www.surbl.org/](http://www.surbl.org/)
+   請參閱 [https://surbl.org/](https://surbl.org/)
 
    SURBL識別經常出現垃圾郵件的網站。 如果您的網域出現在此清單中，可能會顯著影響您的傳遞能力。 您應通知傳遞服務，並 [Adobe客戶服務](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 立即。
 
