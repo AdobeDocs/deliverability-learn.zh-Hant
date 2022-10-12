@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
-source-git-commit: f441fe45b5b7309082c8eea7423d40003b913b7b
+source-git-commit: 3616470b31f45d589d323a6b90c7fd5df3b467b7
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 35%
+source-wordcount: '121'
+ht-degree: 33%
 
 ---
 
@@ -20,7 +20,6 @@ ht-degree: 35%
 請參閱下列技術檔案，進一步了解關於傳遞能力的最新更新。
 
 * [實作Gmail的品牌指標以識別訊息(BIMI)](../technotes/implement-bimi.md)
-* [Apple 郵件隱私權保護常見問題集](../technotes/apple-mail-privacy-faq.md)
 
 ## 一般資源
 
