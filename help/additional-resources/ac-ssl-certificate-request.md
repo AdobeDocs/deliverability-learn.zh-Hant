@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
+source-git-commit: b89bdd05d6b96af8c5520a4c500be76db46ea820
 workflow-type: tm+mt
-source-wordcount: '2265'
-ht-degree: 1%
+source-wordcount: '2253'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->安裝SSL憑證之前，請務必了解 [本頁](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate).
+>安裝SSL憑證之前，請務必了解 [本頁](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renew-ssl/renewing-subdomain-certificate.html?lang=zh-Hant).
 >
 >Adobe最多只支援2048位元憑證。 尚不支援4096位元憑證。
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 
 1. 要求憑證簽署要求(CSR)檔案，並提供必要的資訊（國家、州、城市、組織名稱、組織單位名稱等） Adobe。
 1. 驗證由Adobe產生的CSR檔案，並確認您提供的所有資訊皆正確無誤。
-1. 使用CSR詳細資訊產生由受信任認證機構簽署的憑證<!--taking care of asking for using the subjectAltName SSL extension (SAN) if it is for several domain names, and get/purchase the resulting certificate (ideally) in PEM format for Apache server-->.
+1. 使用CSR詳細資訊生成由受信任的證書頒發機構簽名的證書<!--taking care of asking for using the subjectAltName SSL extension (SAN) if it is for several domain names, and get/purchase the resulting certificate (ideally) in PEM format for Apache server-->.
 1. 驗證SSL憑證並確認其符合CSR。
 1. 提供SSL憑證給Adobe，由誰安裝。
 1. 測試每個安全子網域是否已成功安裝SSL憑證。
@@ -76,7 +76,7 @@ ht-degree: 1%
 
 若要取得CSR（憑證簽署要求）檔案，請遵循下列步驟。
 
-* 如果您可以存取 [控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)，請依照 [本頁](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates) 從「控制面板」產生和下載CSR檔案。
+* 如果您可以存取 [控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)，請依照 [本頁](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates) 從「控制面板」產生和下載CSR檔案。
 
 * 否則，請透過https://adminconsole.adobe.com/建立支援票證，以向Adobe客戶服務取得必要子網域的CSR檔案。
 
@@ -126,7 +126,7 @@ ht-degree: 1%
 從Adobe收到CSR檔案後，請遵循下列步驟：
 
 1. 複製CSR檔案文字並貼到線上解碼器中，例如https://www.sslshopper.com/csr-decoder.html、 <!--https://www.certlogik.com/decoder/,--> 或https://www.entrust.net/ssl-technical/csr-viewer.cfm。
-或者，您也可以使用 *OpenSSL* 命令。 有關詳細資訊，請參閱 [此外部頁面](https://www.question-defense.com/2009/09/22/use-openssl-to-verify-the-contents-of-a-csr-before-submitting-for-a-ssl-certificate).
+或者，您也可以使用 *OpenSSL* 命令。
 1. 確認所有檢查均成功。
 1. 檢查是否包含正確的參數和域名。
 1. 檢查所有其他資料是否符合您在提交請求時提供的詳細資訊。
@@ -199,7 +199,7 @@ ht-degree: 1%
 
 * 建立支援票證，以在憑證到期日期前至少兩週請求更新的憑證。 除非CSR詳細資訊已變更，否則您不需要請求額外的CSR。
 
-* 如果您可以存取 [控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)，而如果您的環境是由AWS環境中的Adobe托管，則您可以使用「控制面板」在憑證過期前進行續約。 深入了解 [本節](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates).
+* 如果您可以存取 [控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)，而如果您的環境是由AWS環境中的Adobe托管，則您可以使用「控制面板」在憑證過期前進行續約。 請參閱[此章節](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates)深入瞭解。
 
 ### 步驟8 — 更新任何特定設定 {#update-configuration}
 
