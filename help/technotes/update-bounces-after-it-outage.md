@@ -2,7 +2,7 @@
 title: 在Italia Online中斷後更新退信資格
 description: 了解如何在Italia Online中斷後更新退信資格
 feature: Deliverability
-source-git-commit: 4494363c060b7e2e1efde46f7ab8260fa900ffd7
+source-git-commit: 489a153c72b364bd59b3bace5aa9206d4d888c38
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 若要尋找受此問題影響的收件者，或若此情況再次發生於其他ISP，請參閱下列指示：
 
 * 如需Campaign Classicv7和Campaign v8，請參閱 [本頁](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
-* 若為Campaign Standard，請參閱 [本頁](https://experienceleague.corp.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
+* 若為Campaign Standard，請參閱 [本頁](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
 
 
 
