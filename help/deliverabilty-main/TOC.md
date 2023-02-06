@@ -2,10 +2,10 @@
 user-guide-title: 傳遞性最佳實務指南
 user-guide-breadcrumb: Deliverability Best Practice Guide
 user-guide-description: 了解傳遞能力的重要用語、概念和方法，讓您能夠確保行銷方案成功推行。
-source-git-commit: 3616470b31f45d589d323a6b90c7fd5df3b467b7
+source-git-commit: 05604fff57bbe64a02e97a27369c4aff6c999216
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 96%
 
 ---
 
@@ -57,3 +57,5 @@ ht-degree: 100%
       + [Campaign Classic - 技術建議](/help/additional-resources/acc-technical-recommendations.md)
    + 技術備忘稿 {#technotes}
       + [實施 BIMI](/help/technotes/implement-bimi.md)
+      + [Italia Online中斷後更新退信](/help/technotes/update-bounces-after-it-outage.md)
+
