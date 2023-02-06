@@ -2,9 +2,7 @@
 title: 在Italia Online中斷後更新退信資格
 description: 了解如何在Italia Online中斷後更新退信資格
 feature: Deliverability
-hide: true
-hidefromtoc: true
-source-git-commit: dfa9b3c9537847c79e612bdcfcacc8e0dccd01ea
+source-git-commit: 4494363c060b7e2e1efde46f7ab8260fa900ffd7
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
