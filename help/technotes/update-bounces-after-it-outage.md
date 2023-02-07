@@ -2,10 +2,11 @@
 title: 在Italia Online中斷後更新退信資格
 description: 了解如何在Italia Online中斷後更新退信資格
 feature: Deliverability
-source-git-commit: 489a153c72b364bd59b3bace5aa9206d4d888c38
+exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
+source-git-commit: e4efde4b7caac1bcf11d24632ec9982f98f958a2
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 0%
+source-wordcount: '415'
+ht-degree: 1%
 
 ---
 
@@ -34,6 +35,8 @@ ht-degree: 0%
 
 ## 更新流程{#outage-update}
 
+### Adobe Campaign{#ac-update}
+
 根據標準退信處理邏輯，Adobe Campaign會使用 **[!UICONTROL Status]** 設定 **[!UICONTROL Quarantine]**. 若要修正此問題，您需要尋找和移除這些收件者，或變更其，以更新Campaign中的隔離表格 **[!UICONTROL Status]** to **[!UICONTROL Valid]** 以便夜間清理工作流程將其移除。
 
 若要尋找受此問題影響的收件者，或若此情況再次發生於其他ISP，請參閱下列指示：
@@ -41,5 +44,11 @@ ht-degree: 0%
 * 如需Campaign Classicv7和Campaign v8，請參閱 [本頁](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
 * 若為Campaign Standard，請參閱 [本頁](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
 
+### Adobe Journey Optimizer{#ajo-update}
 
+根據標準退信處理邏輯，Adobe Journey Optimizer會透過 **[!UICONTROL Reason]** 設定 **[!UICONTROL Invalid Recipient]**. 若要更正此問題，您需要尋找並移除這些電子郵件地址，以更新隱藏清單。
+
+識別後，即可使用 **[!UICONTROL Delete]** 按鈕。 這些位址隨後可納入未來的電子郵件行銷活動中。
+
+深入了解 [本節](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}。
 
