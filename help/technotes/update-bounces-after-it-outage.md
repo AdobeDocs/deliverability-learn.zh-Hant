@@ -5,9 +5,9 @@ feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 hide: true
 hidefromtoc: true
-source-git-commit: 016d7f9da67193d893e762fbe6e191cf87d5b030
+source-git-commit: aca77fb9326e34455a6fec7ffc9a7ad8e1750467
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '422'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 1%
 
 ## 影響{#outage-impact}
 
-如同大部分的ISP中斷情況，透過Campaign傳送的某些電子郵件會錯誤標示為退信。 這不僅會影響Adobe，而且在中斷期間，所有嘗試將電子郵件傳送至Italia Online的人。
+如同在大部分的網際網路服務提供者(ISP)中斷時，透過Campaign或Journey Optimizer傳送的某些電子郵件會錯誤標示為退信。 這不僅會影響Adobe，而且在中斷期間，所有嘗試將電子郵件傳送至Italia Online的人。
 
 症狀為：
 
-* **延遲退信** 包含訊息 `452 requested action aborted: try again later`  — 系統會自動重試，且不需要任何動作。
+* **軟跳出數** 包含訊息 `452 requested action aborted: try again later`  — 系統會自動重試，且不需要任何動作。
 
 * **硬跳出數** 包含訊息 `550 <email address> recipient rejected` 已於當地時間1月26日早8點至下午2點被ISP退回，以防止發件人繼續超載其伺服器。 如Italia Online Postmaster所確認，這些並非真正的硬退信，因此我們建議取消隔離因該訊息而於2023年1月26日排除的所有電子郵件地址。
 
