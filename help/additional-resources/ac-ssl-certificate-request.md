@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: b89bdd05d6b96af8c5520a4c500be76db46ea820
+source-git-commit: 57016f89df54d5c74755a6a108a92db45153ec18
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2252'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 * *m.email.example.com*  — 鏡像頁
 * *res.email.example.com*  — 適用於托管資源（例如影像）
 
-建議您 **透過SSL(HTTPS)保護這些網域**. 事實上，不安全的連結(HTTP)容易遭到攔截，且會在現代瀏覽器上標出警告。
+建議您 **透過SSL(HTTPS)保護這些網域**. 事實上，不安全的連結(HTTP)容易遭到攔截，且會在現代瀏覽器上標示警告。
 
 若要在這些子網域上安裝SSL憑證，此程式會要求CSR檔案，然後購買SSL憑證以供Adobe安裝或續約。
 
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 1. 要求憑證簽署要求(CSR)檔案，並提供必要的資訊（國家、州、城市、組織名稱、組織單位名稱等） Adobe。
 1. 驗證由Adobe產生的CSR檔案，並確認您提供的所有資訊皆正確無誤。
-1. 使用CSR詳細資訊生成由受信任的證書頒發機構簽名的證書<!--taking care of asking for using the subjectAltName SSL extension (SAN) if it is for several domain names, and get/purchase the resulting certificate (ideally) in PEM format for Apache server-->.
+1. 使用CSR詳細資訊產生由受信任認證機構簽署的憑證<!--taking care of asking for using the subjectAltName SSL extension (SAN) if it is for several domain names, and get/purchase the resulting certificate (ideally) in PEM format for Apache server-->.
 1. 驗證SSL憑證並確認其符合CSR。
 1. 提供SSL憑證給Adobe，由誰安裝。
 1. 測試每個安全子網域是否已成功安裝SSL憑證。
@@ -70,7 +70,7 @@ ht-degree: 2%
 您必須識別網域名稱和函式（追蹤、鏡像頁面、網頁應用程式等） 來保護。
 >[!NOTE]
 >
->Adobe有助於定義要涉及的網域名稱和函式。 如需詳細資訊，請連絡您的Adobe客戶成功經理。
+>Adobe有助於定義要涉及的網域名稱和函式。 如需詳細資訊，請連絡您的Adobe帳戶團隊。
 
 ### 步驟1 — 取得CSR檔案
 
@@ -160,7 +160,7 @@ ht-degree: 2%
 
 ### 步驟5 — 要求安裝SSL憑證
 
-* 如果您可以存取 [控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)，請依照 [本頁](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate) 上傳憑證至「控制面板」。
+* 如果您可以存取 [控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)，請依照 [本頁](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renew-ssl/renewing-subdomain-certificate.html?lang=zh-Hant) 上傳憑證至「控制面板」。
 
 * 否則，請通過https://adminconsole.adobe.com/建立另一個支援票證，以請求Adobe在Adobe伺服器上安裝證書。
 
