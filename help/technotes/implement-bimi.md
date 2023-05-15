@@ -3,7 +3,7 @@ title: 實作Gmail的品牌指標以識別訊息(BIMI)
 description: 了解如何實作BIMI
 topics: Deliverability
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: 05f6cd331f4e610e2442d43405333823644d349e
+source-git-commit: 7b8fbb09883b34b66c2729b6b5cfa1292ae1814e
 workflow-type: tm+mt
 source-wordcount: '1063'
 ht-degree: 0%
@@ -22,7 +22,7 @@ BIMI不會直接提高傳遞能力或提升您的聲譽。 它可協助您與收
 
 ## 看起來怎麼樣？
 
-您可以找到不同提供者實作的一些範例，並進一步了解何者提供者會在 [BIMI組頁面](https://bimigroup.org/where-is-my-bimi-logo-displayed/).
+您可以找到不同提供者實作的一些範例，並進一步了解何者提供者會在 [BIMI組頁面](https://bimigroup.org/where-is-my-bimi-logo-displayed/){target="_blank"}.
 
 ## BIMI集團是誰？
 
@@ -32,7 +32,7 @@ BIMI集團由來自行業不同領域的若干利益相關方組成：Google、Y
 
 ## 誰在支援BIMI?
 
-支援BIMI的郵箱提供商名單正在穩步增長。 可找到最新清單 [此處](https://bimigroup.org/bimi-infographic/) 為考慮BIMI的支援提供商和提供商提供。
+支援BIMI的郵箱提供商名單正在穩步增長。 可找到最新清單 [此處](https://bimigroup.org/bimi-infographic/){target="_blank"} 為考慮BIMI的支援提供商和提供商提供。
 
 自2023年4月起，該清單包括Gmail、Yahoo、La Poste、Fastmail、Onet.pl和Zone、作為反垃圾郵件設備的Proofpoint和Apple Mail(自iOS16年起)。
 
@@ -65,7 +65,7 @@ DMARC是一項標準，可讓品牌決定信箱提供者應對失敗的電子郵
 
 ### 建立您的品牌標誌 {#create-brand-logo}
 
-徽標的建立需要完全遵循要求。 請一律參閱 [BIMI Group的指引](https://bimigroup.org/creating-bimi-svg-logo-files/).
+徽標的建立需要完全遵循要求。 請一律參閱 [BIMI Group的指引](https://bimigroup.org/creating-bimi-svg-logo-files/){target="_blank"}.
 
 除了技術要求外，還有一些實用的建議，如有方形標誌、有實色背景等。 這些建議是最佳視覺效果。
 請注意，不遵守規定可能會導致徽標不顯示。
@@ -102,10 +102,10 @@ default._bimi.[domain] IN TXT "v=BIMI1; l=[SVG URL]; a=[PEM URL]
 
 ## 秘訣與技巧
 
-* BIMI Group為BIMI提供了一個方便的驗證工具。 如果您想再次檢查所有項目是否已設定並就緒，或只想查看標誌是否符合規範，請前往 [此連結](https://bimigroup.org/bimi-generator/). 若是後者，只需按一下 **[!UICONTROL Generate BIMI]** 並輸入佔位符域，但輸入正確的徽標URL。 檢查員會告訴你徽標是否合規。
+* BIMI Group為BIMI提供了一個方便的驗證工具。 如果您想再次檢查所有項目是否已設定並就緒，或只想查看標誌是否符合規範，請前往 [此連結](https://bimigroup.org/bimi-generator/){target="_blank"}. 若是後者，只需按一下 **[!UICONTROL Generate BIMI]** 並輸入佔位符域，但輸入正確的徽標URL。 檢查員會告訴你徽標是否合規。
 
 * 沒有VMC，您就可以安全地開始，如果您的BIMI記錄不包含VMC URL，但該徽標已經顯示在Yahoo中，則您的聲譽不會受到任何損害。
 
 * 在組織層面實施DMARC是一項浩大的工作。 有些公司專門幫助品牌實現DMARC的完全採用。
 
-* 會發佈一長串常見問題 [此處](https://bimigroup.org/faqs-for-senders-esps/).
+* 會發佈一長串常見問題 [此處](https://bimigroup.org/faqs-for-senders-esps/){target="_blank"}.
