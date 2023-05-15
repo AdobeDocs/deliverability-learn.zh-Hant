@@ -3,9 +3,9 @@ title: 實作Gmail的品牌指標以識別訊息(BIMI)
 description: 了解如何實作BIMI
 topics: Deliverability
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: 7b8fbb09883b34b66c2729b6b5cfa1292ae1814e
+source-git-commit: aca2bfff9f0315b735cf0a97f2177083c58e0875
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ DMARC是一項標準，可讓品牌決定信箱提供者應對失敗的電子郵
 
 「已驗證的標籤證書」是品牌可使用徽標的法律驗證。 認證機構將通過註冊該品牌標誌的商標局來檢查此資訊。 此過程涉及多項法律驗證和檢查，可能需要一些時間。 目前有兩個CA（憑證授權單位）正在核發VMC:Digicert和Entrust。 首批商標辦事處是美國、加拿大、歐盟、英國、德國、日本、澳大利亞和西班牙。
 
-根據經驗，每個徽標需要一個VMC。 組織網域的VMC將涵蓋子網域，而且新增的功能甚至會涵蓋不同網域。 若您有不同的標誌，則需要多個VMC。 您選擇與之合作的認證機構或合作夥伴將協助您進行此設定。
+一般來說，每個標誌需要一個VMC。 組織網域的VMC將涵蓋子網域，而且新增的功能甚至會涵蓋不同網域。 若您有不同的標誌，則需要多個VMC。 您選擇與之合作的認證機構或合作夥伴將協助您進行此設定。
 
 >[!NOTE]
 >
