@@ -1,6 +1,6 @@
 ---
 title: Microsoft（Hotmail、Outlook、Windows Live 等）
-description: Microsoft通常是第二或第三大提供商，具體取決於您清單的構成，它們處理的流量與其他ISP稍有不同。
+description: 根據您清單的組成，Microsoft通常是第二大或第三大提供者，而且他們處理的流量與其他ISP略有不同。
 topics: Deliverability
 kt: 5319
 doc-type: article
@@ -14,26 +14,26 @@ ht-degree: 2%
 
 ---
 
-# [!DNL Microsoft] ([!DNL Hotmail]。 [!DNL Outlook]。 [!DNL Windows Live]等)
+# [!DNL Microsoft] ([!DNL Hotmail]， [!DNL Outlook]， [!DNL Windows Live]、等)
 
-[!DNL Microsoft] 通常是第二或第三大提供商，具體取決於您清單的構成，它們處理的流量與其他ISP稍有不同。
+[!DNL Microsoft] 根據您清單的組成，通常為第二大或第三大提供者，而且他們處理的流量與其他ISP略有不同。
 
-以下是一些亮點：
+以下是一些重點：
 
 ## 哪些資料重要
 
-[!DNL Microsoft] 重點介紹發件人信譽、投訴、用戶參與以及他們自己的受信任用戶組（也稱為發件人信譽資料或SRD），這些用戶對其進行輪詢以獲得反饋。
+[!DNL Microsoft] 專注於寄件者信譽、投訴、使用者參與度以及他們自己輪詢意見的受信任使用者群組（也稱為寄件者信譽資料或SRD）。
 
 ## 他們提供哪些資料
 
-[!DNL Microsoft]專有發件人報告工具， [!DNL Smart Network Data Services] (SNDS)，讓您查看有關您發送的郵件數量和接受的郵件數量的指標，以及投訴和垃圾郵件陷阱。 請記住，共用的資料是一個示例，不反映確切的數字，但它最能代表 [!DNL Microsoft] 將您視為發件人。 [!DNL Microsoft] 不公開提供有關其受信任用戶組的資訊，但資料可通過 [!DNL Return Path Certification] 額外收費。
+[!DNL Microsoft]專屬的寄件者報告工具， [!DNL Smart Network Data Services] (SNDS)，可讓您檢視關於您傳送了多少郵件、接受了多少郵件，以及投訴和垃圾郵件陷阱的量度。 請記住，共用的資料為範例，不會反映確切數字，但最能代表如何進行 [!DNL Microsoft] 將您視為寄件者。 [!DNL Microsoft] 不會公開提供其受信任使用者群組的資訊，但可透過 [!DNL Return Path Certification] 計畫需額外付費。
 
-## 發件人信譽
+## 寄件者信譽
 
-[!DNL Microsoft] 傳統上，IP的重點是在信譽評估和篩選決策中發送IP。 他們也在積極努力擴展其發送域功能。 這兩種做法在很大程度上都受到傳統聲譽影響者的推動，比如投訴和垃圾郵件陷阱。 返迴路徑認證方案也會嚴重影響交付能力，該方案確實有具體的定量和定性方案要求。
+[!DNL Microsoft] 傳統上專注於在信譽評估和篩選決定中傳送IP。 他們也在積極擴展傳送網域功能。 兩者主要受到投訴和垃圾郵件陷阱等傳統信譽影響者的推動。 「回訪路徑認證」計畫也會對傳遞能力產生重大影響，該計畫具有特定的定量和定性計畫要求。
 
 ## Insights
 
-[!DNL Microsoft] 合併所有接收域來建立和跟蹤發送信譽。 這包括 [!DNL Hotmail]。 [!DNL Outlook], MSN, [!DNL Windows Live]、等等，以及任何公司的Office 365都承載電子郵件。 [!DNL Microsoft] 可能對卷的波動特別敏感，因此請考慮應用特定策略來從大發送端上下放大，而不是允許基於卷的突然變化。
+[!DNL Microsoft] 結合其所有接收網域，以建立及追蹤傳送信譽。 其中包括 [!DNL Hotmail]， [!DNL Outlook]， MSN， [!DNL Windows Live]，依此類推，以及任何企業Office 365代管電子郵件。 [!DNL Microsoft] 可能會對數量波動特別敏感，所以請考慮套用特定策略來增加或減少大型傳送的流量，而不是允許數量突然變更。
 
-[!DNL Microsoft] 在IP升溫的最初幾天也特別嚴格，這通常意味著大多數郵件最初都會被過濾。 大多數ISP認為發送者在被證明有罪之前是無辜的。 [!DNL Microsoft] 相反，在證明自己無罪之前，你會認為自己有罪。
+[!DNL Microsoft] 在IP暖機的最初幾天也特別嚴格，這通常意味著大多數郵件最初都會被過濾。 在證實有罪之前，大多數ISP會認為寄件者無罪。 [!DNL Microsoft] 恰恰相反，在您證明自己無罪之前，都會認為您有罪。

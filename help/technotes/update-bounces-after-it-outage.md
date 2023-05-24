@@ -1,6 +1,6 @@
 ---
-title: 在Italia Online停機後更新彈跳資格
-description: 瞭解如何在Italia Online停機後更新彈跳資格
+title: 在Italia Online中斷後更新彈回資格
+description: 瞭解如何在Italia Online中斷後更新彈回資格
 feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 hide: true
@@ -16,41 +16,41 @@ ht-degree: 3%
 
 ## 內容{#outage-context}
 
-從當地時間1月22日起，Italia Online已經出現停運，導致數次延誤和拒絕電子郵件。 1月26日，該服務開始以有限容量恢復。
+自1月22日（當地時間）起，Italia Online已發生中斷，導致數次延遲並拒絕電子郵件。 服務於1月26日以有限容量開始恢復。
 
-受影響的域包括： **libero.it**。 **維吉里奧，**。 **不管**。 **iol-it**, **blu.it**。
+受影響的網域包括： **libero.it**， **virgilio.it**， **inwind.it**， **iol.it**、和 **blu.it**.
 
-這個問題從1/22/2023到1/26/2023，但大部分檢疫錯誤發生在1月26日。
+此問題發生在2023年1月22日到2023年1月26日，但大多數錯誤隔離發生在1月26日。
 
-在官方通信中瞭解更多資訊 [這裡](https://tecnologia.libero.it/avviato-il-ritorno-online-di-libero-mail-e-virgilio-mail-66832){_blank}。
+在官方通訊中瞭解更多 [此處](https://tecnologia.libero.it/avviato-il-ritorno-online-di-libero-mail-e-virgilio-mail-66832){_blank}。
 
 
 ## 影響{#outage-impact}
 
-與大多數網際網路服務提供商(ISP)停機時的情況一樣，通過Campaign或Journey Optimizer發送的一些電子郵件被錯誤地標籤為收款。 這不僅影響Adobe，而且在停機期間，所有試圖將電子郵件發送到Italia Online的人都會受到影響。
+如同大多數網際網路服務提供者(ISP)發生中斷的情況一樣，透過Campaign或Journey Optimizer傳送的某些電子郵件被錯誤標籤為跳出。 這不僅會影響Adobe，也會影響所有嘗試在中斷期間將電子郵件傳送到Italia Online的人。
 
-症狀是：
+症狀如下：
 
-* **軟邊界** 和留言 `452 requested action aborted: try again later`  — 將自動重試這些操作，不需要執行任何操作。
+* **軟退信** 包含訊息 `452 requested action aborted: try again later`  — 會自動重試，且不需要採取任何動作。
 
-* **硬邊界** 和留言 `550 <email address> recipient rejected` ISP已於當地時間1月26日上午8點至下午2點返回，以防止發送方繼續超載其伺服器。 如Italia Online Postmaster所確認的，這些並非真正的硬性限制，因此我們建議取消對因該郵件而於2023年1月26日排除的所有電子郵件地址的隔離。
+* **硬跳出** 包含訊息 `550 <email address> recipient rejected` ISP已於1月26日當地時間上午8點至下午2點之間傳回，以防止寄件者持續讓伺服器超載。 如Italia線上郵局主管所確認，這些並不是真正的硬跳出，因此我們建議取消隔離2023年1月26日因該訊息而被排除的所有電子郵件地址。
 
-## 要更新的進程{#outage-update}
+## 更新流程{#outage-update}
 
 ### Adobe Campaign{#ac-update}
 
-根據標準彈出處理邏輯，Adobe Campaign自動將這些收件人添加到隔離清單中， **[!UICONTROL Status]** 設定 **[!UICONTROL Quarantine]**。 要更正此問題，您需要通過查找和刪除這些收件人或更改其來更新市場活動中的隔離表 **[!UICONTROL Status]** 至 **[!UICONTROL Valid]** 這樣夜間清理工作流就會刪除它們。
+根據標準退信處理邏輯，Adobe Campaign會使用自動將這些收件者新增至隔離清單 **[!UICONTROL Status]** 設定 **[!UICONTROL Quarantine]**. 若要修正此問題，您需要尋找並移除這些收件者，或變更其收件者，以更新Campaign中的隔離表格 **[!UICONTROL Status]** 至 **[!UICONTROL Valid]** 以便「夜間清理」工作流程會將其移除。
 
-要查找受此問題影響的收件人，或在其他ISP再次出現此問題時，請參閱以下說明：
+若要尋找受此問題影響的收件者，或當此問題再次發生在任何其他ISP上時，請參閱下列指示：
 
-* 有關Campaign Classicv7和促銷活動v8，請參閱 [此頁](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
-* 有關Campaign Standard，請參閱 [此頁](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
+* 如需Campaign Classicv7和Campaign v8的相關資訊，請參閱 [此頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
+* 如需Campaign Standard，請參閱 [此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
 
 ### Adobe Journey Optimizer{#ajo-update}
 
-根據標準彈出處理邏輯，Adobe Journey Optimizer自動將這些電子郵件地址添加到禁止清單中， **[!UICONTROL Reason]** 設定 **[!UICONTROL Invalid Recipient]**。 要更正此問題，您需要通過查找並刪除這些電子郵件地址來更新隱藏清單。
+根據標準退信處理邏輯，Adobe Journey Optimizer會使用自動將這些電子郵件地址新增到隱藏清單 **[!UICONTROL Reason]** 設定 **[!UICONTROL Invalid Recipient]**. 若要修正此問題，您需要透過尋找並移除這些電子郵件地址來更新隱藏清單。
 
-一旦識別，就可以使用 **[!UICONTROL Delete]** 按鈕 然後，這些地址可以包括在未來的電子郵件活動中。
+識別地址後，您可使用手動從隱藏清單中移除這些地址 **[!UICONTROL Delete]** 按鈕。 這些地址隨後可包含在未來的電子郵件行銷活動中。
 
-瞭解詳情 [此部分](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}。
+進一步瞭解 [本節](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}。
 
