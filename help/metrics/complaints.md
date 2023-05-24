@@ -1,6 +1,6 @@
 ---
 title: 投訴
-description: '瞭解當使用者指出收到不想要或未預期的電子郵件時會提出的投訴。 '
+description: 瞭解當使用者指出收到不想要或未預期的電子郵件時會提出的投訴。
 topics: Deliverability
 kt: 7048
 thumbnail: kt7048.jpg
