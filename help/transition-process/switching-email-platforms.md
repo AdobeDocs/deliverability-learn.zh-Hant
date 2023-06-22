@@ -2,13 +2,13 @@
 title: 如何在切換電子郵件平台時順暢地轉變.
 description: 移動電子郵件服務提供者(ESP)時，也不可能同時轉換您現有的已建立IP位址。 重新開始時，請務必遵循建立正面信譽的最佳實務。
 topics: Deliverability
-kt: 5259
+jira: KT-5259
 thumbnail: kt5259.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: 5444d576-5bc1-4fa6-9956-c63dc3c60440
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 11%

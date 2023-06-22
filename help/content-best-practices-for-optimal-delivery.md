@@ -2,13 +2,13 @@
 title: 最佳化傳遞能力的內容最佳實務
 description: 內容是關鍵。 您已閱讀我們的相關性觀點，但以下是最佳化內容傳遞能力的額外秘訣。
 topics: Deliverability
-kt: 5260
+jira: KT-5260
 thumbnail: kt5260.jpg
 doc-type: article
 activity: understand
 team: TM
 exl-id: f0172fa5-1c7e-4ccc-8ac5-4357611d13ec
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 11%

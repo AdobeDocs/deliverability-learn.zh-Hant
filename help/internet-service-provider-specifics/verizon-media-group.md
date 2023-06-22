@@ -2,12 +2,12 @@
 title: Verizon Media Group（Yahoo、AOL、Verizon 等）
 description: '"[!DNL Verizon Media Group] 通常是大多數B2C清單的前三個網域之一。 他們的行為有些獨特，因為如果出現信譽問題，他們通常會限制或大量郵件。」'
 topics: Deliverability
-kt: 5320
+jira: KT-5320
 doc-type: article
 activity: understand
 team: TM
 exl-id: 43e6d3cb-23c3-4076-8026-a1a08e76bd1b
-source-git-commit: a5c86d5e6f310534787f07a04971722dbc9bb33b
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 2%
