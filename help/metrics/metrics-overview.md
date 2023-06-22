@@ -2,15 +2,15 @@
 title: 傳遞能力的量度
 description: 瞭解要監控的關鍵傳遞能力量度，以及如何使用它們來確認信譽問題。
 topics: Deliverability
-kt: 5256
+jira: KT-5256
 thumbnail: kt5256.jpg
 doc-type: article
 activity: understand
 team: ACS
 exl-id: d781a0b6-5670-4958-8649-f061e7e9a84f
-source-git-commit: 68c403f915287e1a50cd276b67b3f48202f45446
-workflow-type: tm+mt
-source-wordcount: '141'
+source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
