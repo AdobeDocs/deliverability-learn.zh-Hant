@@ -5,7 +5,9 @@ feature: Deliverability
 exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 hide: true
 hidefromtoc: true
-source-git-commit: aca77fb9326e34455a6fec7ffc9a7ad8e1750467
+role: Admin
+level: Beginner
+source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 3%
@@ -22,7 +24,7 @@ ht-degree: 3%
 
 此問題發生在2023年1月22日到2023年1月26日，但大多數錯誤隔離發生在1月26日。
 
-在官方通訊中瞭解更多 [此處](https://tecnologia.libero.it/avviato-il-ritorno-online-di-libero-mail-e-virgilio-mail-66832){_blank}。
+在官方通訊中瞭解更多 [此處](https://tecnologia.libero.it/avviato-il-ritorno-online-di-libero-mail-e-virgilio-mail-66832){_blank}.
 
 
 ## 影響{#outage-impact}
@@ -43,8 +45,8 @@ ht-degree: 3%
 
 若要尋找受此問題影響的收件者，或當此問題再次發生在任何其他ISP上時，請參閱下列指示：
 
-* 如需Campaign Classicv7和Campaign v8的相關資訊，請參閱 [此頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
-* 如需Campaign Standard，請參閱 [此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
+* 如需Campaign Classicv7和Campaign v8的相關資訊，請參閱 [此頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
+* 如需Campaign Standard，請參閱 [此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}.
 
 ### Adobe Journey Optimizer{#ajo-update}
 
@@ -52,5 +54,5 @@ ht-degree: 3%
 
 識別地址後，您可使用手動從隱藏清單中移除這些地址 **[!UICONTROL Delete]** 按鈕。 這些地址隨後可包含在未來的電子郵件行銷活動中。
 
-進一步瞭解 [本節](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}。
+進一步瞭解 [本節](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}.
 
