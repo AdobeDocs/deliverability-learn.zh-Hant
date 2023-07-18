@@ -9,7 +9,7 @@ exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
 source-git-commit: 57016f89df54d5c74755a6a108a92db45153ec18
 workflow-type: tm+mt
 source-wordcount: '2252'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 2%
 
 若要取得CSR （憑證申請檔）檔案，請遵循下列步驟。
 
-* 如果您有權存取 [控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)，請依照以下說明操作： [此頁面](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates) 從「控制面板」產生並下載CSR檔案。
+* 如果您有權存取 [控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)，請依照以下說明操作： [此頁面](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renew-ssl/renewing-subdomain-certificate.html?lang=zh-Hant#subdomains-and-certificates) 從「控制面板」產生並下載CSR檔案。
 
 * 否則，請透過https://adminconsole.adobe.com/建立支援票證，以從Adobe客戶服務取得所需子網域的CSR檔案。
 

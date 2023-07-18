@@ -33,7 +33,7 @@ ht-degree: 33%
 * [即時黑洞清單](../../help/additional-resources/blocklist-databases.md)
 * [疑難排解](../../help/additional-resources/troubleshooting.md)
 
-   <!--
+  <!--
     [IP Certification](../../help/additional-resources/ip-certification.md)
     [Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)-->
 

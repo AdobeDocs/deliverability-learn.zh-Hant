@@ -65,11 +65,11 @@ Gmail、Microsoft®和OATH等ISP會將非參與視為不需要的電子郵件，
 * 下一個階段是識別持續不顯示任何活動的訂閱者，並在一段時間內逐漸減少向其傳送電子郵件。 如果過去一年內沒有活動，最好將訂閱者的電子郵件訂閱擱置。 雖然對方對電子郵件內容不感興趣，但總是有最後一次機會透過傳送一次性重新確認行銷活動來重新啟用訂閱。
 * 若訂閱者想要保留在訂閱清單中，重新確認行銷活動是詢問長期不活躍的訂閱者的好方法。 建立行銷活動時，最好新增「按一下這裡」連結，以便他們可以確認動作並確認其地址。 如此一來，動作便可記錄在資料庫中。 以下是重新確認電子郵件的範例：
 
-   ![](../../help/assets/deliverability_implementation_3.png)
+  ![](../../help/assets/deliverability_implementation_3.png)
 
-   訂閱者採取動作後，即可提供確認其重新訂閱的登入頁面。 以下是登入頁面的範例：
+  訂閱者採取動作後，即可提供確認其重新訂閱的登入頁面。 以下是登入頁面的範例：
 
-   ![](../../help/assets/deliverability_implementation_4.png)
+  ![](../../help/assets/deliverability_implementation_4.png)
 
 ## 產品特定資源
 

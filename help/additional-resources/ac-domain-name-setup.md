@@ -116,7 +116,6 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 >* 從Adobe Campaign傳送電子郵件時，「寄件者地址」信箱不受監視，且行銷使用者無法存取此信箱。 Adobe Campaign也不提供自動回覆或自動轉寄此信箱中接收之電子郵件的功能。
 >* 行銷活動寄件者/寄件者地址及錯誤地址不能是「濫用」或「郵遞員」。
 
-
 ## 委派子網域
 
 選擇用於Adobe Campaign平台的子網域必須透過建立四個名稱伺服器(NS)記錄來委派。  這可讓子網域正確委派給Adobe。  以下是子網域委派和個別DNS指示的範例。  請將「emails.customer.com」取代為您要委派的子網域。  請注意，子網域必須是唯一的，且不能被其他合作對象使用（例如，現有的ESP或MSP）。
@@ -191,7 +190,7 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 
 如果發生此情況，Adobe會向使用者端提供預估值，詳細說明返回非網域委派模式所需的服務天數。
 
-若客戶未能遵守上述承諾，則上述交貨率之任何責任將免除Adobe。
+若客戶未遵守上述承諾，則上述交貨率之任何責任將免除Adobe。
 
 終止Marketing Cloud服務將自動導致網域委派的結束，並按Adobe維護這些網域的DNS。
 

@@ -27,31 +27,31 @@ ht-degree: 6%
 
 * **Spamhaus**
 
-   請參閱 [https://www.spamhaus.org/](https://www.spamhaus.org/)
+  請參閱 [https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-   資料庫比較重要。 一般而言，被分類到這份清單中是很嚴重的情況。 如果發生這種情況，您必須立即採取行動並警告商業服務、傳遞能力和 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+  資料庫比較重要。 一般而言，被分類到這份清單中是很嚴重的情況。 如果發生這種情況，您必須立即採取行動並警告商業服務、傳遞能力和 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 * **垃圾訊息**
 
-   請參閱 [https://www.spamcop.net/](https://www.spamcop.net/)
+  請參閱 [https://www.spamcop.net/](https://www.spamcop.net/)
 
-   它是最著名的資料庫之一。 如果您的其中一個IP位址放在這個清單中，這通常表示SpamCop使用者已將您的訊息宣告為Spam，或您已傳送訊息至SpamCop蜜罐。
+  它是最著名的資料庫之一。 如果您的其中一個IP位址放在這個清單中，這通常表示SpamCop使用者已將您的訊息宣告為Spam，或您已傳送訊息至SpamCop蜜罐。
 
 * **URIBL**
 
-   請參閱 [https://www.uribl.com/](https://www.uribl.com/)
+  請參閱 [https://www.uribl.com/](https://www.uribl.com/)
 
-   此清單可識別在宣告為垃圾訊息的訊息中經常出現的網域。 如果您的網域出現在此清單上，可能會大幅影響您的傳遞能力。 您應通知傳遞服務並 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 立即。
+  此清單可識別在宣告為垃圾訊息的訊息中經常出現的網域。 如果您的網域出現在此清單上，可能會大幅影響您的傳遞能力。 您應通知傳遞服務並 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 立即。
 
 * **SURBL**
 
-   請參閱 [https://surbl.org/](https://surbl.org/)
+  請參閱 [https://surbl.org/](https://surbl.org/)
 
-   SURBL會識別定期出現在垃圾郵件中的網站。 如果您的網域出現在此清單上，可能會大幅影響您的傳遞能力。 您應通知傳遞服務並 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 立即。
+  SURBL會識別定期出現在垃圾郵件中的網站。 如果您的網域出現在此清單上，可能會大幅影響您的傳遞能力。 您應通知傳遞服務並 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 立即。
 
 * **iX馬尼圖**
 
-   這是IP清單，在德國被廣泛使用。 請參閱 [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
+  這是IP清單，在德國被廣泛使用。 請參閱 [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
 <!--* SORBS
 

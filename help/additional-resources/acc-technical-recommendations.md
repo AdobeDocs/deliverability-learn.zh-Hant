@@ -127,11 +127,11 @@ nlserver inMail -instance:instance -verbose.
 * 讓每個信箱由單一執行個體擷取，
 * 設定執行個體，使其僅處理與其相關的訊息：執行個體資訊包含在Adobe Campaign所傳送訊息的訊息ID標題中，因此也位於回饋回圈訊息中。 只需指定 **checkInstanceName** 執行個體設定檔案中的引數（依預設，執行個體不會驗證，這可能會導致某些位址被錯誤隔離）：
 
-   ```
-   <serverConf>
-     <inMail checkInstanceName="true"/>
-   </serverConf>
-   ```
+  ```
+  <serverConf>
+    <inMail checkInstanceName="true"/>
+  </serverConf>
+  ```
 
 Adobe Campaign的傳遞服務可管理您對下列ISP的回饋回圈服務的訂閱：AOL、BlueTie、Comcast、Cox、EarthLink、FastMail、Gmail、Hotmail、HostedEmail、Libero、Mail.ru、MailTrust、OpenSRS、QQ、RoadRunner、Synacor、Telenor、Terra、UnitedOnline、USA、XS4ALL、Yahoo、Yahoo、Yahoo。
 
