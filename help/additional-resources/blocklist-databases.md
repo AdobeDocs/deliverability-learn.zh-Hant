@@ -15,15 +15,15 @@ ht-degree: 6%
 
 # 即時黑洞清單
 
-數個組織會維護據稱供垃圾郵件傳送者使用的IP位址和網域資料庫。 查閱這些網站有助於瞭解為什麼某些郵件會遭到拒絕成為垃圾郵件。 通常可以請求移除錯誤地新增到這些清單中的地址。
+有幾個組織維護著被垃圾郵件傳送者使用的IP位址和網域資料庫。 諮詢這些網站有助於瞭解為什麼某些郵件會遭到拒絕為垃圾郵件。 通常可以請求移除錯誤地新增到這些清單中的地址。
 
 這些資料庫稱為RBL （即時黑洞清單），可透過DNS機制來查閱這些資料庫。 RBL有三種型別：
 
 * 依IP位址：列出傳送垃圾郵件或可能轉送垃圾郵件的IP位址。
 * 依寄件者網域：列出傳送垃圾郵件或設定錯誤的寄件者網域（退回郵件地址的完整網域）。
-* 依網域：列出在垃圾郵件內容中所包含連結和影像的URL中找到的網域（向註冊機構註冊的高層網域）。 在Adobe解決方案中，要考量的網域通常是用於追蹤的地址。
+* 依網域：列出在垃圾郵件內容所含連結和影像的URL中找到的網域（向註冊機構註冊的高層網域）。 在Adobe解決方案中，通常考慮的網域是用來追蹤的地址。
 
-以下列出最廣泛使用的RBL。 如需更完整的清單，請參閱 [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
+以下列出最廣泛使用的RBL。 如需更完整的清單，您可以參閱 [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
 
 * **Spamhaus**
 
@@ -35,13 +35,13 @@ ht-degree: 6%
 
   請參閱 [https://www.spamcop.net/](https://www.spamcop.net/)
 
-  它是最著名的資料庫之一。 如果您的其中一個IP位址放在這個清單中，這通常表示SpamCop使用者已將您的訊息宣告為Spam，或您已傳送訊息至SpamCop蜜罐。
+  它是最著名的資料庫之一。 如果您的其中一個IP位址放在這個清單中，這通常表示SpamCop使用者已將您的訊息宣告為Spam，或您已傳送訊息給SpamCop蜜罐。
 
 * **URIBL**
 
   請參閱 [https://www.uribl.com/](https://www.uribl.com/)
 
-  此清單可識別在宣告為垃圾訊息的訊息中經常出現的網域。 如果您的網域出現在此清單上，可能會大幅影響您的傳遞能力。 您應通知傳遞服務並 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 立即。
+  此清單可識別定期出現在宣告為垃圾訊息的郵件中的網域。 如果您的網域出現在此清單上，可能會大幅影響您的傳遞能力。 您應通知傳遞服務並 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 立即。
 
 * **SURBL**
 
@@ -51,7 +51,7 @@ ht-degree: 6%
 
 * **iX馬尼圖**
 
-  這是IP清單，在德國被廣泛使用。 請參閱 [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
+  這是IP清單，在德國有廣泛的使用。 請參閱 [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
 <!--* SORBS
 

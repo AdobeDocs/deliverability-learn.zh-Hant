@@ -1,6 +1,6 @@
 ---
 title: IP 預熱期間的 ISP 特定考量事項
-description: ISP有不同的規則和不同的流量檢視方式。 這要求自訂計畫，一開始就只針對最高參與的使用者。
+description: ISP有不同的規則和不同的流量檢視方式。 這需要自訂計畫，一開始只鎖定參與度最高的使用者。
 topics: Deliverability
 jira: KT-7054
 thumbnail: kt7054.jpg
@@ -19,9 +19,9 @@ ht-degree: 16%
 
 # IP 預熱期間的 ISP 特定考量事項
 
-ISP有不同的規則和不同的流量檢視方式。 例如，Gmail是最複雜的ISP之一，因為他們除了所有其他信譽度量外，也非常嚴格地審視參與度（開啟和點按）。 這要求自訂計畫，一開始只針對最高參與的使用者。 其他ISP可能也需要相同的許可權。 與您的Adobe傳遞顧問合作以達成特定計畫。
+ISP有不同的規則和不同的流量檢視方式。 例如，Gmail是最複雜的ISP之一，因為除了所有其他信譽度量外，他們還會非常嚴格地檢視參與度（開啟和點按）。 這需要自訂計畫，一開始只鎖定參與度最高的使用者。 其他ISP也可能需要相同的服務。 與您的Adobe傳遞顧問合作以達成特定計畫。
 
-請參閱 [網際網路服務提供者具體資訊](/help/internet-service-provider-specifics/overview.md) 區段，以取得下列所選提供者群組之間重要差異的詳細資訊：
+請參閱 [網路服務提供商具體資訊](/help/internet-service-provider-specifics/overview.md) 區段，以取得下列選取之提供者群組之間重要差異的詳細資訊：
 
 * [Gmail](/help/internet-service-provider-specifics/gmail.md)
 * [Microsoft（Hotmail、Outlook、Windows Live 等）](/help/internet-service-provider-specifics/microsoft.md)

@@ -17,13 +17,13 @@ ht-degree: 33%
 
 ## 新增功能
 
-請參閱下列技術檔案，深入瞭解傳遞能力的最新更新。
+請參閱以下技術檔案，深入瞭解傳遞能力的最新更新。
 
-* [實施訊息識別的Gmail品牌指標(BIMI)](../technotes/implement-bimi.md)
+* [實施郵件識別的Gmail品牌指標(BIMI)](../technotes/implement-bimi.md)
 
 ## 一般資源
 
-本節列出一些關於傳遞能力的其他資源，例如特定建議和最佳實務、其他工具或疑難排解程式。
+本節列出有關傳遞能力的其他資源，例如特定建議和最佳實務、其他工具或疑難排解程式。
 
 * [關於垃圾郵件陷阱](../../help/additional-resources/all-about-spam-traps.md)
 * [透過 IP 暖身提高您的電子郵件信譽](../../help/additional-resources/increase-reputation-with-ip-warming.md)
@@ -39,7 +39,7 @@ ht-degree: 33%
 
 ## 產品特定資源
 
-此外，本節還列出許多產品專屬資源，協助您實作傳遞能力，並成功使用Adobe解決方案。
+此外，本節還列出許多產品專屬資源，協助您實作傳遞能力並成功使用Adobe解決方案。
 
 **[!DNL Adobe Campaign]**
 
