@@ -4,10 +4,11 @@ description: 瞭解如何實作BIMI
 topics: Deliverability
 role: Admin
 level: Beginner
+jira: KT-14079
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+source-git-commit: d23a0477b908427c4e9d889d5d9ed896a6ac8322
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
@@ -68,6 +69,8 @@ DMARC是一種標準，可讓品牌決定信箱提供者應該如何處理失敗
 ### 建立您的品牌標誌 {#create-brand-logo}
 
 商標的建立必須完全符合要求。 請一律參考 [BIMI Group准則](https://bimigroup.org/creating-bimi-svg-logo-files/){target="_blank"}.
+
+標誌必須儲存在安全位置(HTTPS)，以備使用內容傳遞網路(CDN)時，必須停用防止信箱提供者取得標誌（例如機器人保護）的任何保護。
 
 除了技術需求之外，還有一些實用的建議，例如使用方形標誌、以純色作為背景等等。 這些建議是最佳視覺化效果。
 請注意，不符合規範可能會導致標誌無法顯示。
