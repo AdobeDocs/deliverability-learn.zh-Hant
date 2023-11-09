@@ -4,10 +4,11 @@ description: 瞭解如何實作BIMI
 topics: Deliverability
 role: Admin
 level: Beginner
-source-git-commit: 5ac5bc90b5a9bf3ce9b390821476c7222983b818
+exl-id: f1c14b10-6191-4202-9825-23f948714f1e
+source-git-commit: bd8cee606c9dcb1593ad3ec45c578f59f8e968f2
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 1%
+source-wordcount: '1258'
+ht-degree: 8%
 
 ---
 
@@ -43,11 +44,11 @@ DMARC是選用專案，雖然並非必要專案，但免費，可讓電子郵件
 
 ## 實作DMARC的最佳作法 {#best-practice}
 
-由於DMARC是選用的，因此預設不會在任何ESP平台上設定它。 必須在DNS中為您的網域建立DMARC記錄，它才能運作。 此外，您需要選擇電子郵件地址，以指示DMARC報表應在組織內的哪個位置。 依據最佳做法的要求，建議您逐步推出DMARC實作，將DMARC原則從p=none提升至p=quarantine，再提升至p=reject，讓DMARC瞭解DMARC的潛在影響。
+由於DMARC是選用的，因此預設不會在任何ESP平台上設定它。 必須在DNS中為您的網域建立DMARC記錄，它才能運作。 此外，您需要選擇電子郵件地址，以指示DMARC報表應在組織內的哪個位置。 依據最佳實務的要求，建議您逐步推出 DMARC 實作，方法是將 DMARC 原則從 p=none 提升至 p=quarantine，再提升至 p=reject，讓您瞭解 DMARC 的潛在影響。
 
-1. 分析您收到並使用的意見回饋(p=none)，這會告知接收者，對於驗證失敗的訊息不執行任何動作，但仍會傳送電子郵件報告給寄件者。 此外，如果合法訊息驗證失敗，請檢閱並修正SPF/DKIM的問題。
+1. 分析您收到並使用的意見回饋(p=none)，這會告知接收者，對於驗證失敗的訊息不執行任何動作，但仍會傳送電子郵件報告給寄件者。 此外，如果合法郵件驗證失敗，請檢閱並修正 SPF/DKIM 的問題。
 1. 判斷SPF和DKIM是否一致，並通過所有合法電子郵件的驗證，然後將原則移至(p=quarantine)，這會通知接收電子郵件伺服器隔離驗證失敗的電子郵件（這通常意味著將這些郵件放在垃圾郵件資料夾中）。
-1. 將原則調整為（p=拒絕）。 p=拒絕原則會告訴接收者，對於驗證失敗的網域，要完全拒絕（退回）任何電子郵件。 啟用此原則後，只有經過網域驗證為100%驗證的電子郵件才有機會放置收件匣。
+1. 將原則調整為（p=拒絕）。 p=reject 原則會告訴接收者，完全拒絕 (退回) 驗證失敗的網域的所有電子郵件。 啟用此原則後，只有經過網域驗證為 100% 驗證的電子郵件才有機會進入收件匣。
 
    >[!NOTE]
    >
@@ -77,7 +78,7 @@ v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;ruf=m
 
 DMARC記錄有多個稱為DMARC標籤的元件。 每個標籤都有一個值，指定DMARC的特定外觀。
 
-| 標籤名稱 | 必填/選填 | 功能 | 範例 | 預設值 |
+| 標籤名稱 | 必填/選填 | 函數 | 範例 | 預設值 |
 |  ---  |  ---  |  ---  |  ---  |  ---  |
 | v | 必要 | 此DMARC標籤指定版本。 目前只有一個版本，因此其固定值為v=DMARC1 | V=DMARC1 DMARC1 | DMARC1 |
 | p | 必要 | 顯示選取的DMARC原則，並指示接收者報告、隔離或拒絕驗證檢查失敗的郵件。 | p=none、quarantine或reject | - |
@@ -90,6 +91,10 @@ DMARC記錄有多個稱為DMARC標籤的元件。 每個標籤都有一個值，
 | aspf | 選填 | 可以是嚴格(s)或寬鬆(r)。 寬鬆的對齊表示ReturnPath網域可以是「寄件者地址」的子網域。 嚴格對齊表示傳迴路徑網域必須與寄件者位址完全相符。 | aspf=r | r |
 
 ## DMARC與Adobe Campaign {#campaign}
+
+>[!NOTE]
+>
+>如果您的Campaign執行個體託管於AWS上，則可以使用控制面板為子網域實作DMARC。 [瞭解如何使用控制面板實施DMARC記錄](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html).
 
 DMARC失敗的常見原因在於「寄件者」與「錯誤收件者」或「傳迴路徑」位址之間未對齊。 若要避免此問題，在設定DMARC時，建議在傳遞範本中仔細檢查您的「寄件者」和「寄件者錯誤」位址設定。
 
