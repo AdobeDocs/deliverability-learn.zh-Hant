@@ -7,10 +7,10 @@ doc-type: Article
 last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
-source-git-commit: 0aeff034f6ca2a3dce065240384d1b0e7922fa31
+source-git-commit: 304c09426f9fd149f8fd0e89a50030819a772e71
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 0%
+source-wordcount: '1341'
+ht-degree: 1%
 
 ---
 
@@ -48,8 +48,17 @@ Adobe目前完全支援DMARC，但並非必要。 使用任何免費的DMARC檢�
 請務必注意 [!DNL Google] 和 [!DNL Yahoo] 兩者都是以名稱「1-Click」指代「http/URL」選項，這是刻意為之。 技術上，原始的「http/URL」選項可讓您將收件者重新導向至網站。 這不是 [!DNL Yahoo] 和 [!DNL Google]，兩者都參考更新的RFC8058，其著重於透過HTTPSPOST請求（而非網站）處理取消訂閱，使其成為「一鍵式」請求。
 針對Marketo Engage，Adobe已啟用「mailto」選項，目前不支援「http/URL」選項。 未來將進行進一步更新。
 針對Adobe Campaign和Adobe Journey Optimizer，Adobe建議同時使用「mailto」和「1鍵式」選項。
-如果您需要更多有關如何實作list-unsubscribe的資訊，請檢查 [此處] (https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} for Adobe Campaign Classic, [here] (https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} for Adobe Campaign Standard, and [here] (https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} Adobe Journey Optimizer，或隨時聯絡Adobe客戶支援團隊。
+
+如果您需要更多有關如何實作list-unsubscribe的資訊，請檢查 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}
+
+若為Adobe Campaign Classic， [此處](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=zh-Hant){target="_blank"}
+
+適用於Adobe Campaign Standard，以及 [此處](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
+
+Adobe Journey Optimizer，或隨時聯絡Adobe客戶支援團隊。
+
 交易式電子郵件不需要清單取消訂閱標頭。 請注意，已捨棄購物車等觸發式訊息及訂閱者未產生的類似通訊，會被視為信箱提供者（例如）的行銷 [!DNL Google] 和 [!DNL Yahoo] 而那些則需要清單取消訂閱。
+
 ![image](https://git.corp.adobe.com/storage/user/38257/files/a2da6bdb-524d-46a7-b765-718c1fe407b0)
 
 ## 處理在2天內取消訂閱：
