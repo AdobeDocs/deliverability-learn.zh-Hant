@@ -7,9 +7,9 @@ doc-type: Article
 last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
-source-git-commit: 304c09426f9fd149f8fd0e89a50030819a772e71
+source-git-commit: ce0ecaa7f62e8ba0bbf44dc180908b81475a225e
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1312'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 1%
 
 [https://blog.google/products/gmail/gmail-security-authentication-spam-protection/](https://blog.google/products/gmail/gmail-security-authentication-spam-protection/){target="_blank"}
 
-![[!DNL Google] 公告](/help/assets/Gmail.png)
+![[!DNL Google] 宣告_](/help/assets/Gmail.png)
 
 [https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam](https://blog.postmaster.yahooinc.com/post/730172167494483968/more-secure-less-spam){target="_blank"}
 
-![[!DNL Yahoo] 公告](/help/assets/Yahoo.png)
+![[!DNL Yahoo] 宣告](/help/assets/Yahoo.png)
 
 Adobe的電子郵件傳遞能力專家已閱讀這些部落格和所有連結檔案，因此您不必這麼做。 以下是主要要點。
 
@@ -40,7 +40,9 @@ Adobe的電子郵件傳遞能力專家已閱讀這些部落格和所有連結檔
 ## DMARC：
 
 [!DNL Google] 和 [!DNL Yahoo] 都需要您擁有DMARC記錄，才能存取您用來傳送電子郵件給他們的任何網域。 這些設定目前不要求p=reject或p=quarantine設定，因此p=none （通常稱為「監視」設定）的設定是完全可以接受的。 這不會改變您電子郵件的處理方式，他們會照常不使用DMARC的方式處理。 設定此設定是使用DMARC保護自己的第一步，此外還有協助您傳送電子郵件給的新優點 [!DNL Google] 和 [!DNL Yahoo] 它還可以協助您檢視電子郵件生態系統中是否有驗證問題。
-Adobe目前完全支援DMARC，但並非必要。 使用任何免費的DMARC檢查器來檢視您的子網域是否有DMARC設定，若沒有，請洽詢您的Adobe支援團隊，以瞭解如何以最佳方式完成該設定。 您也可以找到有關DMARC及其實作方法的詳細資訊 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant){target="_blank"} for Adobe Campaign and Adobe Journey Optimizer Adobe or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} 用於Marketo Engage。
+Adobe目前完全支援DMARC，但並非必要。 使用任何免費的DMARC檢查器來檢視您的子網域是否有DMARC設定，若沒有，請洽詢您的Adobe支援團隊，以瞭解如何以最佳方式完成該設定。
+
+您也可以找到有關DMARC及其實作方法的詳細資訊 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant){target="_blank"} for Adobe Campaign and Adobe Journey Optimizer Adobe or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} 用於Marketo Engage。
 
 ## 按一下（清單）取消訂閱：
 
@@ -49,17 +51,9 @@ Adobe目前完全支援DMARC，但並非必要。 使用任何免費的DMARC檢�
 針對Marketo Engage，Adobe已啟用「mailto」選項，目前不支援「http/URL」選項。 未來將進行進一步更新。
 針對Adobe Campaign和Adobe Journey Optimizer，Adobe建議同時使用「mailto」和「1鍵式」選項。
 
-如果您需要更多有關如何實作list-unsubscribe的資訊，請檢查 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}
-
-若為Adobe Campaign Classic， [此處](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=zh-Hant){target="_blank"}
-
-適用於Adobe Campaign Standard，以及 [此處](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
-
-Adobe Journey Optimizer，或隨時聯絡Adobe客戶支援團隊。
+如果您需要更多有關如何實作list-unsubscribe的資訊，請檢查 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} for **[!DNL Adobe Campaign Classic]**, [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=zh-Hant){target="_blank"}, or **[!DNL Adobe Campaign Standard]**, and [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} 的 **[!DNL Adobe Journey Optimizer]**，或隨時聯絡Adobe客戶支援團隊。
 
 交易式電子郵件不需要清單取消訂閱標頭。 請注意，已捨棄購物車等觸發式訊息及訂閱者未產生的類似通訊，會被視為信箱提供者（例如）的行銷 [!DNL Google] 和 [!DNL Yahoo] 而那些則需要清單取消訂閱。
-
-![image](https://git.corp.adobe.com/storage/user/38257/files/a2da6bdb-524d-46a7-b765-718c1fe407b0)
 
 ## 處理在2天內取消訂閱：
 
@@ -69,11 +63,13 @@ Adobe Journey Optimizer，或隨時聯絡Adobe客戶支援團隊。
 ## 投訴率：
 
 長久以來，將低投訴率維持在0.2%以下都是最佳作法。 [!DNL Google] 會將長時間的標杆設為0.3%，但明確指出將此標杆設為0.1%以下會有好處。 以下是他們共用的詳細資料：
+
 * 將垃圾郵件率維持在0.10%以下。
 * 避免0.30%或更高的垃圾郵件率，特別是對於任何持續的時間段。
 * 維持低垃圾郵件率，可讓傳送者更能因應使用者意見反應偶爾尖峰的情形。
 * 同樣地，維持高垃圾郵件率將導致垃圾郵件分類增加。 改善垃圾郵件率可能需要一些時間，才能對垃圾郵件分類產生正面影響。
   [!DNL Yahoo] 已表示他們的投訴臨界值也將在0.30%範圍內。
+
 如果您需要協助以監控您的投訴率，或想協助您制定減少投訴的策略，請洽詢您的Adobe傳遞顧問，或洽詢您的客戶團隊，以新增傳遞顧問（如果您尚未有）。
 
 ## 這對行銷人員有何影響？
