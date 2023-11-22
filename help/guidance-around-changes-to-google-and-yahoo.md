@@ -7,9 +7,9 @@ doc-type: Article
 last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
-source-git-commit: d237d0dd921d84461a4edd47d8da501c23576d58
+source-git-commit: 059e57ac5b40c8e7c8562d0dca5c51de01c6b041
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1329'
 ht-degree: 1%
 
 ---
@@ -51,9 +51,16 @@ Adobe目前完全支援DMARC，但並非必要。 使用任何免費的DMARC檢�
 針對Marketo Engage，Adobe已啟用「mailto」選項，目前不支援「http/URL」選項。 未來將進行進一步更新。
 針對Adobe Campaign和Adobe Journey Optimizer，Adobe建議同時使用「mailto」和「1鍵式」選項。
 
-如果您需要更多有關如何實作list-unsubscribe的資訊，請檢查 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} for **[!DNL Adobe Campaign Classic]**, [here](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=zh-Hant){target="_blank"} for **[!DNL Adobe Campaign Standard]**, and [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} 的 **[!DNL Adobe Journey Optimizer]**，或隨時聯絡Adobe客戶支援團隊。
-
 交易式電子郵件不需要清單取消訂閱標頭。 請注意，已捨棄購物車等觸發式訊息及訂閱者未產生的類似通訊，會被視為信箱提供者（例如）的行銷 [!DNL Google] 和 [!DNL Yahoo] 而那些則需要清單取消訂閱。
+
+>[!INFO]
+> 如需如何實作list-unsubscribe解決方案的詳細資訊，請檢視：
+> * [!DNL Adobe Campaign Classic]: [技術建議](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}
+>* [!DNL Adobe Campaign Standard]： [什麼是List-Unsubscribe標頭？ 如何在ACS中實作此步驟？](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=zh-Hant){target="_blank"}
+>* [!DNL Adobe Journey Optimizer]: [電子郵件選擇退出管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
+>
+> 或隨時聯絡Adobe客戶支援團隊。
+
 
 ## 處理在2天內取消訂閱：
 
