@@ -9,7 +9,7 @@ git-repo: https://github.com/AdobeDocs/deliverability-learn.zh-Hant
 index: true
 source-git-commit: b259643b678f5e13376d2c11876ac04792f47bf3
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '65'
 ht-degree: 100%
 
 ---
