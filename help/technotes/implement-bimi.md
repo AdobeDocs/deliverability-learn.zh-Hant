@@ -6,9 +6,9 @@ role: Admin
 level: Beginner
 jira: KT-14079
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
-source-git-commit: d23a0477b908427c4e9d889d5d9ed896a6ac8322
+source-git-commit: ad0646da88f2b1474e74b6c741d0dd5701e88978
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ DMARC是一種標準，可讓品牌決定信箱提供者應該如何處理失敗
 
 標誌必須儲存在安全位置(HTTPS)，以備使用內容傳遞網路(CDN)時，必須停用防止信箱提供者取得標誌（例如機器人保護）的任何保護。
 
-除了技術需求之外，還有一些實用的建議，例如使用方形標誌、以純色作為背景等等。 這些建議是最佳視覺化效果。
+除了技術需求之外，還有一些實用的建議，例如使用方形標誌、以純色作為背景等等。 這些建議是最佳視覺化效果。 有些提供者有自己的要求，這些要求是BIMI工作小組要求的額外要求。 [Gmail](https://support.google.com/a/answer/10911027?sjid=903725605955621707-EU){target="_blank"}. 例如，需要標誌至少為96 x 96畫素。
 請注意，不符合規範可能會導致標誌無法顯示。
 
 ### 已驗證標籤憑證(VMC) {#vmc}
@@ -105,7 +105,7 @@ default._bimi.[domain] IN TXT "v=BIMI1; l=[SVG URL]; a=[PEM URL]
 
 即使完成VMC的工作和費用，也不會失去這個部分。 如果信箱提供者不信任品牌，將不會顯示標誌。
 
-## 秘訣與技巧
+## 提示與祕訣
 
 * BIMI Group為BIMI提供便利的驗證工具。 若您想要再次檢查所有專案是否已設定妥當且準備就緒，或只想檢視標誌是否符合標準，請前往 [此連結](https://bimigroup.org/bimi-generator/){target="_blank"}. 如果是後者，只需按一下 **[!UICONTROL Generate BIMI]** 並輸入預留位置網域，但需輸入正確的標誌URL。 檢視員會告訴您標誌是否合規。
 
