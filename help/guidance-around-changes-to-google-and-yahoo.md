@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: e7c3164acb1eb2ee46938cea333f416e0376f5b6
+source-git-commit: 2bda5d5369d239fac849e57286450a853dd94953
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -114,10 +114,10 @@ Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項
 
 ## 其他資源（非這些變更專用）：
 
-[!DNL Google Sender Guidelines](https://support.google.com/mail/answer/81126){target="_blank"}
+[Google寄件者准則](https://support.google.com/mail/answer/81126){target="_blank"}
 
-[!DNL Google FAQ](https://support.google.com/a/answer/14229414?sjid=2864589551334481470-NC){target="_blank"}
+[Google常見問題集](https://support.google.com/a/answer/14229414?sjid=2864589551334481470-NC){target="_blank"}
 
-[!DNL Yahoo Sender Guidelines](https://senders.yahooinc.com/best-practices/){target="_blank"}
+[Yahoo寄件者准則](https://senders.yahooinc.com/best-practices/){target="_blank"}
 
-[!DNL Yahoo FAQ](https://senders.yahooinc.com/faqs/){target="_blank"}
+[Yahoo常見問題集](https://senders.yahooinc.com/faqs/){target="_blank"}
