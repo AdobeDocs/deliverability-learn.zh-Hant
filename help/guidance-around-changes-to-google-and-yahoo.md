@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 16ff60cdcb1ca1558b8021d27b235b6977c2f40a
+source-git-commit: 60c3e42c480ec4d438c51753bc6c37a01b1550e7
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項
 * 維持低垃圾郵件率，可讓傳送者更能因應使用者意見反應偶爾尖峰的情形。
 * 同樣地，維持高垃圾郵件率將導致垃圾郵件分類增加。 改善垃圾郵件率可能需要一些時間，才能對垃圾郵件分類產生正面影響。
 
-[!DNL Yahoo] 已表示他們的投訴臨界值也將在0.30%範圍內。
+[!DNL Yahoo] 已表示他們的投訴臨界值也將是0.30%範圍。
 
 [!DNL Google] 和 [!DNL Yahoo]的目標不是因單一不良日數或導致投訴暫時激增的錯誤而懲罰寄件者。 相反地，他們專注於在很長一段時間內投訴率很高或傳送行為不好的寄件者。
 
