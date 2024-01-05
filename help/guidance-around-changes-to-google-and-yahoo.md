@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: c1aebdc34c3cc38325e9160360f7847f276bd53e
+source-git-commit: 2de69c2def1abfc4107feb80ad973f689af8b27e
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Adobe目前完全支援DMARC，但並非必要。 使用任何免費的DMARC檢�
 
 [!DNL Yahoo] 表示會暫時繼續遵守「mailto」選項，但日後也會要求「post」。
 
-Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項。 Adobe正致力於在所有電子郵件傳送平台上啟用「貼文」支援，以支援使用者符合這些需求，並進一步更新內容。
+Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項。 Adobe正致力於在所有電子郵件傳送平台上啟用「貼文」支援，以支援符合這些需求的使用者，請參閱以下詳細資料。
 
 交易式電子郵件不需要清單取消訂閱標頭。 請注意，已捨棄購物車等觸發式訊息及訂閱者未產生的類似通訊，會被視為信箱提供者（例如）的行銷 [!DNL Google] 和 [!DNL Yahoo] 而那些則需要清單取消訂閱。
 
