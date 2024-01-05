@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 60c3e42c480ec4d438c51753bc6c37a01b1550e7
+source-git-commit: 1f2a6c7b53a5f5110250c8aecac349c5b72feb6b
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1759'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe的電子郵件傳遞能力專家已閱讀這些部落格和所有連結檔
 
 ## DMARC：
 
-[!DNL Google] 和 [!DNL Yahoo] 都需要您擁有DMARC記錄，才能存取您用來傳送電子郵件給他們的任何網域。 這些設定目前不要求p=reject或p=quarantine設定，因此p=none （通常稱為「監視」設定）的設定是完全可以接受的。 這不會改變您電子郵件的處理方式，他們會照常不使用DMARC的方式處理。 設定此設定是使用DMARC保護自己的第一步，此外還有協助您傳送電子郵件給的新優點 [!DNL Google] 和 [!DNL Yahoo] 它還可以協助您檢視電子郵件生態系統中是否有驗證問題。
+[!DNL Google] 和 [!DNL Yahoo] 都需要您擁有DMARC記錄，才能存取您用來傳送電子郵件給他們的任何網域。 這些設定目前不要求p=reject或p=quarantine設定，因此p=none的設定（通常稱為「監視」設定）目前完全可以接受。 這不會改變您電子郵件的處理方式，他們會照常不使用DMARC的方式處理。 設定此設定是使用DMARC保護自己的第一步，此外還有協助您傳送電子郵件給的新優點 [!DNL Google] 和 [!DNL Yahoo] 它還可以協助您檢視電子郵件生態系統中是否有驗證問題。
 
 DMARC的規則不會變更，這表示除非設定為避免，否則父系網域上的DMARC記錄(例如adobe.com)將會繼承並涵蓋任何子網域(例如email.adobe.com)。 您的子網域不需要不同的DMARC記錄，除非您出於各種商業原因想要或需要新增它們。
 
@@ -66,12 +66,12 @@ Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項
 [!DNL Google] 和 [!DNL Yahoo] 兩人都知道，在某些情況下，收件者將取消訂閱，然後在稍後重新訂閱。 雖然他們不願意分享他們如何識別這些情況的秘密秘密，但他們正在努力尋找方法，以避免在這些情況下錯誤地懲罰發件人。
 
 >[!INFO]
-> 如需如何實作list-unsubscribe解決方案的詳細資訊，請檢視：
-> * [!DNL Adobe Campaign Classic]： [技術建議](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}
->* [!DNL Adobe Campaign Standard]： [什麼是List-Unsubscribe標頭？ 如何在ACS中實作此步驟？](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
->* [!DNL Adobe Journey Optimizer]： [電子郵件選擇退出管理](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"}
+> Adobe正致力於在所有電子郵件傳送平台上啟用「貼文」支援，以支援使用者符合下列需求：
+> * [!DNL Adobe Campaign Classic V7/V8]：今日完全支援POST一鍵式。 將發佈逐步設定的更新 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} 最遲於1月中旬
+>* [!DNL Adobe Campaign Standard]：正在更新以支援POST1點按。 請儘快回來檢視更新。 將提供設定說明 [此處](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
+>* [!DNL Adobe Journey Optimizer]：今日完全支援POST一鍵式。 將發佈逐步設定的更新 [此處](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} 最遲於1月中旬
 >
-> 或隨時聯絡Adobe客戶支援團隊。
+> Marketo：正在更新以支援POST一鍵式。 準備就緒後，即會在需要時自動套用。
 
 
 ## 處理在2天內取消訂閱：
@@ -94,6 +94,22 @@ Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項
 [!DNL Google] 和 [!DNL Yahoo]的目標不是因單一不良日數或導致投訴暫時激增的錯誤而懲罰寄件者。 相反地，他們專注於在很長一段時間內投訴率很高或傳送行為不好的寄件者。
 
 如果您需要協助以監控您的投訴率，或想協助您制定減少投訴的策略，請洽詢您的Adobe傳遞顧問，或洽詢您的客戶團隊，以新增傳遞顧問（如果您尚未有）。
+
+## 我們正在檢視哪些時間表？
+
+自10月最初公告以來，已陸續更新時間表。 最近的時間表看起來像這樣：
+
+[!DNL Gmail]：
+
+2024年2月 — 旨在發出不合規警告的暫時彈回將開始。 如果您尚未符合合規性，在短暫的延遲後，電子郵件仍會正常傳遞。 如果您完全符合法規，則不會有暫時的跳出，也不會有任何發現。
+
+2024年4月 — 除了List-Unsubscribe 1-Click之外，所有不符合規範的寄件者都將開始封鎖。 一開始只會封鎖一部分不符合規範的電子郵件，隨著時間推移，封鎖的%會增加。
+
+2024年6月1日 — 任何未完全合規的寄件者（包括List-Unsubscribe 1-Click）將會遇到封鎖問題。
+
+[!DNL Yahoo]：
+
+尚未提供確切日期，但已表示「執法工作將於2024年2月開始。 執法將逐步推出」。
 
 ## 這對行銷人員有何影響？
 
