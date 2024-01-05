@@ -8,7 +8,7 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 69c95855786408f32de2f72e7f1deb122fb369ea
+source-git-commit: c1aebdc34c3cc38325e9160360f7847f276bd53e
 workflow-type: tm+mt
 source-wordcount: '1758'
 ht-degree: 0%
@@ -68,9 +68,10 @@ Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項
 >[!INFO]
 > Adobe正致力於在所有電子郵件傳送平台上啟用「貼文」支援，以支援使用者符合下列需求：
 > 
-> * [!DNL Adobe Campaign Classic V7/V8]：今日完全支援POST一鍵式。 將發佈逐步設定的更新 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} 最遲於1月中旬
->* [!DNL Adobe Campaign Standard]：正在更新以支援POST1點按。 請儘快回來檢視更新。 將提供設定說明 [此處](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}
->* [!DNL Adobe Journey Optimizer]：今日完全支援POST一鍵式。 將發佈逐步設定的更新 [此處](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} 最遲於1月中旬
+> 
+> * [!DNL Adobe Campaign Classic V7/V8]：今日完全支援POST一鍵式。 將發佈逐步設定的更新 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} 在1月中旬之前。
+>* [!DNL Adobe Campaign Standard]：正在更新以支援POST1點按。 請儘快回來檢視更新。 將提供設定說明 [此處](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}.
+>* [!DNL Adobe Journey Optimizer]：今日完全支援POST一鍵式。 將發佈逐步設定的更新 [此處](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} 在1月中旬之前。
 > * [!DNL Marketo]：正在更新以支援POST1點按。 準備就緒後，即會在需要時自動套用。
 
 
@@ -99,7 +100,7 @@ Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項
 
 自10月最初公告以來，已陸續更新時間表。 最近的時間表看起來像這樣：
 
-## [!DNL Gmail]：
+[!DNL Gmail]：
 
 2024年2月 — 旨在發出不合規警告的暫時彈回將開始。 如果您尚未符合合規性，在短暫的延遲後，電子郵件仍會正常傳遞。 如果您完全符合法規，則不會有暫時的跳出，也不會有任何發現。
 
@@ -107,7 +108,7 @@ Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項
 
 2024年6月1日 — 任何未完全合規的寄件者（包括List-Unsubscribe 1-Click）將會遇到封鎖問題。
 
-## [!DNL Yahoo]：
+[!DNL Yahoo]：
 
 尚未提供確切日期，但已表示「執法工作將於2024年2月開始。 執法將逐步推出」。
 
