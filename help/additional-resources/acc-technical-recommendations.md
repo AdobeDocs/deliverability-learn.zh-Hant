@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 22e47edbef3f8388e4cd3a01524091458d27ed43
+source-git-commit: 6653260e6bb3fc379529ea4081eeae0a8f7f4eb9
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1726'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,12 @@ subject=unsubscribe%=message.mimeMessageId%>
 
 上述範例將為支援一鍵式的ISP啟用一鍵式清單取消訂閱，同時確保不支援URL清單取消訂閱的接收者仍然可以透過電子郵件請求取消訂閱。
 
-按一下這裡以瞭解如何透過型別規則設定一鍵式清單取消訂閱。
+
+### 建立型別規則以支援按一下清單取消訂閱：
+
+1 *從導覽樹狀結構中建立新的型別規則，按一下「新增」以建立新的型別
+![影像](https://git.corp.adobe.com/storage/user/38257/files/b8d48b7f-0f33-4118-b61d-e60351c68260)
+
 
 ## 電子郵件最佳化 {#email-optimization}
 
