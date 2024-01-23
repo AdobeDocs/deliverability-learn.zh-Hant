@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: c99e860507df99fdd4e4fad567eb5e9433ab56ef
+source-git-commit: 1f3391430fa5a86973b8a1bd811b856dea23402e
 workflow-type: tm+mt
 source-wordcount: '1722'
 ht-degree: 0%
@@ -212,7 +212,8 @@ Gmail、Outlook.com和Microsoft Outlook支援此方法，而且其介面中會�
 * 前往傳送屬性的SMTP區段。
 * 在「其他SMTP標頭」下方，在命令列中輸入（每個標頭應在單獨的一行上）：
 
-List-Unsubscribe-Post： List-Unsubscribe=One-Click List-Unsubscribe： &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>>， &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
+，， List-Unsubscribe-Post： List-Unsubscribe=One-Click List-Unsubscribe： &lt;https: domain.com=&quot;&quot; webapp=&quot;&quot; unsubnoclick=&quot;&quot; id=&quot;&lt;%=&quot; recipient.cryptidcamp=&quot;&quot;>>， &lt;mailto: erroraddress=&quot;&quot; subject=&quot;unsubscribe%=message.mimeMessageId%&quot;>
+，，，
 
 上述範例將為支援一鍵式的ISP啟用一鍵式清單取消訂閱，同時確保不支援URL清單取消訂閱的接收者仍然可以透過電子郵件請求取消訂閱。
 
