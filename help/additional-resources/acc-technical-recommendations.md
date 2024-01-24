@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 443f8e0c68705e481e7a3b2dbc6d3618d20e6f32
+source-git-commit: f9dc4fb190557e2698891853965936ef32124f4a
 workflow-type: tm+mt
 source-wordcount: '1864'
 ht-degree: 1%
@@ -207,7 +207,8 @@ Gmail、Outlook.com和Microsoft Outlook支援此方法，而且其介面中會�
 
 * 在以下「取消訂閱收件者no-click」網頁應用程式中新增 
 * 移至資源 — >線上 — > Web應用程式
-* 上傳「取消訂閱收件者不按一下」XML
+* 上傳「取消訂閱收件者不按一下」 [XML](/help/assets/WebAppUnsubNoClick.xml)
+
 * 設定List-Unsubscribe和List-Unsubscribe-Post
 * 前往傳送屬性的SMTP區段。
 * 在「其他SMTP標頭」下方，在命令列中輸入（每個標頭應在單獨的一行上）：
