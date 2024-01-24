@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: acb2f0c5c983445b538381833f3596251938480a
+source-git-commit: f7c2dcbf1bb86d7018c31b1ae2ef29903fb758aa
 workflow-type: tm+mt
-source-wordcount: '1857'
-ht-degree: 0%
+source-wordcount: '1871'
+ht-degree: 1%
 
 ---
 
@@ -225,13 +225,14 @@ subject=unsubscribe%=message.mimeMessageId%>
 
 * 建立新的型別規則
 * 在導覽樹狀結構中，按一下「新增」以建立新的型別
-
+  ![影像](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules1.png)
 * 繼續設定型別規則
 * 規則型別：控制項
 * 頻道：電子郵件
 * 階段：在個人化開始時
 * 層級：您的選擇
 * 作用中
+  ![影像](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules2.png)
 
 * 編寫型別規則的javascript程式碼。
 
@@ -342,14 +343,19 @@ if ( headerUnsubPost === "" ) {
 // Return true to indicate success 
 return true; 
 ```
+![影像](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules3.png)
 
 * 將您的新規則新增至電子郵件的「型別」 （預設型別為確定）。
+  ![影像](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules4.png)
 
 * 準備新的傳遞（確認傳遞屬性中的其他SMTP標頭為空白）。
+  ![影像](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules5.png)
 
 * 在傳遞準備期間檢查您的新型別規則是否已套用。
+  ![影像](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
 * 驗證List-Unsubscribe是否存在
+  ![影像](https://git.corp.adobe.com/AdobeDocs/deliverability-learn.en/blob/main/help/assets/CreatingTypologyRules6.png)
 
 
 
