@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: f9dc4fb190557e2698891853965936ef32124f4a
+source-git-commit: 2eceddf12ce2baea1113d2688f9f8e75f7d31923
 workflow-type: tm+mt
 source-wordcount: '1864'
 ht-degree: 1%
@@ -207,7 +207,7 @@ Gmail、Outlook.com和Microsoft Outlook支援此方法，而且其介面中會�
 
 * 在以下「取消訂閱收件者no-click」網頁應用程式中新增 
 * 移至資源 — >線上 — > Web應用程式
-* 上傳「取消訂閱收件者不按一下」 [XML](/help/assets/WebAppUnsubNoClick.xml)
+* 上傳「取消訂閱收件者不按一下」 [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
 
 * 設定List-Unsubscribe和List-Unsubscribe-Post
 * 前往傳送屬性的SMTP區段。
@@ -224,13 +224,13 @@ subject=unsubscribe%=message.mimeMessageId%>
 
 ### 建立型別規則以支援按一下清單取消訂閱：
 
-建立新的型別規則
+建立新的型別規則：
 
-在導覽樹狀結構中，按一下「新增」以建立新的型別
+* 在導覽樹狀結構中，按一下「新增」以建立新的型別
 
 ![影像](/help/assets/CreatingTypologyRules1.png)
 
-繼續設定型別規則
+繼續設定型別規則：
 
 * 規則型別：控制項
 * 頻道：電子郵件
@@ -240,7 +240,7 @@ subject=unsubscribe%=message.mimeMessageId%>
 
 ![影像](/help/assets/CreatingTypologyRules2.png)
 
-編寫型別規則的javascript程式碼。
+將型別規則的javascript程式碼：
 
 >[!NOTE]
 >
@@ -356,7 +356,7 @@ return true;
 
 ![影像](/help/assets/CreatingTypologyRules4.png)
 
-準備新的傳遞（確認傳遞屬性中的其他SMTP標頭為空白）。
+準備新傳遞（確認傳遞屬性中的其他SMTP標頭為空白）
 
 ![影像](/help/assets/CreatingTypologyRules5.png)
 
