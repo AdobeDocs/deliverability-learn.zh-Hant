@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 780d5f2e18c1090a43e2b3b9c85b7245bc8c51e0
+source-git-commit: 5315c15149deb007460dc848426e1f727937041c
 workflow-type: tm+mt
 source-wordcount: '1854'
 ht-degree: 0%
@@ -244,7 +244,7 @@ subject=unsubscribe%=message.mimeMessageId%>
 * 設定URL List-Unsubscribe並將新增標題或附加現有的mailto：引數並將其取代為： &lt;mailto..>， <http:…>
 * 在List-Unsubscribe-Post標頭中新增
 
-發佈URL範例使用var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;；您可以新增其他引數( &amp;service = ... )
+發佈URL範例使用var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;；您可以新增其他引數( &amp;service = ...)
 
 ```
 // Function to add or replace a header in the provided headers 
