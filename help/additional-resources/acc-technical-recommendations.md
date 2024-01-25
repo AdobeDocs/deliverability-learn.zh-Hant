@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: c9e49b7dfeb891f5d47553a667e6421f3ed78508
+source-git-commit: 66526ebad0914ef9afa995f7d826e644c0350182
 workflow-type: tm+mt
 source-wordcount: '1860'
 ht-degree: 1%
@@ -228,7 +228,7 @@ subject=unsubscribe%=message.mimeMessageId%>
 
 * 在導覽樹狀結構中，按一下「新增」以建立新的型別
 
-![影像](/help/assets/CreatingTypologyRules1.png){height="250%"}{width="250%"}
+![影像](/help/assets/CreatingTypologyRules1.png)
 
 繼續設定型別規則：
 
