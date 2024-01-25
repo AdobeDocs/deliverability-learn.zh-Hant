@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b9c8beefe577c8c0943bab31323d5778f1930606
+source-git-commit: 097f41c29e189c2a8abf79e65ec322d39a2213db
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1860'
 ht-degree: 1%
 
 ---
@@ -180,7 +180,7 @@ Gmail、Outlook.com和Microsoft Outlook支援此方法，而且其介面中會�
 
 * 清單 — 取消訂閱： <https://domain.com/unsubscribe.jsp>
 按一下取消訂閱連結會將使用者重新導向至您的取消訂閱表單。
-  ![影像](https://git.corp.adobe.com/storage/user/38257/files/3b46450f-2502-48ed-87b9-f537e1850963)
+  ![影像](/help/assets/ListUnsubscribe1.png)
 
 
 ### 建立型別規則 {#creating-a-typology-rule}
@@ -228,7 +228,7 @@ subject=unsubscribe%=message.mimeMessageId%>
 
 * 在導覽樹狀結構中，按一下「新增」以建立新的型別
 
-![影像](/help/assets/CreatingTypologyRules1.png)
+![影像](/help/assets/CreatingTypologyRules1.png){width="50%"}{hight="50%"}
 
 繼續設定型別規則：
 
@@ -248,7 +248,7 @@ subject=unsubscribe%=message.mimeMessageId%>
 >此範例詳細說明如何：
 >* 設定URL List-Unsubscribe並將新增標題或附加現有的mailto：引數並將其取代為： &lt;mailto..>， <http://…>
 >* 在List-Unsubscribe-Post標頭中新增
->發佈URL範例使用var headerUnsubUrl = &quot;http；//campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;；
+>貼文url範例使用var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;：
 >* 您可以新增其他引數（例如&amp;service = ...）
 >
 
