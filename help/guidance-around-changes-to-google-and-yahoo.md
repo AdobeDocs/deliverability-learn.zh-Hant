@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 2de69c2def1abfc4107feb80ad973f689af8b27e
+source-git-commit: 73d0722bb0b40ea9cad9d50a805396fdfac27c49
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1762'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ DMARC的規則不會變更，這表示除非設定為避免，否則父系網域
 
 Adobe目前完全支援DMARC，但並非必要。 使用任何免費的DMARC檢查器來檢視您的子網域是否有DMARC設定，若沒有，請洽詢您的Adobe支援團隊，以瞭解如何以最佳方式完成該設定。
 
-您也可以找到有關DMARC及其實作方法的詳細資訊 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant){target="_blank"} for Adobe Campaign or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} 用於Marketo Engage。
+您也可以找到有關DMARC及其實作方法的詳細資訊 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant){target="_blank"} for Adobe Campaign, [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/dmarc-record-update.html?lang=en){target="_blank"} for AJO, or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} 用於Marketo Engage。
 
 ## 按一下（清單）取消訂閱：
 
@@ -69,9 +69,9 @@ Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項
 > Adobe正致力於在所有電子郵件傳送平台上啟用「貼文」支援，以支援使用者符合下列需求：
 > 
 > 
-> * [!DNL Adobe Campaign Classic V7/V8]：今日完全支援POST一鍵式。 將發佈逐步設定的更新 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} 在1月中旬之前。
->* [!DNL Adobe Campaign Standard]：正在更新以支援POST1點按。 請儘快回來檢視更新。 將提供設定說明 [此處](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"}.
->* [!DNL Adobe Journey Optimizer]：今日完全支援POST一鍵式。 將發佈逐步設定的更新 [此處](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} 在1月中旬之前。
+> * [!DNL Adobe Campaign Classic V7/V8]：今日完全支援POST一鍵式，您可在此找到指示 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} 在1月中旬之前。
+>* [!DNL Adobe Campaign Standard]：即將更新，以支援2月底前的POST1點按。 將提供設定說明 [此處](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} 準備就緒後。
+>* [!DNL Adobe Journey Optimizer]：目前支援POST一鍵式，但有些重要的改善專案正在進行中。 將發佈逐步設定的更新 [此處](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} 準備就緒後。
 > * [!DNL Marketo]：正在更新以支援POST1點按。 準備就緒後，即會在需要時自動套用。
 
 
@@ -110,7 +110,9 @@ Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項
 
 [!DNL Yahoo]：
 
-尚未提供確切日期，但已表示「執法工作將於2024年2月開始。 執法將逐步推出」。
+2024年2月 — 從2024年2月開始，將逐步推出除1-Click List-Unsubscribe以外的所有要求強制執行。
+
+2024年6月 — 1鍵式清單 — 取消訂閱將於2024年6月開始強制執行。
 
 ## 這對行銷人員有何影響？
 
