@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 73d0722bb0b40ea9cad9d50a805396fdfac27c49
+source-git-commit: ef6152550bf56395dd9e57e1286b1bebf141128c
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1760'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項
 > Adobe正致力於在所有電子郵件傳送平台上啟用「貼文」支援，以支援使用者符合下列需求：
 > 
 > 
-> * [!DNL Adobe Campaign Classic V7/V8]：今日完全支援POST一鍵式，您可在此找到指示 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"} 在1月中旬之前。
+> * [!DNL Adobe Campaign Classic V7/V8]：今日完全支援POST一鍵式，您可在此找到指示 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
 >* [!DNL Adobe Campaign Standard]：即將更新，以支援2月底前的POST1點按。 將提供設定說明 [此處](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} 準備就緒後。
 >* [!DNL Adobe Journey Optimizer]：目前支援POST一鍵式，但有些重要的改善專案正在進行中。 將發佈逐步設定的更新 [此處](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} 準備就緒後。
 > * [!DNL Marketo]：正在更新以支援POST1點按。 準備就緒後，即會在需要時自動套用。
