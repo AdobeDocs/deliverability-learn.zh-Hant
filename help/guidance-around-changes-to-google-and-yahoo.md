@@ -8,9 +8,9 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: ef6152550bf56395dd9e57e1286b1bebf141128c
+source-git-commit: 8de2247f78f8c6e8467ffe51ffdf1b6107d30118
 workflow-type: tm+mt
-source-wordcount: '1760'
+source-wordcount: '1775'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Adobe的電子郵件傳遞能力專家已閱讀這些部落格和所有連結檔
 
 DMARC的規則不會變更，這表示除非設定為避免，否則父系網域上的DMARC記錄(例如adobe.com)將會繼承並涵蓋任何子網域(例如email.adobe.com)。 您的子網域不需要不同的DMARC記錄，除非您出於各種商業原因想要或需要新增它們。
 
-Adobe目前完全支援DMARC，但並非必要。 使用任何免費的DMARC檢查器來檢視您的子網域是否有DMARC設定，若沒有，請洽詢您的Adobe支援團隊，以瞭解如何以最佳方式完成該設定。
+Adobe目前完全支援Campaign和AJO的DMARC TXT記錄設定，但並非必要。 使用任何免費的DMARC檢查器來檢視您的子網域是否有DMARC設定，若沒有，請洽詢您的Adobe支援團隊，以瞭解如何以最佳方式完成該設定。
 
 您也可以找到有關DMARC及其實作方法的詳細資訊 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=zh-Hant){target="_blank"} for Adobe Campaign, [here](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/deliverability/dmarc-record-update.html?lang=en){target="_blank"} for AJO, or [here](https://experienceleague.adobe.com/docs/marketo/using/getting-started-with-marketo/setup/configure-protocols-for-marketo.html){target="_blank"} 用於Marketo Engage。
 
@@ -53,7 +53,7 @@ Adobe目前完全支援DMARC，但並非必要。 使用任何免費的DMARC檢�
 
 不要驚慌。 [!DNL Google] 和 [!DNL Yahoo] 不是在談論您的電子郵件內文或頁尾中的取消訂閱連結，這些連結可能被安全機器人在履行其職責或發生意外時點選。 這表示「mailto」或「http/URL」版本的List-Unsubscribe標題功能。 此為中的函式 [!DNL Yahoo] 和Gmail UI，使用者可在此按一下取消訂閱。 Gmail甚至會提示按一下「回報垃圾訊息」的使用者，檢視他們是否想要取消訂閱，這可以透過將他們轉換為取消訂閱（不會損害您的聲譽）來減少您收到的投訴數量（投訴會損害您的聲譽）。
 
-請務必注意 [!DNL Google] 和 [!DNL Yahoo] 兩者都是以名稱「1-Click」指代「http/URL」選項，這是刻意為之。 技術上，原始的「http/URL」選項可讓您將收件者重新導向至網站。 這不是 [!DNL Yahoo] 和 [!DNL Google]，兩者都參照更新的 [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} 此方法的重點在於透過HTTPSPOST請求（而非網站）處理取消訂閱，使其成為「一鍵式」。
+請務必注意 [!DNL Google] 和 [!DNL Yahoo] 兩者都是以名稱「1-Click」指代「http/URI」選項，其目的都是為了達成此目的。 技術上，原始的「http/URI」選項可讓您將收件者重新導向至網站。 這不是 [!DNL Yahoo] 和 [!DNL Google]，兩者都參照更新的 [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} 此方法的重點在於透過HTTPSPOST請求（而非網站）處理取消訂閱，使其成為「一鍵式」。
 
 今天，Gmail接受「mailto」清單取消訂閱選項。 Gmail表示，「mailto」未達到他們未來的期望，傳送者需要啟用「發佈」清單取消訂閱選項。 已具備某些型別的清單取消訂閱的寄件者，在2024年6月1日之前，必須具備「1鍵式」清單取消訂閱功能。
 
@@ -71,8 +71,8 @@ Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項
 > 
 > * [!DNL Adobe Campaign Classic V7/V8]：今日完全支援POST一鍵式，您可在此找到指示 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
 >* [!DNL Adobe Campaign Standard]：即將更新，以支援2月底前的POST1點按。 將提供設定說明 [此處](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} 準備就緒後。
->* [!DNL Adobe Journey Optimizer]：目前支援POST一鍵式，但有些重要的改善專案正在進行中。 將發佈逐步設定的更新 [此處](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} 準備就緒後。
-> * [!DNL Marketo]：正在更新以支援POST1點按。 準備就緒後，即會在需要時自動套用。
+>* [!DNL Adobe Journey Optimizer]：今日支援「POST1-Click」，不過有些重要改良進行中，預計於2024年3月進行。 檔案的更新將會發佈 [此處](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} 準備就緒後。
+> * [!DNL Marketo]：自2024年1月31日起，完全支援POST1-Click-List-Unsubscribe。 使用者不需要採取任何動作。
 
 
 ## 處理在2天內取消訂閱：
