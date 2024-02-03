@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 98ec94935810c060ec0ad7c70336276104072ee3
+source-git-commit: 238c67562ebbe179b326e4093b90b0ee05a070ae
 workflow-type: tm+mt
-source-wordcount: '1861'
+source-wordcount: '1863'
 ht-degree: 1%
 
 ---
@@ -224,20 +224,20 @@ subject=unsubscribe%=message.mimeMessageId%>
 
 ### 建立型別規則以支援按一下清單取消訂閱：
 
-1. **建立新的型別規則：**
+**1. 建立新的型別規則：**
 
-   * 在導覽樹狀結構中，按一下「新增」以建立新的型別
+    *在導覽樹狀結構中按一下「新增」以建立新的型別
 
 ![影像](/help/assets/CreatingTypologyRules1.png)
 
 
-* **繼續設定型別規則：**
+**2. **繼續設定型別規則：**
 
-   * 規則型別：控制項
-   * 頻道：電子郵件
-   * 階段：在個人化開始時
-   * 等級：您的選擇
-   * 作用中
+    *規則型別：控制項
+    *頻道：電子郵件
+    *階段：在個人化開始時
+    *等級：您的選擇
+    *作用中
 
 ![影像](/help/assets/CreatingTypologyRules2.png)
 
