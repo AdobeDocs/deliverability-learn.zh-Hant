@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 5afc345e1cc8e47153db6b5f98e06d8ad0fb4d48
+source-git-commit: d9b3505de11cc7c50db2a318274b73a758348578
 workflow-type: tm+mt
 source-wordcount: '1861'
 ht-degree: 1%
@@ -175,9 +175,11 @@ Gmail、Outlook.com和Microsoft Outlook支援此方法，而且其介面中會�
 
 新增操作可在每封電子郵件或現有傳遞範本中完成。 您也可以建立包含此功能的新傳遞範本。
 
-* List-Unsubscribe： mailto:unsubscribe@domain.com按一下取消訂閱連結會開啟使用者的預設電子郵件使用者端。 必須在用於建立電子郵件的型別中新增此型別規則。
+List-Unsubscribe： mailto:unsubscribe@domain.com
+* 按一下 **取消訂閱** 連結會開啟使用者的預設電子郵件使用者端。 必須在用於建立電子郵件的型別中新增此型別規則。
 
-* List-Unsubscribe： https://domain.com/unsubscribe.jsp按一下取消訂閱連結會將使用者重新導向至您的取消訂閱表單。
+List-Unsubscribe： https://domain.com/unsubscribe.jsp
+* 按一下 **取消訂閱** 連結會將使用者重新導向至您的取消訂閱表單。
 
 ![影像](/help/assets/UTF-8-1.png)
 
