@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 238c67562ebbe179b326e4093b90b0ee05a070ae
+source-git-commit: 0c735dcf872728be6131b5a185f4b6973b26dcd3
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1867'
 ht-degree: 1%
 
 ---
@@ -228,7 +228,9 @@ subject=unsubscribe%=message.mimeMessageId%>
 
     *在導覽樹狀結構中按一下「新增」以建立新的型別
 
+
 ![影像](/help/assets/CreatingTypologyRules1.png)
+
 
 
 **2. **繼續設定型別規則：**
@@ -239,10 +241,12 @@ subject=unsubscribe%=message.mimeMessageId%>
     *等級：您的選擇
     *作用中
 
+
 ![影像](/help/assets/CreatingTypologyRules2.png)
 
 
 **將型別規則的javascript程式碼：**
+
 
 >[!NOTE]
 >
@@ -350,25 +354,30 @@ if ( headerUnsubPost === "" ) {
 return true; 
 ```
 
+
 ![影像](/help/assets/CreatingTypologyRules3.png)
 
 
-* **將新規則新增至電子郵件的「型別」 （預設型別為確定）：**
+
+**3.將新規則新增至電子郵件的「型別」 （預設型別為確定）：**
 
 ![影像](/help/assets/CreatingTypologyRules4.png)
 
 
-* **準備新傳遞（確認傳遞屬性中的其他SMTP標頭為空白）**
+
+**4.準備新傳遞（確認傳遞屬性中的其他SMTP標頭為空白）**
 
 ![影像](/help/assets/CreatingTypologyRules5.png)
 
 
-* **在傳遞準備期間檢查您的新型別規則是否已套用。**
+
+**5.在傳遞準備期間檢查您的新型別規則是否已套用。**
 
 ![影像](/help/assets/CreatingTypologyRules6.png)
 
 
-* **驗證List-Unsubscribe是否存在。**
+
+**6. 驗證List-Unsubscribe是否存在。**
 
 ![影像](/help/assets/CreatingTypologyRules7.png)
 
