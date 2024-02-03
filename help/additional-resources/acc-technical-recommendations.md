@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 0c735dcf872728be6131b5a185f4b6973b26dcd3
+source-git-commit: 73ce12a86176e59ff4112c19382f7a62714b41e7
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 1%
@@ -226,20 +226,20 @@ subject=unsubscribe%=message.mimeMessageId%>
 
 **1. 建立新的型別規則：**
 
-    *在導覽樹狀結構中按一下「新增」以建立新的型別
+* 在導覽樹狀結構中，按一下「新增」以建立新的型別
 
 
 ![影像](/help/assets/CreatingTypologyRules1.png)
 
 
 
-**2. **繼續設定型別規則：**
+**2. 繼續設定型別規則：**
 
-    *規則型別：控制項
-    *頻道：電子郵件
-    *階段：在個人化開始時
-    *等級：您的選擇
-    *作用中
+* 規則型別：控制項
+* 頻道：電子郵件
+* 階段：在個人化開始時
+* 等級：您的選擇
+* 作用中
 
 
 ![影像](/help/assets/CreatingTypologyRules2.png)
