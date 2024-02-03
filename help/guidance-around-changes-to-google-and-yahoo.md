@@ -8,7 +8,7 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 8de2247f78f8c6e8467ffe51ffdf1b6107d30118
+source-git-commit: 50017358f7f88f5579de282a1f528916ecb17493
 workflow-type: tm+mt
 source-wordcount: '1775'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Adobe目前完全支援Campaign和AJO的DMARC TXT記錄設定，但並非必要�
 
 ## 按一下（清單）取消訂閱：
 
-不要驚慌。 [!DNL Google] 和 [!DNL Yahoo] 不是在談論您的電子郵件內文或頁尾中的取消訂閱連結，這些連結可能被安全機器人在履行其職責或發生意外時點選。 這表示「mailto」或「http/URL」版本的List-Unsubscribe標題功能。 此為中的函式 [!DNL Yahoo] 和Gmail UI，使用者可在此按一下取消訂閱。 Gmail甚至會提示按一下「回報垃圾訊息」的使用者，檢視他們是否想要取消訂閱，這可以透過將他們轉換為取消訂閱（不會損害您的聲譽）來減少您收到的投訴數量（投訴會損害您的聲譽）。
+不要驚慌。 [!DNL Google] 和 [!DNL Yahoo] 不是在談論您的電子郵件內文或頁尾中的取消訂閱連結，這些連結可能被安全機器人在履行其職責或發生意外時點選。 這表示「mailto」或「http/URI」版本的List-Unsubscribe標題功能。 此為中的函式 [!DNL Yahoo] 和Gmail UI，使用者可在此按一下取消訂閱。 Gmail甚至會提示按一下「回報垃圾訊息」的使用者，檢視他們是否想要取消訂閱，這可以透過將他們轉換為取消訂閱（不會損害您的聲譽）來減少您收到的投訴數量（投訴會損害您的聲譽）。
 
 請務必注意 [!DNL Google] 和 [!DNL Yahoo] 兩者都是以名稱「1-Click」指代「http/URI」選項，其目的都是為了達成此目的。 技術上，原始的「http/URI」選項可讓您將收件者重新導向至網站。 這不是 [!DNL Yahoo] 和 [!DNL Google]，兩者都參照更新的 [RFC8058](https://datatracker.ietf.org/doc/html/rfc8058){target="_blank"} 此方法的重點在於透過HTTPSPOST請求（而非網站）處理取消訂閱，使其成為「一鍵式」。
 
