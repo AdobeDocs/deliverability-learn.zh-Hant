@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: f8aaa0c21daf93953fb0daa6a5d9262c8d1654a0
+source-git-commit: c14b1eecbe522c650a8be376f8f133901497216a
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1863'
 ht-degree: 1%
 
 ---
@@ -175,10 +175,10 @@ Gmail、Outlook.com和Microsoft Outlook支援此方法，而且其介面中會�
 
 新增操作可在每封電子郵件或現有傳遞範本中完成。 您也可以建立包含此功能的新傳遞範本。
 
-1. 清單 — 取消訂閱： <mailto:unsubscribe@domain.com>
+    1. List-Unsubscribe： mailto:unsubscribe@domain.com
 按一下取消訂閱連結會開啟使用者的預設電子郵件使用者端。 必須在用於建立電子郵件的型別中新增此型別規則。
 
-2. 清單 — 取消訂閱： <https://domain.com/unsubscribe.jsp>
+    2. List-Unsubscribe： https://domain.com/unsubscribe.jsp
 按一下取消訂閱連結會將使用者重新導向至您的取消訂閱表單。
 
 ![影像](/help/assets/UTF-8-1.png)
@@ -246,7 +246,7 @@ subject=unsubscribe%=message.mimeMessageId%>
 >
 >下述程式碼僅供範例參照。
 >此範例詳細說明如何：
->* 設定URL List-Unsubscribe並將新增標題或附加現有的mailto：引數並將其取代為： &lt;mailto..>， <http://…>
+>* 設定URL List-Unsubscribe並將新增標題或附加現有的mailto：引數並將其取代為： &lt;mailto..>>， http://...
 >* 在List-Unsubscribe-Post標頭中新增
 >貼文url範例使用var headerUnsubUrl = &quot;http://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;：
 >* 您可以新增其他引數（例如&amp;service = ...）
