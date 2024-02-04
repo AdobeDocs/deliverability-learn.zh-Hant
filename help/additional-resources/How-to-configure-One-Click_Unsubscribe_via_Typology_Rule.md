@@ -1,23 +1,18 @@
 ---
-source-git-commit: 5de602d6b75e524dac8688e40db0e96bdbafceba
+source-git-commit: 945a7ba5e3c3ac9544199e1bb62273933a82f04a
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 7%
 
 ---
-### 建立型別規則以支援按一下清單取消訂閱：
+# 建立型別規則以支援按一下清單取消訂閱：
 
 **1. 建立新的型別規則：**
-
 * 在導覽樹狀結構中，按一下「新增」以建立新的型別
-
 
 ![影像](/help/assets/CreatingTypologyRules1.png)
 
-
-
 **2. 繼續設定型別規則：**
-
 * 規則型別：控制
 * 階段：在鎖定開始時
 * 頻道：電子郵件
@@ -140,19 +135,13 @@ return true;
 
 ![影像](/help/assets/CreatingTypologyRules3.png)
 
-
-
 **3.將新規則新增至電子郵件的「型別」 （預設型別為確定）：**
 
 ![影像](/help/assets/CreatingTypologyRules4.png)
 
-
-
 **4.準備新傳遞（確認傳遞屬性中的其他SMTP標頭為空白）**
 
 ![影像](/help/assets/CreatingTypologyRules5.png)
-
-
 
 **5.在傳遞準備期間檢查您的新型別規則是否已套用。**
 
