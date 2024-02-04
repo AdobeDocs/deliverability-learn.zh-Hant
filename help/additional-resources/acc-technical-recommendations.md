@@ -6,7 +6,7 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 73ce12a86176e59ff4112c19382f7a62714b41e7
+source-git-commit: b4be656998890f9c98b8417835ae7c5bda2bc499
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 1%
@@ -235,9 +235,9 @@ subject=unsubscribe%=message.mimeMessageId%>
 
 **2. 繼續設定型別規則：**
 
-* 規則型別：控制項
+* 規則型別：控制
+* 階段：在鎖定開始時
 * 頻道：電子郵件
-* 階段：在個人化開始時
 * 等級：您的選擇
 * 作用中
 
