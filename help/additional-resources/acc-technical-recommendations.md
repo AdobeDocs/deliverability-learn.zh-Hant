@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: bfdf87937d001791701884d29db2da1fd7a0e8ee
+source-git-commit: b5e1d878c889112e08da0969d50bdb3c72e48f8c
 workflow-type: tm+mt
-source-wordcount: '1867'
+source-wordcount: '1868'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Adobe Campaign的傳遞服務可管理您對下列ISP的回饋回圈服務訂閱
 
 ### 關於清單 — 取消訂閱 {#about-list-unsubscribe}
 
-新增名為的SMTP標頭 **清單 — 取消訂閱** 是確保最佳傳遞能力管理的必要專案。自2024年6月1日起，Yahoo和Gmail將要求傳送者遵守一鍵式清單 — 取消訂閱規範。 若要瞭解如何設定一鍵式清單取消訂閱，請參閱下文。
+新增名為的SMTP標頭 **清單 — 取消訂閱** 是確保最佳化傳遞能力管理的必備條件。 自2024年6月1日起，Yahoo和Gmail將要求傳送者遵守一鍵式清單取消訂閱規範。 若要瞭解如何設定一鍵式清單取消訂閱，請參閱 [本節](#one-click-list-unsubscribe).
 
 
 此標題可用作「回報為垃圾訊息」圖示的替代圖示。 它會在電子郵件介面中顯示為取消訂閱連結。
@@ -181,7 +181,7 @@ List-Unsubscribe： mailto:unsubscribe@domain.com
 List-Unsubscribe： https://domain.com/unsubscribe.jsp
 * 按一下 **取消訂閱** 連結會將使用者重新導向至您的取消訂閱表單。
 
-![影像](/help/assets/UTF-8-1.png)
+![影像](../assets/UTF-8-1.png)
 
 
 ### 建立型別規則 {#creating-a-typology-rule}
@@ -196,7 +196,7 @@ List-Unsubscribe： https://domain.com/unsubscribe.jsp
 >
 >瞭解如何在Adobe Campaign Classic中建立型別規則 [本節](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
-### 一鍵式清單取消訂閱
+### 一鍵式清單取消訂閱 {#one-click-list-unsubscribe}
 
 自2024年6月1日起，Yahoo和Gmail將要求傳送者遵守一鍵式清單取消訂閱規範。 若要符合「一鍵式清單 — 取消訂閱」的要求，寄件者必須：
 
@@ -215,7 +215,7 @@ List-Unsubscribe： https://domain.com/unsubscribe.jsp
 
 ```
 List-Unsubscribe-Post: List-Unsubscribe=One-Click
-List-Unsubscribe: https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
+List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
 
 上述範例將為支援一鍵式的ISP啟用一鍵式清單取消訂閱，同時確保不支援URL清單取消訂閱的接收者仍然可以透過電子郵件請求取消訂閱。
@@ -227,9 +227,7 @@ List-Unsubscribe: https://domain.com/webApp/unsubNoClick?id=<%= recipient.crypte
 
 * 在導覽樹狀結構中，按一下「新增」以建立新的型別
 
-
-![影像](/help/assets/CreatingTypologyRules1.png)
-
+![影像](../assets/CreatingTypologyRules1.png)
 
 
 **2. 繼續設定型別規則：**
@@ -241,7 +239,7 @@ List-Unsubscribe: https://domain.com/webApp/unsubNoClick?id=<%= recipient.crypte
 * 作用中
 
 
-![影像](/help/assets/CreatingTypologyRules2.png)
+![影像](../assets/CreatingTypologyRules2.png)
 
 
 **將型別規則的javascript程式碼：**
@@ -354,31 +352,31 @@ return true;
 ```
 
 
-![影像](/help/assets/CreatingTypologyRules3.png)
+![影像](../assets/CreatingTypologyRules3.png)
 
 
 
 **3.將新規則新增至電子郵件的「型別」 （預設型別為確定）：**
 
-![影像](/help/assets/CreatingTypologyRules4.png)
+![影像](../assets/CreatingTypologyRules4.png)
 
 
 
 **4.準備新傳遞（確認傳遞屬性中的其他SMTP標頭為空白）**
 
-![影像](/help/assets/CreatingTypologyRules5.png)
+![影像](../assets/CreatingTypologyRules5.png)
 
 
 
 **5.在傳遞準備期間檢查您的新型別規則是否已套用。**
 
-![影像](/help/assets/CreatingTypologyRules6.png)
+![影像](../assets/CreatingTypologyRules6.png)
 
 
 
 **6. 驗證List-Unsubscribe是否存在。**
 
-![影像](/help/assets/CreatingTypologyRules7.png)
+![影像](../assets/CreatingTypologyRules7.png)
 
 
 ## 電子郵件最佳化 {#email-optimization}
