@@ -1,5 +1,5 @@
 ---
-source-git-commit: d30c3e96a9e341f34d471af35692da9e1c0b72d4
+source-git-commit: 5e7c7bf626b6277abf8d50181826deb2e21c868f
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 0%
@@ -48,7 +48,7 @@ DO：允許訂閱者指定關係。
 
 DO：在電子郵件範本中使用List Unsubscribe標頭，以便在電子郵件頂端顯示取消訂閱連結的電子郵件使用者端(例如：gmail.com)，可以輕易找到使用者習慣於尋找取消訂閱的位置。
 
-+ 按一下這裡(https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html)以閱讀更多有關按一下取消訂閱的產業方案。
++ 按一下 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hant) 以進一步瞭解關於按一下取消訂閱的產業方案。
 
 Do Not&#39;s
 
