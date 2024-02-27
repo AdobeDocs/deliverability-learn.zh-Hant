@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: b5e1d878c889112e08da0969d50bdb3c72e48f8c
+source-git-commit: 466b775442964e2d8cad133280e6b9f8af148b25
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1871'
 ht-degree: 1%
 
 ---
@@ -139,8 +139,11 @@ Adobe Campaign的傳遞服務可管理您對下列ISP的回饋回圈服務訂閱
 
 ### 關於清單 — 取消訂閱 {#about-list-unsubscribe}
 
-新增名為的SMTP標頭 **清單 — 取消訂閱** 是確保最佳化傳遞能力管理的必備條件。 自2024年6月1日起，Yahoo和Gmail將要求傳送者遵守一鍵式清單取消訂閱規範。 若要瞭解如何設定一鍵式清單取消訂閱，請參閱 [本節](#one-click-list-unsubscribe).
+新增名為的SMTP標頭 **清單 — 取消訂閱** 是確保最佳化傳遞能力管理的必備條件。
 
+>[!CAUTION]
+>
+>自2024年6月1日起，Yahoo！ 和Gmail都會要求寄件者遵守 **一鍵式清單 — 取消訂閱**. 若要瞭解如何設定一鍵式清單取消訂閱，請參閱 [本節](#one-click-list-unsubscribe).
 
 此標題可用作「回報為垃圾訊息」圖示的替代圖示。 它會在電子郵件介面中顯示為取消訂閱連結。
 
@@ -191,20 +194,18 @@ List-Unsubscribe： https://domain.com/unsubscribe.jsp
 >[!NOTE]
 >
 >我們建議您建立型別規則：每封電子郵件都會自動新增List-Unsubscribe功能。
-
->[!NOTE]
 >
->瞭解如何在Adobe Campaign Classic中建立型別規則 [本節](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+>瞭解如何在Adobe Campaign v7/v8中建立型別規則 [本節](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
 
 ### 一鍵式清單取消訂閱 {#one-click-list-unsubscribe}
 
-自2024年6月1日起，Yahoo和Gmail將要求傳送者遵守一鍵式清單取消訂閱規範。 若要符合「一鍵式清單 — 取消訂閱」的要求，寄件者必須：
+自2024年6月1日起，Yahoo和Gmail將要求傳送者遵守一鍵式清單取消訂閱規範。 為了符合此要求，寄件者必須：
 
-1. 在「List-Unsubscribe-Post： List-Unsubscribe=One-Click」中新增
-2. 包含URI取消訂閱連結
-3. 支援從接收器接收HTTPPOST回應，Adobe Campaign支援此功能。
+1. 新增下列命令列：`List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
+1. 加入URI取消訂閱連結。
+1. 支援從接收器接收HTTPPOST回應，Adobe Campaign支援此功能。
 
-若要直接設定一鍵式List-Unsubscribe：
+若要直接在Adobe Campaign v7/v8中設定一鍵式「清單 — 取消訂閱」：
 
 * 在以下「取消訂閱收件者no-click」網頁應用程式中新增 
    1. 移至資源 — >線上 — > Web應用程式

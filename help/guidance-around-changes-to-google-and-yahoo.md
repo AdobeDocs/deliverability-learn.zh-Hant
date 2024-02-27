@@ -8,10 +8,10 @@ last-substantial-update: 2023-11-06T00:00:00Z
 jira: KT-14320
 thumbnail: KT-14320.jpeg
 exl-id: 879e9124-3cfe-4d85-a7d1-64ceb914a460
-source-git-commit: 50017358f7f88f5579de282a1f528916ecb17493
+source-git-commit: e2c2fbfee5e404e1eef25dd0068a6bdd560ed977
 workflow-type: tm+mt
-source-wordcount: '1775'
-ht-degree: 0%
+source-wordcount: '1770'
+ht-degree: 1%
 
 ---
 
@@ -67,13 +67,11 @@ Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項
 
 >[!INFO]
 > Adobe正致力於在所有電子郵件傳送平台上啟用「貼文」支援，以支援使用者符合下列需求：
-> 
-> 
-> * [!DNL Adobe Campaign Classic V7/V8]：今日完全支援POST一鍵式，您可在此找到指示 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
->* [!DNL Adobe Campaign Standard]：即將更新，以支援2月底前的POST1點按。 將提供設定說明 [此處](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-14778.html?lang=en){target="_blank"} 準備就緒後。
+>
+> * [!DNL Adobe Campaign v7/v8]：今日完全支援POST一鍵式，您可在此找到指示 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=en#list-unsubscribe){target="_blank"}.
+>* [!DNL Adobe Campaign Standard]：自2月19日起，完全支援POST一鍵式。 可以找到更多資訊 [此處](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel.html#email-channel-parameters){target="_blank"}.
 >* [!DNL Adobe Journey Optimizer]：今日支援「POST1-Click」，不過有些重要改良進行中，預計於2024年3月進行。 檔案的更新將會發佈 [此處](https://experienceleague.adobe.com/docs/journey-optimizer/using/email/email-opt-out.html?lang=en){target="_blank"} 準備就緒後。
-> * [!DNL Marketo]：自2024年1月31日起，完全支援POST1-Click-List-Unsubscribe。 使用者不需要採取任何動作。
-
+> * [!DNL Marketo]：自2024年1月31日起，支援「POST一鍵式清單 — 取消訂閱」。 使用者不需要採取任何動作。
 
 ## 處理在2天內取消訂閱：
 
@@ -102,7 +100,7 @@ Adobe建議同時使用「mailto」和「post/1-Click」清單取消訂閱選項
 
 [!DNL Gmail]：
 
-2024年2月 — 旨在發出不合規警告的暫時彈回將開始。 如果您尚未符合合規性，在短暫的延遲後，電子郵件仍會正常傳遞。 如果您完全符合法規，則不會有暫時的跳出，也不會有任何發現。
+2024年2月 — 旨在發出不合規警告的暫時彈回將開始。 如果您尚未能符合規範，電子郵件仍會在短暫的延遲後正常傳遞。如果您完全符合法規，則不會有暫時的跳出，也不會有任何發現。
 
 2024年4月 — 除了List-Unsubscribe 1-Click之外，所有不符合規範的寄件者都將開始封鎖。 一開始只會封鎖一部分不符合規範的電子郵件，隨著時間推移，封鎖的%會增加。
 
