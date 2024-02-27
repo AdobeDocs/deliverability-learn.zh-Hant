@@ -8,7 +8,7 @@ doc-type: Feature Video
 duration: 0
 last-substantial-update: 2024-02-27T00:00:00Z
 jira: KT-15029
-source-git-commit: 77de42d30ce01ab66323da1731a4a0bf96a94f44
+source-git-commit: d4af9b039e2f8f140124cf21edec825e803c1308
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 0%
@@ -30,7 +30,8 @@ ht-degree: 0%
 
 **執行：** 將您的取消訂閱連結磁碟機傳送至登陸頁面，讓使用者可在其中確認要從清單中移除他們
 
-+ 登陸頁面上的措詞應包含一個按一下連結，顯示「確認我的取消訂閱」，可能還包括另一個連結，顯示「讓我選擇退出，降低我從您收到的郵件頻率」。 雖然這不是一鍵取消訂閱方法，但有助於避免機器人點按導致錯誤取消訂閱。
+登陸頁面上的措詞應包含一個按一下連結，顯示「確認我的取消訂閱」，可能還包括另一個連結，顯示「讓我選擇退出，降低我從您收到的郵件頻率」。 雖然這不是一鍵取消訂閱方法，但有助於避免機器人點按導致錯誤取消訂閱。
+
 + 如果取消訂閱將使用者帶往登陸頁面，請確定在使用者登陸頁面後，登陸頁面會提供按一下即可取消訂閱的功能。
 
 **執行：** 讓程式簡單透明。 範例：
@@ -57,7 +58,7 @@ ht-degree: 0%
 
 **執行：** 在電子郵件範本中使用List Unsubscribe標頭，以便在電子郵件頂端顯示取消訂閱連結的電子郵件使用者端(例如：gmail.com)，可以輕鬆找到使用者習慣於尋找取消訂閱的位置。
 
-+ 按一下 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hant) 以進一步瞭解關於按一下取消訂閱的產業方案。
+按一下 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hant) 以進一步瞭解關於按一下取消訂閱的產業方案。
 
 ## Do Not&#39;s
 
@@ -90,6 +91,7 @@ ht-degree: 0%
 **請勿：** 強制他們提供您取消訂閱的原因，然後再處理請求。
 
 + 若允許客戶自行新增此資訊，對於您日後的深入分析相當實用，但可將其設為取消訂閱登陸頁面上的選用欄位。
+
 + 更好的方式是通知他們已成功取消訂閱，然後為他們留出空間以選擇性提供原因。
 
 請記住，取消訂閱總比抱怨好。 未正面參與您的電子郵件計畫的人員可能會對您的傳遞能力聲譽和量度產生負面影響。 現在，您該專心培養與目前訂閱者的更深層關係，方法是讓他們接受他們迫不及待想要開啟、點進及購買的參與式相關訊息！
