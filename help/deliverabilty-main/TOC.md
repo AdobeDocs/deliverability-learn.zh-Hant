@@ -6,10 +6,10 @@ feature: Deliverability
 role: Leader, User
 level: Beginner
 auto-video-transcripts: true
-source-git-commit: 05997b0a7aa30e98fa425b814f649e3edebf120c
+source-git-commit: cd44d740cdb17d82ecd8d6bf5aa2fc843ac720e2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '187'
+ht-degree: 95%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 + 附錄：其他資源 {#additional-resources}
    + [概覽](/help/additional-resources/general-resources.md)
    + [Yahoo 與 Gmail 更新](/help/guidance-around-changes-to-google-and-yahoo.md)
-   + [取消訂閱Do&#39;s和Dont&#39;s](/help/Unsubscribe Do&#39;s &amp; Do Not&#39;s.md)
+   + [取消訂閱Do&#39;s和Dont&#39;s](/help/Unsubscribe Do&#39;s &amp; Do Not&#39;s.md) {#unsubscribe-dos-and-do-nots}
    + 一般資源 {#generic-resources}
       + [關於垃圾郵件陷阱](/help/additional-resources/all-about-spam-traps.md)
       + [透過 IP 暖身提高您的電子郵件信譽](/help/additional-resources/increase-reputation-with-ip-warming.md)
