@@ -8,9 +8,9 @@ doc-type: Feature Video
 duration: 0
 last-substantial-update: 2024-02-27T00:00:00Z
 jira: KT-15029
-source-git-commit: d4af9b039e2f8f140124cf21edec825e803c1308
+source-git-commit: 7f1e756683bfc5c8587101fcbf86db010a5b6a7e
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,6 @@ ht-degree: 0%
 
 **執行：** 在電子郵件範本中使用List Unsubscribe標頭，以便在電子郵件頂端顯示取消訂閱連結的電子郵件使用者端(例如：gmail.com)，可以輕鬆找到使用者習慣於尋找取消訂閱的位置。
 
-按一下 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hant) 以進一步瞭解關於按一下取消訂閱的產業方案。
 
 ## Do Not&#39;s
 
