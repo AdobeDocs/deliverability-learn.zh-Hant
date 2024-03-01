@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 570f64fee87db7df8be8dfdd0ae1c6e6101058f7
+source-git-commit: dd2de465850181cf72085328352c38bcefd59458
 workflow-type: tm+mt
-source-wordcount: '1925'
+source-wordcount: '2014'
 ht-degree: 1%
 
 ---
@@ -139,17 +139,40 @@ Adobe Campaign的傳遞服務可管理您對下列ISP的回饋回圈服務訂閱
 
 新增名為的SMTP標頭 **清單 — 取消訂閱** 是確保最佳化傳遞能力管理的必備條件。
 
+此標題可用作「回報為垃圾訊息」圖示的替代圖示。 它在ISP的電子郵件介面中顯示為「取消訂閱」連結。 例如：
+
+![影像](../assets/List-Unsubscribe-example-Gmail.png)
+
+Gmail， Outlook.com， Yahoo！ 和Microsoft Outlook支援此方法。 直接在其介面中提供「取消訂閱」連結。
+
+>[!NOTE]
+>
+>可能不會一律顯示「取消訂閱」連結。 事實上，這取決於每個ISP的特定條件和原則。 因此，請確定您的郵件是由寄件者傳送：
+>
+>* 聲譽良好
+>* 在ISP的垃圾郵件投訴臨界值之下
+>* 已完整驗證
+
+使用此功能可降低投訴率，並有助於保護您的聲譽。 意見反應將以取消訂閱的形式執行。
+
+有兩種版本的List-Unsubscribe標頭功能：
+
+* **&quot;mailto&quot;清單 — 取消訂閱**  — 使用此方法，按一下 **取消訂閱** 連結會將預先填入的電子郵件傳送至電子郵件標頭中指定的取消訂閱地址。 [了解更多](#mailto-list-unsubscribe)
+
+<!--OR: With this method, clicking the **Unsubscribe** link opens the user's default email client with a pre-filled email to the unsubscribe address specified in the email header. This allows the user to unsubscribe simply by sending the email without any further manual steps.-->
+
+和
+* **「一鍵式」清單 — 取消訂閱**  — 使用此方法，按一下 **取消訂閱** 連結會直接取消訂閱使用者。 [了解更多](#one-click-list-unsubscribe)
+
 >[!CAUTION]
 >
->自2024年6月1日起，Yahoo！ 和Gmail都會要求寄件者遵守 **一鍵式清單 — 取消訂閱**. 若要瞭解如何設定一鍵式清單取消訂閱，請參閱 [本節](#one-click-list-unsubscribe).
+>自2024年6月1日起，Yahoo！ 和Gmail都會要求寄件者遵守 **一鍵式清單 — 取消訂閱**. [進一步瞭解這項變更](../guidance-around-changes-to-google-and-yahoo.md)
+>
+>瞭解如何在中設定一鍵式清單取消訂閱 [本節](#one-click-list-unsubscribe).
 
-### 關於清單 — 取消訂閱 {#about-list-unsubscribe}
+### &quot;mailto&quot;清單 — 取消訂閱 {#mailto-list-unsubscribe}
 
-此標題可用作「回報為垃圾訊息」圖示的替代圖示。 它會在電子郵件介面中顯示為取消訂閱連結。
-
-使用此功能有助於保護您的信譽，且意見反應會以取消訂閱的方式執行。
-
-若要使用List-Unsubscribe，您必須輸入類似下列的命令列：
+若要使用「mailto」List-Unsubscribe，您必須輸入類似以下的命令列：
 
 ```
 List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body=unsubscribe>
@@ -159,30 +182,19 @@ List-Unsubscribe: <mailto:client@newsletter.example.com?subject=unsubscribe?body
 >
 >以上範例是根據收件者表格。 如果資料庫實作是從另一個表格完成的，請務必用正確的資訊重寫命令列。
 
-下列命令列可用來建立動態 **清單 — 取消訂閱**：
+您也可以使用下列命令列，建立動態「mailto」清單 — 取消訂閱：
 
 ```
 List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>
 ```
 
-<!--This example uses the error address.-->
+實作 **&quot;mailto&quot;清單 — 取消訂閱**，您可以：
 
-Gmail、Outlook.com和Microsoft Outlook支援此方法，而且其介面中會直接提供取消訂閱按鈕。 此技巧降低投訴率。
+* 直接在傳遞或傳遞範本中新增命令列 —  [瞭解如何](#adding-a-command-line-in-a-delivery-template)
 
->[!NOTE]
->
->來自ISP的取消訂閱按鈕並不一定顯示。 事實上，這取決於每個ISP的特定條件和原則。 因此，請確定您的郵件是由IP/寄件者傳送：
->
->* 聲譽良好
->* 在ISP的垃圾郵件投訴臨界值之下
->* 已完整驗證
+* 建立型別規則 —  [瞭解如何](#creating-a-typology-rule)
 
-您可以實作 **清單 — 取消訂閱** 透過下列其中一項：
-
-* 直接 [在傳遞範本中新增命令列](#adding-a-command-line-in-a-delivery-template)
-* [建立型別規則](#creating-a-typology-rule)
-
-### 在傳遞範本中新增命令列 {#adding-a-command-line-in-a-delivery-template}
+#### 在傳遞或範本中新增命令列 {#adding-a-command-line-in-a-delivery-template}
 
 命令列必須新增至 **[!UICONTROL Additional SMTP headers]** 電子郵件的SMTP標題的區段。
 
@@ -190,9 +202,11 @@ Gmail、Outlook.com和Microsoft Outlook支援此方法，而且其介面中會�
 
 例如，將下列指令碼輸入到 **[!UICONTROL Additional SMTP headers]**： `List-Unsubscribe: mailto:unsubscribe@domain.com`
 
-![影像](../assets/List-Unsubscribe-template-SMTP.png)
-
 按一下 **取消訂閱** 連結會傳送電子郵件至unsubscribe@domain.com位址。
+
+您也可以使用動態地址。 例如，若要傳送電子郵件至為平台定義的錯誤地址，您可以使用以下指令碼： `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
+
+![影像](../assets/List-Unsubscribe-template-SMTP.png)
 
 <!--
 List-Unsubscribe: mailto:unsubscribe@domain.com 
@@ -205,208 +219,207 @@ List-Unsubscribe: https://domain.com/unsubscribe.jsp
   ![image](../assets/UTF-8-1.png)
 -->
 
-### 建立型別規則 {#creating-a-typology-rule}
+#### 建立型別規則 {#creating-a-typology-rule}
 
 規則必須包含產生命令列的指令碼，且必須包含在電子郵件標頭中。
 
+瞭解如何在Adobe Campaign v7/v8中建立型別規則 [本節](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
+
 >[!NOTE]
 >
->我們建議您建立型別規則：每封電子郵件都會自動新增List-Unsubscribe功能。
->
->瞭解如何在Adobe Campaign v7/v8中建立型別規則 [本節](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules).
-
-<!--Can you explain precisely how to create the tyology rule in the UI and what should be added to this typology rule?-->
+>我們建議您建立型別規則：使用此型別規則時，List-Unsubscribe功能會自動新增至每封電子郵件中。
 
 ### 一鍵式清單取消訂閱 {#one-click-list-unsubscribe}
 
-自2024年6月1日起，Yahoo和Gmail將要求傳送者遵守一鍵式清單取消訂閱規範。 為了符合此要求，寄件者必須：
+自2024年6月1日起，Yahoo！ 而Gmail會要求寄件者遵守一鍵式清單取消訂閱規範。 [進一步瞭解這項變更](../guidance-around-changes-to-google-and-yahoo.md)
 
-1. 新增下列命令列：`List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
-1. 加入URI取消訂閱連結。
-1. 支援從接收器接收HTTPPOST回應，Adobe Campaign支援此功能。 您也可以使用外部服務。
+為了符合此要求，寄件者必須：
 
-若要直接在Adobe Campaign v7/v8中設定一鍵式「清單 — 取消訂閱」：
+* 新增下列命令列： `List-Unsubscribe-Post: List-Unsubscribe=One-Click`.
+* 加入URI取消訂閱連結。
+* 支援從接收器接收HTTPPOST回應，Adobe Campaign支援此功能。 您也可以使用外部服務。
 
-* 在以下「取消訂閱收件者no-click」網頁應用程式中新增 
-   1. 移至資源 — >線上 — > Web應用程式
-   2. 上傳「取消訂閱收件者不按一下」 [XML](/help/assets/WebAppUnsubNoClick.xml.zip)
+若要直接在Adobe Campaign v7/v8中支援「一鍵式清單 — 取消訂閱」PSOT回應，您必須在「取消訂閱收件者no-click」網頁應用程式中新增。 若要這麼做：
 
-若要設定「一鍵式清單取消訂閱」，您可以：
+1. 前往 **[!UICONTROL Resources]** > **[!UICONTROL Online]** > **[!UICONTROL Web applications]**.
 
-* [在傳遞範本中新增命令列](#one-click-delivery-template)
-* [建立型別規則](#one-click-typology-rule)
+1. 上傳「取消訂閱收件者不按一下」 [XML](/help/assets/WebAppUnsubNoClick.xml.zip) 檔案。
 
-### 在傳遞範本中設定一鍵式清單 — 取消訂閱 {#one-click-delivery-template}
+進行設定 **一鍵式清單 — 取消訂閱**，您可以：
 
-1. 前往傳送屬性的SMTP區段。
-2. 在「其他SMTP標頭」下，在下列指令行中輸入。 每個標題應位於單獨的一行中。
+* 在傳遞或傳遞範本中新增命令列 —  [瞭解如何](#one-click-delivery-template)
+* 建立型別規則 —  [瞭解如何](#one-click-typology-rule)
 
-   ```
-   List-Unsubscribe-Post: List-Unsubscribe=One-Click
-   List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
-   ```
+#### 在傳遞或範本中設定一鍵式清單 — 取消訂閱 {#one-click-delivery-template}
 
-上述範例將為支援一鍵式的ISP啟用一鍵式清單取消訂閱，同時確保不支援URL清單取消訂閱的接收者仍可透過電子郵件請求取消訂閱。
+1. 前往 **[!UICONTROL SMTP]** 區段的傳送屬性。
 
-### 建立型別規則以支援按一下清單取消訂閱 {#one-click-typology-rule}
+1. 在 **[!UICONTROL Additional SMTP Headers]**，請輸入命令列，例如以下範例中的。 每個標題應位於單獨的一行中。
 
-**1. 建立新的型別規則：**
-
-<!--Need to check screenshots?-->
-
-* 在導覽樹狀結構中，按一下「新增」以建立新的型別
-
-![影像](../assets/CreatingTypologyRules1.png)
-
-
-**2. 繼續設定型別規則：**
-
-* 規則型別：控制
-* 階段：在鎖定開始時
-* 頻道：電子郵件
-* 等級：您的選擇
-* 作用中
-
-
-![影像](../assets/CreatingTypologyRules2.png)
-
-
-**將型別規則的javascript程式碼：**
-
-
->[!NOTE]
->
->下述程式碼僅供範例參照。
->此範例詳細說明如何：
->* 設定URL List-Unsubscribe並將新增標題或附加現有的mailto：引數並將其取代為： &lt;mailto..>>， https://...
->* 在List-Unsubscribe-Post標頭中新增
->貼文URL範例使用var headerUnsubUrl = &quot;https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=&lt;%= recipient.cryptedId %>&quot;÷
->* 您可以新增其他引數（例如&amp;service = ...）
->
-
+例如：
 
 ```
-// Function to add or replace a header in the provided headers 
-function addHeader(headers, header, value)  { 
-    
-  // Create the new header line 
-  var headerLine = header + ": " + value; 
-    
-  // Create a regular expression to find the specified header 
-  var regExp = new RegExp(header + ":(.*)$", "i") 
-    
-  // Split the headers into individual lines 
-  var headerLines = headers.split("\n"); 
-    
-  // Loop through each line 
-  for (var i=0; i < headerLines.length; i++) { 
-      
-    // Check if the specified header exists 
-    var match = headerLines[i].match(regExp) 
-      
-    // If it exists 
-    if ( match != null ) { 
-        
-      // Replace the existing header line 
-      headerLines[i] = headerLine; 
-        
-      // Return the modified headers 
-      return headerLines.join("\n"); 
-    } 
-  } 
-    
-  // If the header does not exist, add the new header line 
-  headerLines.push(headerLine); 
-    
-  // Return the modified headers 
-  return headerLines.join("\n"); 
-} 
-  
-// Function to get the value of a specified header from the provided headers 
-function getHeader(headers, header) { 
-    
-  // Create a regular expression to find the specified header 
-  var regExp = new RegExp(header + ":(.*)$", "i") 
-    
-  // Split the headers into individual lines 
-  var headerLines = headers.split("\n"); 
-    
-  // Loop each line 
-  for each (line in headerLines) { 
-      
-    // Check if the specified header exists 
-    var match = line.match(regExp); 
-      
-    // If it exists 
-    if ( match != null ) { 
-        
-      // Return the header value, removing leading whitespace 
-      return match[1].replace(/^\s*/, ""); 
-    } 
-  } 
-    
-  // If the header does not exist, return an empty string 
-  return ""; 
-} 
-  
-  
-// Define the unsubscribe URL 
-var headerUnsubUrl = "https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"; 
-  
-// Get the value of the List-Unsubscribe header 
-var headerUnsub = getHeader(delivery.mailParameters.headers, "List-Unsubscribe"); 
-  
-// If the List-Unsubscribe header does not exist 
-if ( headerUnsub === "" ) { 
-  // Add the List-Unsubscribe header 
-  delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe", "<"+headerUnsubUrl+">"); 
-} 
-// If the List-Unsubscribe header exists and contains 'mailto' 
-else if(headerUnsub.search('mailto')){ 
-  // Replace the existing List-Unsubscribe header 
-  delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe", "<"+headerUnsubUrl+">"); 
-} 
-  
-// Get the value of the List-Unsubscribe-Post header 
-var headerUnsubPost = getHeader(delivery.mailParameters.headers, "List-Unsubscribe-Post"); 
-  
-// If the List-Unsubscribe-Post header does not exist 
-if ( headerUnsubPost === "" ) { 
-  // Add the List-Unsubscribe-Post header 
-  delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe-Post", "List-Unsubscribe=One-Click"); 
-} 
-  
-// Return true to indicate success 
-return true; 
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
+List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %> >, < mailto:<%@ include option='NmsEmail_DefaultErrorAddr' %>?subject=unsubscribe<%=escape(message.mimeMessageId) %> >
 ```
 
+![影像](../assets/List-Unsubscribe-1-click-template-SMTP.png)
 
-![影像](../assets/CreatingTypologyRules3.png)
+上述範例將為支援一鍵式的ISP啟用一鍵式清單取消訂閱，同時確保不支援「mailto」清單取消訂閱的接收者仍可透過電子郵件請求取消訂閱。
 
+#### 建立型別規則以支援按一下清單取消訂閱 {#one-click-typology-rule}
 
+1. 從導覽樹狀目錄，前往 **[!UICONTROL Typolgy rules]** 並按一下 **[!UICONTROL New]**.
 
-**3.將新規則新增至電子郵件的「型別」 （預設型別為確定）：**
-
-![影像](../assets/CreatingTypologyRules4.png)
-
-
-
-**4.準備新傳遞（確認傳遞屬性中的其他SMTP標頭為空白）**
-
-![影像](../assets/CreatingTypologyRules5.png)
+   ![影像](../assets/CreatingTypologyRules1.png)
 
 
+1. 設定新的型別規則，例如：
 
-**5.在傳遞準備期間檢查您的新型別規則是否已套用。**
+   * **[!UICONTROL Rule type]**： **[!UICONTROL Control]**
+   * **[!UICONTROL Phase]**: **[!UICONTROL At the start of targeting]**
+   * **[!UICONTROL Channel]**: **[!UICONTROL Email]**
+   * **[!UICONTROL Level]**：您的選擇
+   * **[!UICONTROL Active]**
 
-![影像](../assets/CreatingTypologyRules6.png)
+
+   ![影像](../assets/CreatingTypologyRules2.png)
+
+1. 依照以下範例所示，編寫型別規則的javascript程式碼。
+
+   >[!NOTE]
+   >
+   >下述程式碼僅供範例參照。
+
+   此範例詳細說明如何：
+   * 設定「mailto」清單 — 取消訂閱。 它會新增標題或附加現有的「mailto：」引數，並取代為： &lt;mailto..>>， https://...
+   * 在One-Click List-Unsubscribe標頭中新增。 它使用 `var headerUnsubUrl = "https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"÷`
+
+   >[!NOTE]
+   >
+   >您可以新增其他引數（例如&amp;service =...）。
+
+   ```
+   // Function to add or replace a header in the provided headers 
+   function addHeader(headers, header, value)  { 
+       
+     // Create the new header line 
+     var headerLine = header + ": " + value; 
+       
+     // Create a regular expression to find the specified header 
+     var regExp = new RegExp(header + ":(.*)$", "i") 
+       
+     // Split the headers into individual lines 
+     var headerLines = headers.split("\n"); 
+       
+     // Loop through each line 
+     for (var i=0; i < headerLines.length; i++) { 
+         
+       // Check if the specified header exists 
+       var match = headerLines[i].match(regExp) 
+         
+       // If it exists 
+       if ( match != null ) { 
+           
+         // Replace the existing header line 
+         headerLines[i] = headerLine; 
+           
+         // Return the modified headers 
+         return headerLines.join("\n"); 
+       } 
+     } 
+       
+     // If the header does not exist, add the new header line 
+     headerLines.push(headerLine); 
+       
+     // Return the modified headers 
+     return headerLines.join("\n"); 
+   } 
+     
+   // Function to get the value of a specified header from the provided headers 
+   function getHeader(headers, header) { 
+       
+     // Create a regular expression to find the specified header 
+     var regExp = new RegExp(header + ":(.*)$", "i") 
+       
+     // Split the headers into individual lines 
+     var headerLines = headers.split("\n"); 
+       
+     // Loop each line 
+     for each (line in headerLines) { 
+         
+       // Check if the specified header exists 
+       var match = line.match(regExp); 
+         
+       // If it exists 
+       if ( match != null ) { 
+           
+         // Return the header value, removing leading whitespace 
+         return match[1].replace(/^\s*/, ""); 
+       } 
+     } 
+       
+     // If the header does not exist, return an empty string 
+     return ""; 
+   } 
+     
+     
+   // Define the unsubscribe URL 
+   var headerUnsubUrl = "https://campmomentumv7-mkt-prod3.campaign.adobe.com/webApp/unsubNoClick?id=<%= recipient.cryptedId %>"; 
+     
+   // Get the value of the List-Unsubscribe header 
+   var headerUnsub = getHeader(delivery.mailParameters.headers, "List-Unsubscribe"); 
+     
+   // If the List-Unsubscribe header does not exist 
+   if ( headerUnsub === "" ) { 
+     // Add the List-Unsubscribe header 
+     delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe", "<"+headerUnsubUrl+">"); 
+   } 
+   // If the List-Unsubscribe header exists and contains 'mailto' 
+   else if(headerUnsub.search('mailto')){ 
+     // Replace the existing List-Unsubscribe header 
+     delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe", "<"+headerUnsubUrl+">"); 
+   } 
+     
+   // Get the value of the List-Unsubscribe-Post header 
+   var headerUnsubPost = getHeader(delivery.mailParameters.headers, "List-Unsubscribe-Post"); 
+     
+   // If the List-Unsubscribe-Post header does not exist 
+   if ( headerUnsubPost === "" ) { 
+     // Add the List-Unsubscribe-Post header 
+     delivery.mailParameters.headers = addHeader(delivery.mailParameters.headers, "List-Unsubscribe-Post", "List-Unsubscribe=One-Click"); 
+   } 
+     
+   // Return true to indicate success 
+   return true; 
+   ```
 
 
+   ![影像](../assets/CreatingTypologyRules3.png)
 
-**6. 驗證List-Unsubscribe是否存在。**
+1. 將新規則新增至套用至電子郵件的型別。
 
-![影像](../assets/CreatingTypologyRules7.png)
+   >[!NOTE]
+   >
+   >您可以將其新增至預設型別。
 
+   ![影像](../assets/CreatingTypologyRules4.png)
+
+1. 準備新的傳遞。
+
+   >[!CAUTION]
+   >
+   >確認 **[!UICONTROL Additional SMTP headers]** 傳遞屬性中的欄位為空白。
+
+   ![影像](../assets/CreatingTypologyRules5.png)
+
+1. 在傳遞準備期間檢查是否套用新的型別規則。
+
+   ![影像](../assets/CreatingTypologyRules6.png)
+
+1. 驗證取消訂閱連結是否存在。
+
+   ![影像](../assets/CreatingTypologyRules7.png)
 
 ## 電子郵件最佳化 {#email-optimization}
 
