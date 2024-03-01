@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: ea91b7285814eca254590f2aff128fb6e5f77520
+source-git-commit: ffa2e9788326389ae2e4da6e272367cdc837b72e
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2086'
 ht-degree: 1%
 
 ---
@@ -141,6 +141,8 @@ Adobe Campaign的傳遞服務可管理您對下列ISP的回饋回圈服務訂閱
 
 此標題可用作「回報為垃圾訊息」圖示的替代圖示。 它在ISP的電子郵件介面中顯示為「取消訂閱」連結。
 
+使用此功能可降低投訴率，並有助於保護您的聲譽。 意見反應將以取消訂閱的形式執行。
+
 Gmail， Outlook.com， Yahoo！ 和Microsoft Outlook支援此方法。 直接在其介面中提供「取消訂閱」連結。 例如：
 
 ![影像](../assets/List-Unsubscribe-example-Gmail.png)
@@ -153,8 +155,6 @@ Gmail， Outlook.com， Yahoo！ 和Microsoft Outlook支援此方法。 直接�
 >* 在ISP的垃圾郵件投訴臨界值之下
 >* 已完整驗證
 
-使用此功能可降低投訴率，並有助於保護您的聲譽。 意見反應將以取消訂閱的形式執行。
-
 有兩種版本的List-Unsubscribe標頭功能：
 
 * **&quot;mailto&quot;清單 — 取消訂閱**  — 使用此方法，按一下 **取消訂閱** 連結會將預先填入的電子郵件傳送至電子郵件標頭中指定的取消訂閱地址。 [了解更多](#mailto-list-unsubscribe)
@@ -163,7 +163,7 @@ Gmail， Outlook.com， Yahoo！ 和Microsoft Outlook支援此方法。 直接�
 
 * **「一鍵式」清單 — 取消訂閱**  — 使用此方法，按一下 **取消訂閱** 連結會直接取消訂閱使用者。 [了解更多](#one-click-list-unsubscribe)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >自2024年6月1日起，Yahoo！ 和Gmail都會要求寄件者遵守 **一鍵式清單 — 取消訂閱**. [進一步瞭解這項變更](../guidance-around-changes-to-google-and-yahoo.md)
 >
@@ -193,9 +193,7 @@ Gmail， Outlook.com， Yahoo！ 和Microsoft Outlook支援此方法。 直接�
 
 新增操作可在每封電子郵件或現有傳遞範本中完成。 您也可以建立包含此功能的新傳遞範本。
 
-例如，將下列指令碼輸入到 **[!UICONTROL Additional SMTP headers]** 欄位： `List-Unsubscribe: mailto:unsubscribe@domain.com`
-
-按一下 **取消訂閱** 連結會傳送電子郵件至unsubscribe@domain.com位址。
+例如，將下列指令碼輸入到 **[!UICONTROL Additional SMTP headers]** 欄位： `List-Unsubscribe: mailto:unsubscribe@domain.com`. 按一下 **取消訂閱** 連結會傳送電子郵件至unsubscribe@domain.com位址。
 
 您也可以使用動態地址。 例如，若要傳送電子郵件至為平台定義的錯誤地址，您可以使用以下指令碼： `List-Unsubscribe: <mailto:<%=errorAddress%>?subject=unsubscribe%=message.mimeMessageId%>`
 
@@ -247,6 +245,8 @@ List-Unsubscribe: https://domain.com/unsubscribe.jsp
 
 #### 在傳遞或範本中設定一鍵式清單 — 取消訂閱 {#one-click-delivery-template}
 
+若要在傳遞或傳遞範本中設定一鍵式「清單 — 取消訂閱」，請遵循下列步驟。
+
 1. 前往 **[!UICONTROL SMTP]** 區段的傳送屬性。
 
 1. 在 **[!UICONTROL Additional SMTP Headers]**，請輸入命令列，例如以下範例中的。 每個標題應位於單獨的一行中。
@@ -263,6 +263,8 @@ List-Unsubscribe: <https://domain.com/webApp/unsubNoClick?id=<%= recipient.crypt
 上述範例將為支援一鍵式的ISP啟用一鍵式清單取消訂閱，同時確保不支援「mailto」的接收者仍可透過電子郵件請求取消訂閱。
 
 #### 建立型別規則以支援按一下清單取消訂閱 {#one-click-typology-rule}
+
+若要使用型別規則設定「一鍵式清單 — 取消訂閱」，請遵循下列步驟。
 
 1. 從導覽樹狀目錄，前往 **[!UICONTROL Typolgy rules]** 並按一下 **[!UICONTROL New]**.
 
