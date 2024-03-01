@@ -1,5 +1,5 @@
 ---
-source-git-commit: 0332be5688f9d0375d1dba97c39a87d0e8d28c52
+source-git-commit: d105a5b7d81aa14144b9d01f28a5e24c1110ae6c
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 7%
@@ -8,11 +8,13 @@ ht-degree: 7%
 # 建立型別規則以支援按一下清單取消訂閱：
 
 **1. 建立新的型別規則：**
+
 * 在導覽樹狀結構中，按一下「新增」以建立新的型別
 
 ![影像](/help/assets/CreatingTypologyRules1.png)
 
 **2. 繼續設定型別規則：**
+
 * 規則型別：控制
 * 階段：在鎖定開始時
 * 頻道：電子郵件
