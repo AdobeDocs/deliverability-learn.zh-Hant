@@ -6,9 +6,9 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 39ed3773-18bf-4653-93b6-ffc64546406b
-source-git-commit: 3ceca47634f946488115ccbef5cb9ffb5aba8b07
+source-git-commit: 12bd5f583476dad0eac9641389ce35b40dc5136c
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2045'
 ht-degree: 1%
 
 ---
@@ -165,9 +165,7 @@ Gmail， Outlook.com， Yahoo！ 和Microsoft Outlook支援此方法。 直接�
 
 >[!IMPORTANT]
 >
->自2024年6月1日起，Yahoo！ 和Gmail都會要求寄件者遵守 **一鍵式清單 — 取消訂閱**. [進一步瞭解這項變更](../guidance-around-changes-to-google-and-yahoo.md)
->
->瞭解如何在中設定一鍵式清單取消訂閱 [本節](#one-click-list-unsubscribe).
+>>瞭解如何在中設定一鍵式清單取消訂閱 [本節](#one-click-list-unsubscribe).
 
 ### &quot;mailto&quot;清單 — 取消訂閱 {#mailto-list-unsubscribe}
 
@@ -223,8 +221,6 @@ List-Unsubscribe: https://domain.com/unsubscribe.jsp
 ### 一鍵式清單 — 取消訂閱 {#one-click-list-unsubscribe}
 
 使用此方法時，按一下 **取消訂閱** 連結會直接取消訂閱使用者，只需要單一動作即可取消訂閱。
-
-自2024年6月1日起，Yahoo！ 而Gmail會要求寄件者遵守一鍵式清單取消訂閱規範。 [進一步瞭解這項變更](../guidance-around-changes-to-google-and-yahoo.md)
 
 為了符合此要求，寄件者必須：
 

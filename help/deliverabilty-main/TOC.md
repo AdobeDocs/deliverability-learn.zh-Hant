@@ -6,9 +6,9 @@ feature: Deliverability
 role: Leader, User
 level: Beginner
 auto-video-transcripts: true
-source-git-commit: 56d385754b768a65c44c3661646361080a087656
+source-git-commit: 12bd5f583476dad0eac9641389ce35b40dc5136c
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '179'
 ht-degree: 97%
 
 ---
@@ -46,7 +46,6 @@ ht-degree: 97%
 + [付諸實踐](/help/putting-it-in-practice.md)
 + 附錄：其他資源 {#additional-resources}
    + [概覽](/help/additional-resources/general-resources.md)
-   + [Yahoo 與 Gmail 更新](/help/guidance-around-changes-to-google-and-yahoo.md)
    + [取消訂閱Do&#39;s和Do&#39;s](/help/unsubscribe-dos-and-do-nots.md)
    + 一般資源 {#generic-resources}
       + [關於垃圾郵件陷阱](/help/additional-resources/all-about-spam-traps.md)
