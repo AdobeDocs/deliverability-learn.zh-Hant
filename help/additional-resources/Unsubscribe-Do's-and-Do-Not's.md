@@ -1,7 +1,7 @@
 ---
-source-git-commit: 758bc4144e09c53883d682a480f5f52a25c98111
+source-git-commit: e5b40a9f0a58f70066c5210053cfd88fc938bb65
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '916'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,6 @@ ht-degree: 0%
 + 您可以提供訂閱者選項，這可以透過偏好設定中心/選擇退出方案來管理。
 
 **執行：** 在電子郵件範本中使用List Unsubscribe標頭，以便在電子郵件頂端顯示取消訂閱連結的電子郵件使用者端(例如：gmail.com)，可以輕鬆找到使用者習慣於尋找取消訂閱的位置。
-
-+ 按一下 [此處](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html?lang=zh-Hant) 以進一步瞭解關於按一下取消訂閱的產業方案。
 
 ## Do Not&#39;s
 
