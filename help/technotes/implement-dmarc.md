@@ -5,10 +5,10 @@ topics: Deliverability
 role: Admin
 level: Beginner
 exl-id: f1c14b10-6191-4202-9825-23f948714f1e
-source-git-commit: bd8cee606c9dcb1593ad3ec45c578f59f8e968f2
+source-git-commit: 2a78db97a46150237629eef32086919cacf4998c
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 8%
+source-wordcount: '1284'
+ht-degree: 5%
 
 ---
 
@@ -44,7 +44,7 @@ DMARC是選用專案，雖然並非必要專案，但免費，可讓電子郵件
 
 ## 實作DMARC的最佳作法 {#best-practice}
 
-由於DMARC是選用的，因此預設不會在任何ESP平台上設定它。 必須在DNS中為您的網域建立DMARC記錄，它才能運作。 此外，您需要選擇電子郵件地址，以指示DMARC報表應在組織內的哪個位置。 依據最佳實務的要求，建議您逐步推出 DMARC 實作，方法是將 DMARC 原則從 p=none 提升至 p=quarantine，再提升至 p=reject，讓您瞭解 DMARC 的潛在影響。
+由於DMARC是選用的，因此預設不會在任何ESP平台上設定它。 必須在DNS中為您的網域建立DMARC記錄，它才能運作。 此外，您需要選擇電子郵件地址，以指示DMARC報表應在組織內的哪個位置。 依據最佳做法的要求，建議您逐步推出DMARC實作，將DMARC原則從p=none提升至p=quarantine，再提升至p=reject，讓DMARC瞭解DMARC的潛在影響。
 
 1. 分析您收到並使用的意見回饋(p=none)，這會告知接收者，對於驗證失敗的訊息不執行任何動作，但仍會傳送電子郵件報告給寄件者。 此外，如果合法郵件驗證失敗，請檢閱並修正 SPF/DKIM 的問題。
 1. 判斷SPF和DKIM是否一致，並通過所有合法電子郵件的驗證，然後將原則移至(p=quarantine)，這會通知接收電子郵件伺服器隔離驗證失敗的電子郵件（這通常意味著將這些郵件放在垃圾郵件資料夾中）。
@@ -68,6 +68,10 @@ DMARC提供接收有關未通過SPF/DKIM之電子郵件的報表的功能。 在
 * [Dmarcian](https://dmarcian.com/)
 * [校樣](https://www.proofpoint.com/us)
 
+>[!CAUTION]
+>
+>如果您要新增以接收報告的電子郵件地址位於建立DMARC記錄的網域之外，您需要授權其外部網域以指定給您擁有此網域的DNS。 要執行此操作，請依照以下詳細步驟操作： [dmarc.org檔案](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+
 ### 範例DMARC記錄 {#example}
 
 ```
@@ -78,7 +82,7 @@ v=DMARC1; p=reject; fo=1; rua=mailto:dmarc_rua@emaildefense.proofpoint.com;ruf=m
 
 DMARC記錄有多個稱為DMARC標籤的元件。 每個標籤都有一個值，指定DMARC的特定外觀。
 
-| 標籤名稱 | 必填/選填 | 函數 | 範例 | 預設值 |
+| 標籤名稱 | 必要/選用 | 函數 | 範例 | 預設值 |
 |  ---  |  ---  |  ---  |  ---  |  ---  |
 | v | 必要 | 此DMARC標籤指定版本。 目前只有一個版本，因此其固定值為v=DMARC1 | V=DMARC1 DMARC1 | DMARC1 |
 | p | 必要 | 顯示選取的DMARC原則，並指示接收者報告、隔離或拒絕驗證檢查失敗的郵件。 | p=none、quarantine或reject | - |
