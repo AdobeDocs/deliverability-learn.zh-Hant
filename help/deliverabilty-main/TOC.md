@@ -7,9 +7,9 @@ role: Leader, User
 level: Beginner
 auto-video-transcripts: true
 source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 97%
 + [付諸實踐](/help/putting-it-in-practice.md)
 + 附錄：其他資源 {#additional-resources}
    + [概覽](/help/additional-resources/general-resources.md)
-   + [取消訂閱Do&#39;s和Do&#39;s](/help/unsubscribe-dos-and-do-nots.md)
+   + [取消訂閱規範](/help/unsubscribe-dos-and-do-nots.md)
    + 一般資源 {#generic-resources}
       + [關於垃圾郵件陷阱](/help/additional-resources/all-about-spam-traps.md)
       + [透過 IP 暖身提高您的電子郵件信譽](/help/additional-resources/increase-reputation-with-ip-warming.md)
