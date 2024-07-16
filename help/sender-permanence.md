@@ -11,7 +11,7 @@ exl-id: f57de522-1361-43a3-8f8b-f9a191986529
 source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 5%
+ht-degree: 2%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 5%
 
 **以下是一些範例：**
 
-![良好的傳送永久性](assets/Sender_Permanence_1.png)
+![良好的傳送效能](assets/Sender_Permanence_1.png)
 
 ![傳送永久性錯誤](assets/Sender_Permanence_2.png)
 
-![可接受的傳送永久性](assets/Sender_Permanence_3.png)
+![可接受的永久傳送能力](assets/Sender_Permanence_3.png)

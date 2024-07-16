@@ -8,8 +8,8 @@ team: ACS
 exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
 source-git-commit: e7427d6109f3201affa58decde36294d1631bf5b
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 6%
+source-wordcount: '373'
+ht-degree: 2%
 
 ---
 
@@ -23,35 +23,35 @@ ht-degree: 6%
 * 依寄件者網域：列出傳送垃圾郵件或設定錯誤的寄件者網域（退回郵件地址的完整網域）。
 * 依網域：列出在垃圾郵件內容所含連結和影像的URL中找到的網域（向註冊機構註冊的高層網域）。 在Adobe解決方案中，通常考慮的網域是用來追蹤的地址。
 
-以下列出最廣泛使用的RBL。 如需更完整的清單，您可以參閱 [https://www.dnsstuff.com/](https://tools.dnsstuff.com/).
+以下列出最廣泛使用的RBL。 如需更完整的清單，請參閱[https://www.dnsstuff.com/](https://tools.dnsstuff.com/)。
 
 * **Spamhaus**
 
-  請參閱 [https://www.spamhaus.org/](https://www.spamhaus.org/)
+  請參閱[https://www.spamhaus.org/](https://www.spamhaus.org/)
 
-  資料庫比較重要。 一般而言，被分類到這份清單中是很嚴重的情況。 如果發生這種情況，您必須立即採取行動並警告商業服務、傳遞能力和 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+  資料庫比較重要。 一般而言，被分類到這份清單中是很嚴重的情況。 如果發生這種情況，您必須立即採取行動，並警告商業服務、傳遞能力和[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
 
 * **垃圾訊息**
 
-  請參閱 [https://www.spamcop.net/](https://www.spamcop.net/)
+  請參閱[https://www.spamcop.net/](https://www.spamcop.net/)
 
   它是最著名的資料庫之一。 如果您的其中一個IP位址放在這個清單中，這通常表示SpamCop使用者已將您的訊息宣告為Spam，或您已傳送訊息給SpamCop蜜罐。
 
 * **URIBL**
 
-  請參閱 [https://www.uribl.com/](https://www.uribl.com/)
+  請參閱[https://www.uribl.com/](https://www.uribl.com/)
 
-  此清單可識別定期出現在宣告為垃圾訊息的郵件中的網域。 如果您的網域出現在此清單上，可能會大幅影響您的傳遞能力。 您應通知傳遞服務並 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 立即。
+  此清單可識別定期出現在宣告為垃圾訊息的郵件中的網域。 如果您的網域出現在此清單上，可能會大幅影響您的傳遞能力。 您應立即通知傳遞服務及[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
 
 * **SURBL**
 
-  請參閱 [https://surbl.org/](https://surbl.org/)
+  請參閱[https://surbl.org/](https://surbl.org/)
 
-  SURBL會識別定期出現在垃圾郵件中的網站。 如果您的網域出現在此清單上，可能會大幅影響您的傳遞能力。 您應通知傳遞服務並 [Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 立即。
+  SURBL會識別定期出現在垃圾郵件中的網站。 如果您的網域出現在此清單上，可能會大幅影響您的傳遞能力。 您應立即通知傳遞服務及[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
 
-* **iX馬尼圖**
+* **iX Manitu**
 
-  這是IP清單，在德國有廣泛的使用。 請參閱 [https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
+  這是IP清單，在德國有廣泛的使用。 請參閱[https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
 <!--* SORBS
 

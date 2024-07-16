@@ -1,6 +1,6 @@
 ---
 title: Verizon Media Group（Yahoo、AOL、Verizon 等）
-description: '"[!DNL Verizon Media Group] 通常是大多數B2C清單的前三個網域之一。 他們的行為有些獨特，因為如果出現信譽問題，他們通常會限制或大量郵件。」'
+description: '''''[!DNL Verizon Media Group]''通常是大多數B2C清單的前三個網域之一。 他們的行為有些獨特，因為如果出現信譽問題，他們通常會限制或大量郵件。」'
 topics: Deliverability
 jira: KT-5320
 doc-type: article
@@ -11,14 +11,14 @@ team: TM
 exl-id: 43e6d3cb-23c3-4076-8026-a1a08e76bd1b
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '289'
 ht-degree: 2%
 
 ---
 
 # [!DNL Verizon Media Group] （Yahoo、AOL、Verizon等）
 
-[!DNL Verizon Media Group] 通常是大多數B2C清單的前三個網域之一。 他們的行為有些獨特，因為如果出現信譽問題，他們通常會限制或大量郵件。
+在大多數B2C清單中，[!DNL Verizon Media Group]通常是前三個網域之一。 他們的行為有些獨特，因為如果出現信譽問題，他們通常會限制或大量郵件。
 
 以下是一些重點事項：
 
@@ -32,7 +32,7 @@ VMG有一個FBL，用於將投訴資訊傳回給寄件者。 他們也會探索�
 
 ## 寄件者信譽
 
-寄件者的信譽是由IP位址、網域和寄件者位址的組合所組成。 信譽是使用傳統元件計算的，包括投訴、垃圾郵件陷阱、非作用中或格式錯誤的地址和參與。 VMG使用速率限制（也稱為節流）以及大量資料夾來抵禦垃圾郵件。 他們以一些方式補充其內部篩選系統 [!DNL Spamhaus] 黑名單，包括PBL、SBL和XBL以保護其使用者。
+寄件者的信譽是由IP位址、網域和寄件者位址的組合所組成。 信譽是使用傳統元件計算的，包括投訴、垃圾郵件陷阱、非作用中或格式錯誤的地址和參與。 VMG使用速率限制（也稱為節流）以及大量資料夾來抵禦垃圾郵件。 他們以大約[!DNL Spamhaus]個黑名單（包括PBL、SBL和XBL）補充其內部篩選系統，以保護其使用者。
 
 ## Insights
 

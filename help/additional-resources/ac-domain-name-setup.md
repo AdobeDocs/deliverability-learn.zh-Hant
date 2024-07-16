@@ -8,7 +8,7 @@ team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
 source-git-commit: 82f7254a9027f79d2af59aece81f032105c192d5
 workflow-type: tm+mt
-source-wordcount: '2061'
+source-wordcount: '2043'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 透過Adobe，數位行銷可真正成為內容引擎，為您的品牌的客戶參與行銷方案提供動力。  電子郵件仍然是數位行銷計畫的基礎。 然而，前往收件匣已變得前所未有的困難。
 
-建立電子郵件促銷活動的子網域可讓品牌將各種型別的流量（例如行銷與企業）隔離到特定的IP集區和具有特定網域，進而加快 [IP預熱流程](../../help/additional-resources/increase-reputation-with-ip-warming.md) 並提升整體的傳遞能力。 如果您共用網域，且網域遭到封鎖或新增至封鎖清單，可能會影響您的公司郵件傳送。 不過，您電子郵件行銷通訊專屬網域上的信譽問題或封鎖將只會影響該電子郵件流程。  使用您的主網域作為寄件者或多個郵件串流的「寄件者」地址也會破壞電子郵件驗證，導致您的郵件遭到封鎖或放入垃圾郵件資料夾。
+建立電子郵件行銷活動的子網域可讓品牌將各種型別的流量（例如行銷與企業）隔離到特定的IP集區和具有特定網域，這將加快[IP預熱流程](../../help/additional-resources/increase-reputation-with-ip-warming.md)並改善整體的傳遞能力。 如果您共用網域，且網域遭到封鎖或新增至封鎖清單，可能會影響您的公司郵件傳送。 不過，您電子郵件行銷通訊專屬網域上的信譽問題或封鎖將只會影響該電子郵件流程。  使用您的主網域作為寄件者或多個郵件串流的「寄件者」地址也會破壞電子郵件驗證，導致您的郵件遭到封鎖或放入垃圾郵件資料夾。
 
 ### 委派
 
@@ -35,7 +35,8 @@ ht-degree: 2%
 
 透過委派子網域以與Adobe Campaign搭配使用，客戶可以依賴Adobe來維護所需的DNS基礎架構，以符合其電子郵件行銷傳送網域的產業標準傳遞能力要求，同時繼續維護和控制內部電子郵件網域的DNS。  子網域委派允許：
 
-使用者端使用DNS別名及其網域名稱Adobe來自主實作所有技術最佳實務，以在傳送電子郵件期間完全最佳化傳遞能力，以保持其品牌形象
+使用網域名稱的DNS別名來保留品牌形象的使用者端
+自主實施所有技術最佳實務的Adobe，以在傳送電子郵件期間完全最佳化傳遞能力
 
 ## DNS設定選項
 
@@ -44,16 +45,16 @@ ht-degree: 2%
 | 選項 | 說明 | Adobe責任 | 客戶責任 |
 |--- |------- |--- |--- |
 | 將子網域委派給Adobe Campaign | 使用者端將子網域(email.example.com)委派給Adobe。 在此案例中，Adobe可以控制並維護傳遞、演算及追蹤電子郵件行銷活動所需的DNS的各個層面，以受管理的方式提供Campaign。 | 完整管理子網域和Adobe Campaign所需的所有DNS記錄。 | 將子網域正確委派給Adobe |
-| CNAME 的使用 | Client會建立子網域並使用CNAME指向Adobe特定記錄。  若使用此設定，Adobe 和客戶都有責任維護 DNS。 | 管理Adobe Campaign所需的DNS記錄。 | 建立和控制子網域，以及建立/管理Adobe Campaign所需的CNAME記錄。 |
+| 使用CNAME | Client會建立子網域並使用CNAME指向Adobe特定記錄。  若使用此設定，Adobe 和客戶都有責任維護 DNS。 | 管理Adobe Campaign所需的DNS記錄。 | 建立和控制子網域，以及建立/管理Adobe Campaign所需的CNAME記錄。 |
 
 ## 必要的DNS記錄
 
-| 記錄型別 | 用途 | 範例記錄/內容 |
+| 記錄型別 | 目的 | 範例記錄/內容 |
 |--- |--- |--- |
 | MX | 指定內送郵件的郵件伺服器 | <i>email.example.com</i></br><i>10 inbound.email.example.com</i> |
 | SPF (TXT) | 寄件者原則架構 | <i>email.example.com</i></br>&quot;v=spf1 redirect=__spf.campaign.adobe.com&quot; |
 | DKIM (TXT) | DomainKeys識別的郵件 | <i>使用者端。_domainkey.email.example.com</i></br>&quot;v=DKIM1； k=rsa；&quot; &quot;DKIMPUBLICKEY HERE&quot; |
-| 主機記錄(A) | 映象頁面、影像託管和追蹤連結，所有傳送網域 | m.email.example.com IN A 123.111.100.99</br>t.email.example.com IN A 123.111.100.98</br>email.example.com IN A 123.111.100.97 |
+| 主機記錄(A) | 映象頁面、影像託管和追蹤連結，所有傳送網域 | 123.111.100.99中的m.email.example.com 123.111.100.97中的</br>t.email.example.com 123.111.100.98中的</br>email.example.com |
 | 反向DNS (PTR) | 將使用者端IP位址對應至使用者端品牌主機名稱 | 18.101.100.192.in-addr.arpa網域名稱指標r18.email.example.com |
 | CNAME | 提供另一個網域名稱的別名 | t1.email.example.com是t1.email.example.campaign.adobe.com的別名 |
 
@@ -87,7 +88,7 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 
 在設定過程中，Adobe將確保網域附加到Adobe傳入電子郵件基礎架構，以便管理和處理傳回這些網域的反彈電子郵件（MX型別DNS記錄設定）。
 
-### CNAME 的使用
+### 使用CNAME
 
 如果使用者端選擇使用CNAME而不是將子網域委派給Adobe，則在設定階段中，Adobe將提供要放置在使用者端DNS伺服器中的記錄，並將在Adobe Campaign DNS伺服器中設定對應的值。
 
@@ -103,15 +104,15 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 
 請填妥下表，第一行只是一個範例。
 
-| 子網域 | 寄件者地址 | 寄件者姓名 | 回覆地址 |
+| 子網域 | 寄件者地址 | 來自名稱 | 回覆地址 |
 |--- |--- |--- |--- |
-| emails.customer.com | news@emails.customer.com | Customer | customercare@customer.com |
+| emails.customer.com | news@emails.customer.com | 客戶 | customercare@customer.com |
 | </br> | </br> | </br> | </br> |
 
 >[!NOTE]
 >
 >* 「回覆地址」欄位的用途是當您希望收件者回覆與「寄件者地址」不同的地址時。  雖然不是必要欄位，但Adobe強烈建議「回覆地址」為有效並連結至受監視的信箱。  此信箱必須由客戶代管。  它可以是支援信箱，例如customercare@customer.com，可讀取和回應電子郵件。
->* 若客戶未選擇「回覆地址」，則預設地址一律為 `<tenant>-<type>-<env>@<subdomain>`.
+>* 若客戶未選擇任何「回覆地址」，則預設地址一律為`<tenant>-<type>-<env>@<subdomain>`。
 >* 當以這種方式設定「回覆地址」時，回覆將會傳送至未受監視的信箱。
 >* 從Adobe Campaign傳送電子郵件時，系統不會監控「寄件者地址」信箱，且行銷使用者無法存取此信箱。 Adobe Campaign也不提供自動回覆或自動轉寄此信箱中接收之電子郵件的功能。
 >* 行銷活動寄件者/寄件者地址及錯誤地址不能是「濫用」或「郵遞員」。
@@ -122,7 +123,7 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 
 | 委派的子網域 | DNS指示 |
 |--- |--- |
-| `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com. </br> `<subdomain>` NS b.ns.campaign.adobe.com. </br> `<subdomain>` NS c.ns.campaign.adobe.com. </br> `<subdomain>` NS d.ns.campaign.adobe.com. |
+| `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com。</br> `<subdomain>` NS b.ns.campaign.adobe.com。</br> `<subdomain>` NS c.ns.campaign.adobe.com。</br> `<subdomain>` NS d.ns.campaign.adobe.com。 |
 
 ## 追蹤、映象頁面、資源
 
@@ -132,7 +133,7 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 |--- |--- |
 | 映象頁面 | m.`<subdomain>` |
 | 追蹤 | t.`<subdomain>` |
-| 資源 | 解析度`<subdomain>` |
+| 資源 | res.`<subdomain>` |
 
 ## 雲端部署（選填）
 
@@ -142,7 +143,7 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 
 | 委派的子網域 | DNS指示 |
 |--- |--- |
-| `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com.</br>`<subdomain>` NS b.ns.campaign.adobe.com.</br>`<subdomain>` NS c.ns.campaign.adobe.com.</br>`<subdomain>` NS d.ns.campaign.adobe.com. |
+| `<subdomain>` | `<subdomain>` NS a.ns.campaign.adobe.com。</br>`<subdomain>` NS b.ns.campaign.adobe.com。</br>`<subdomain>` NS c.ns.campaign.adobe.com。</br>`<subdomain>` NS d.ns.campaign.adobe.com。 |
 
 >[!NOTE]
 >
@@ -158,7 +159,7 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 
 防火牆也需設定為允許存取代管這些Web元件的Adobe Campaign行銷執行個體（在連線埠80或443上）。
 
-**Recommendations最佳做法：**
+**最佳實務Recommendations：**
 
 客戶可以看到託管Web元件的子網域，因此請務必正確加上品牌且容易記憶，因為可能需要手動輸入，例如：https://web.customer.com。
 如果需要將任何表單託管在安全頁面(HTTPS)上，則需要新增技術設定，如下所述。
@@ -204,4 +205,4 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 
 >[!NOTE]
 >
->[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) 僅供使用AdobeManaged Services的客戶使用。
+>[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)僅供使用AdobeManaged Services的客戶使用。

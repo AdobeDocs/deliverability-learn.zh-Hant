@@ -12,8 +12,8 @@ level: Beginner
 exl-id: e6a855ba-a929-477f-a339-6861a755a529
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 22%
+source-wordcount: '188'
+ht-degree: 16%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 22%
 
 **Analytics**
 
-* [如何提高參與度和駐留率（教學課程）](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics)： *使用同類群組的行為來識別參與的對象，並了行動應用程式中促成繫結的根本原因。 使用市場 IQ 中的資料科學算法，了解市場之間的差異和相似性。*
+* [如何提高參與度和保留率（教學課程）](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics)： *使用同類群組的行為來識別參與的對象，並瞭解行動應用程式中促成繫結的根本原因。 使用區段IQ中的資料科學演演算法來瞭解區段之間的差異和相似性。*
 
 **Campaign Standard**
 

@@ -1,5 +1,5 @@
 ---
-title: 如何在切換電子郵件平台時順暢地轉變.
+title: 如何在切換電子郵件平台時順暢地轉變。
 description: 移動電子郵件服務提供者(ESP)時，不可能同時轉換您現有的已建立IP位址。 重新開始時，請務必遵循建立正面聲譽的最佳實務。
 topics: Deliverability
 jira: KT-5259
@@ -12,8 +12,8 @@ team: ACS
 exl-id: 5444d576-5bc1-4fa6-9956-c63dc3c60440
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 11%
+source-wordcount: '213'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 建立良好的信譽是一個過程。 但是一旦建立之後，小型負面指標對您和您的郵件傳送的影響就會較小。
 
-![轉換過程](../assets/transition-process.png)
+![轉換程式](../assets/transition-process.png)
 
 保暖IP位址和網域的時間可能有所不同，但一般寄件者通常需要最多八週的基準，才能在大部分的第1級ISP (Gmail、Microsoft、Verizon/Yahoo/AOL等)建立聲譽。
 

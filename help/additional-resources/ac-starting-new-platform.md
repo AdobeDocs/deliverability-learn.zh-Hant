@@ -8,8 +8,8 @@ team: ACS
 exl-id: 6c9ade01-3052-4311-af80-888294820024
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 8%
+source-wordcount: '549'
+ht-degree: 6%
 
 ---
 
@@ -31,19 +31,19 @@ ISP自然會懷疑從未用來傳送電子郵件，且突然開始傳送大量�
 
 * 設定專用於從Adobe傳送之電子郵件行銷活動的專用子網域。
 
-* 如果您有這項資訊， **將無效的地址匯入隔離表格**.
+* 如果您有此資訊，請&#x200B;**將無效的地址匯入隔離資料表**。
 啟動平台時，通常會在第一次使用位址清單時發生，而且該清單可能並非完全合格。 如果您傳送至無效的位址或蜜罐位址，將降低平台的聲譽。
 
-   * 如果您有無效地址清單，在第一次傳送之前先將其匯入隔離表格符合您的最大利益。 隔離表可透過以下網址取得： **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic)和 **[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard)功能表。
+   * 如果您有無效地址清單，在第一次傳送之前先將其匯入隔離表格符合您的最大利益。 隔離表格可透過&#x200B;**[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic)和&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard)功能表使用。
 
    * 儘管如此，如果您想要重新認定無效的位址，最好在平台聲譽建立後逐位這樣做，以便「稀釋」一段時間內使用錯誤的位址。
 
-* **限制傳輸率** 藉由限制配對的數量。 如需調整這類技術設定的詳細資訊，請聯絡您的Adobe Campaign管理員。
+* **透過限制mtachild數目來限制傳輸率**。 如需調整這類技術設定的詳細資訊，請聯絡您的Adobe Campaign管理員。
 
-* **以漸進方式增加傳送的磁碟區** 以避免被標籤為垃圾訊息。 不要從一開始就鎖定整個資料庫，而是在每次傳送時新增額外的清單部份。 這應該能讓您在每一個步驟增加磁碟區，同時降低無效位址的整體速率。 為了確保啟動階段的順利發展，您可以使用波段。
+* **逐步增加傳送的磁碟區**，以避免標示為垃圾訊息。 不要從一開始就鎖定整個資料庫，而是在每次傳送時新增額外的清單部份。 這應該能讓您在每一個步驟增加磁碟區，同時降低無效位址的整體速率。 為了確保啟動階段的順利發展，您可以使用波段。
 
-* **定期傳送**. 在一定程度上，定期傳送小型快照比偶爾傳送大型行銷活動更好。
-* **請密切注意傳遞報告**. 高錯誤指標可能表示技術設定的設定錯誤。
+* **定期傳送**。 在一定程度上，定期傳送小型快照比偶爾傳送大型行銷活動更好。
+* **請密切注意傳遞報告**。 高錯誤指標可能表示技術設定的設定錯誤。
 
 ## 其他資源
 

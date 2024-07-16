@@ -8,7 +8,7 @@ team: ACS
 exl-id: 03609139-b39b-4051-bcde-9ac7c5358b87
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,19 @@ SPF (Sender Policy Framework)是一種電子郵件驗證標準，允許網域的
 
 >[!NOTE]
 >
->您可以使用 [此外部工具](https://www.kitterman.com/spf/validate.html) 驗證SPF記錄。
+>您可以使用[這個外部工具](https://www.kitterman.com/spf/validate.html)來驗證SPF記錄。
 
 SPF是一種技術，可讓您在某種程度上確保電子郵件中所使用的網域名稱不是偽造的。 從網域收到訊息時，會查詢網域的DNS伺服器。 回應是簡短記錄（SPF記錄），詳細說明哪些伺服器有權從此網域傳送電子郵件。 如果我們假設只有網域擁有者才有辦法變更此記錄，可以認為此技術不允許偽造寄件者地址，至少不允許偽造來自&quot;@&quot;右側的部分。
 
-在最後 [RFC 4408規格](https://www.rfc-editor.org/info/rfc4408)，會使用郵件的兩個元素來判斷當作寄件者的網域：SMTP &quot;HELO&quot; （或&quot;EHLO&quot;）命令所指定的網域，以及&quot;Return-Path&quot; （或&quot;MAIL FROM&quot;）標頭位址（也是退信地址）所指定的網域。 不同的考量使得僅考量這些值之一成為可能；我們建議確保兩個來源都指定相同的網域。
+在最終的[RFC 4408規格](https://www.rfc-editor.org/info/rfc4408)中，訊息的兩個元素是用來判斷被視為寄件者的網域：由SMTP「HELO」（或「EHLO」）命令指定的網域，以及由「Return-Path」（或「MAIL FROM」）標頭位址（也是退信地址）指定的網域。 不同的考量使得僅考量這些值之一成為可能；我們建議確保兩個來源都指定相同的網域。
 
 檢查SPF可提供寄件者網域有效性的評估：
 
 * **無**：無法執行評估。
-* **中性**：查詢的網域未啟用評估。
-* **通過**：此網域視為正版。
-* **失敗**：網域是偽造的，應該拒絕訊息。
-* **SoftFail**：網域可能是偽造的，但訊息不應僅根據此結果遭到拒絕。
+* **Neutral**：查詢的網域未啟用評估。
+* **通過**：此網域被視為真實網域。
+* **失敗**：網域是偽造的，應該拒絕郵件。
+* **SoftFail**：網域可能是偽造的，但訊息不應僅根據此結果拒絕。
 * **TempError**：暫時錯誤已停止評估。 可拒絕此訊息。
 * **PermError**：網域的SPF記錄無效。
 
@@ -45,14 +45,14 @@ DKIM (DomainKeys Indified Mail)驗證是SPF的後續驗證。 它使用公開金
 
 DKIM來自DomainKeys、Yahoo！ 和Cisco識別的網際網路郵件驗證原則，用於檢查寄件者網域的真實性，並保證訊息的完整性。
 
-已取代DKIM **網域索引鍵** 驗證。
+DKIM已取代&#x200B;**DomainKeys**&#x200B;驗證。
 
 使用DKIM需要一些先決條件：
 
-* **安全性**：加密是DKIM的關鍵元素。 為確保DKIM的安全性等級，1024b是建議的最佳實務加密大小。 大多數存取提供者不會將下層DKIM金鑰視為有效。
-* **信譽**：信譽是以IP和/或網域為基礎，但較不透明的DKIM選取器也是要考慮的關鍵元素。 選擇選擇器相當重要：請避免保留「預設」選擇器，此選擇器可供任何使用者使用，因此信譽不佳。 您必須實作另一個選擇器，用於 **保留與贏取通訊** 和用於驗證。
+* **安全性**：加密是DKIM的金鑰元素。 為確保DKIM的安全性等級，1024b是建議的最佳實務加密大小。 大多數存取提供者不會將下層DKIM金鑰視為有效。
+* **信譽**：信譽是以IP和/或網域為基礎，但較不透明的DKIM選取器也是要考慮的關鍵元素。 選擇選擇器相當重要：請避免保留「預設」選擇器，此選擇器可供任何使用者使用，因此信譽不佳。 您必須針對&#x200B;**保留與贏取通訊**&#x200B;以及驗證實作不同的選擇器。
 
-瞭解更多有關在中使用Campaign Classic時的DKIM先決條件 [本節](/help/additional-resources/acc-technical-recommendations.md#dkim-acc).
+在[本節](/help/additional-resources/acc-technical-recommendations.md#dkim-acc)中使用Campaign Classic時，瞭解有關DKIM先決條件的詳細資訊。
 
 ## DMARC {#dmarc}
 
@@ -63,4 +63,4 @@ DMARC （網域型訊息驗證、報告和符合性）是電子郵件驗證的�
 
 >[!NOTE]
 >
->DMARC可善用以下程式碼產生的報告： [250ok](https://250ok.com/).
+>DMARC可以利用[250ok](https://250ok.com/)產生的報告。

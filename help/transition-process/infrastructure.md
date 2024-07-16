@@ -12,7 +12,7 @@ team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '898'
 ht-degree: 2%
 
 ---
@@ -36,8 +36,8 @@ Adobe平台上新寄件者的上線流程包括設定您的傳送網域，並確
 
 形成結構良好的IP策略很重要，這樣有助於建立良好的信譽。 IP和設定的數量會因您的業務模式和行銷目標而異。 與專家合作，制定明確的策略，從一開始就行。 請注意下列重要事項：
 
-* **IP過多** 可能會觸發信譽問題，因為這是垃圾郵件傳送者的常見策略， **雪鞋**，這是垃圾郵件傳送者使用的策略，其流量會散佈在許多IP上，以將垃圾郵件傳送最大化。 即使您不是垃圾郵件傳送者，但如果您使用太多IP，特別是當這些IP先前沒有任何流量時，您可能會看起來像一個。
-* **IP太少** 可能導致輸送量問題並可能觸發信譽問題。 輸送量因ISP而異。 ISP願意接受的程度和速度通常取決於其基礎架構和傳送信譽閾值。
+* **太多IP**&#x200B;可能會觸發信譽問題，因為這是垃圾郵件傳送者對&#x200B;**snowshoe**&#x200B;的常用策略，這是垃圾郵件傳送者使用的策略，其流量會散佈在許多IP上，以最大化垃圾郵件郵件的傳送。 即使您不是垃圾郵件傳送者，但如果您使用太多IP，特別是當這些IP先前沒有任何流量時，您可能會看起來像一個。
+* **太少的IP**&#x200B;可能會導致輸送量問題並可能觸發信譽問題。 輸送量因ISP而異。 ISP願意接受的程度和速度通常取決於其基礎架構和傳送信譽閾值。
 * 區分傳訊型別的流量是關鍵。 至少必須在單獨的IP集區上單獨行銷和交易式郵件。
 * 如果您的信譽非常不同，建議您根據您的郵件策略，在不同的IP集區上分隔不同的產品或行銷資料流。 有些行銷人員也依地區細分。 為信譽較低的流量分離IP將不會解決信譽問題，但這將防止您的「良好」信譽電子郵件傳遞出現問題。 畢竟，您不想為了風險更高的對象而犧牲您的優秀對象。
 
@@ -47,30 +47,30 @@ Adobe平台上新寄件者的上線流程包括設定您的傳送網域，並確
 
 ## 驗證 {#authentication}
 
-驗證是ISP用來驗證傳送者身分的程式。 最常見的兩種驗證通訊協定為 [!DNL Sender Policy Framework] (SPF)和 [!DNL DomainKeys Identified Mail] (DKIM)。 一般使用者看不到這些訊息，但可協助ISP篩選來自已驗證寄件者的電子郵件。 [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC)越來越受歡迎，雖然其政策尚未被所有ISP納入其聲譽系統。
+驗證是ISP用來驗證傳送者身分的程式。 最常見的兩種驗證通訊協定是[!DNL Sender Policy Framework] (SPF)和[!DNL DomainKeys Identified Mail] (DKIM)。 一般使用者看不到這些訊息，但可協助ISP篩選來自已驗證寄件者的電子郵件。 [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC)越來越熱門，雖然其原則尚未被所有ISP納入其聲譽系統。
 
 ### SPF
 
-[!DNL Sender Policy Framework] (SPF)是一種驗證方法，可讓網域擁有者指定他們用來從該網域傳送郵件的郵件伺服器。
+[!DNL Sender Policy Framework] (SPF)是一種驗證方法，它允許網域擁有者指定他們用來從該網域傳送郵件的郵件伺服器。
 
 ### DKIM
 
-[!DNL Domain Keys Identified Mail] (DKIM)是一種驗證方法，用於偵測偽造的寄件者地址（通常稱為欺騙）。 如果DKIM已啟用，接收者可以確認寄件者是否獲得授權，可以從該網域傳送郵件。
+[!DNL Domain Keys Identified Mail] (DKIM)是一種驗證方法，用來偵測偽造的寄件者地址（通常稱為欺騙）。 如果DKIM已啟用，接收者可以確認寄件者是否獲得授權，可以從該網域傳送郵件。
 
 ### DMARC
 
-[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)是一種驗證方法，可讓網域擁有者保護其網域免受未經授權的使用。 DMARC使用SPF或DKIM （或兩者）來允許網域擁有者控制驗證失敗的郵件發生的情況：傳送、隔離或拒絕。
+[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)是一種驗證方法，可讓網域擁有者保護其網域不受未授權使用。 DMARC使用SPF或DKIM （或兩者）來允許網域擁有者控制驗證失敗的郵件發生的情況：傳送、隔離或拒絕。
 
 ## 產品特定資源
 
 **Campaign**
 
-* 瞭解如何在中將子網域完全委派至Adobe Campaign Classic或Standard [本節](/help/additional-resources/ac-domain-name-setup.md).
+* 在[本節](/help/additional-resources/ac-domain-name-setup.md)中瞭解如何將子網域完全委派給Adobe Campaign Classic或Standard。
 * [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派至Adobe Campaign Classic。*
 * [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派至Adobe Campaign Standard。*
-* 進一步瞭解在中為Campaign Classic執行個體實作回饋迴路 [本節](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc).
+* 在[本節](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc)中進一步瞭解如何為Campaign Classic執行個體實作回饋迴路。
 
 ## 其他資源
 
-* 在中進一步瞭解SPF、DKIM和DMARC驗證方法 [本節](/help/additional-resources/authentication.md).
-* 進一步瞭解透過IP暖身提高您的電子郵件信譽 [本節](/help/additional-resources/increase-reputation-with-ip-warming.md).
+* 在[本節](/help/additional-resources/authentication.md)中進一步瞭解SPF、DKIM和DMARC驗證方法。
+* 在[本節](/help/additional-resources/increase-reputation-with-ip-warming.md)中進一步瞭解透過IP暖身提高您的電子郵件信譽。

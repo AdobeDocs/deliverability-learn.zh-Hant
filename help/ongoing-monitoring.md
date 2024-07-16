@@ -12,8 +12,8 @@ team: TM
 exl-id: 2defe1ae-5148-46f9-aaa7-8034107980ee
 source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 35%
+source-wordcount: '155'
+ht-degree: 21%
 
 ---
 
@@ -42,4 +42,4 @@ ht-degree: 35%
 
 ## 其他資源
 
-* 瞭解如何在中解決傳遞能力問題 [本節](/help/additional-resources/troubleshooting.md).
+* 在[本節](/help/additional-resources/troubleshooting.md)中瞭解如何解決傳遞能力問題。

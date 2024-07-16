@@ -8,8 +8,8 @@ team: ACS
 exl-id: 30118706-d4c0-4bd8-8c9b-50c26b8374ef
 source-git-commit: d6094cd2ef0a8a7741e7d8aa4db15499fad08f90
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 1%
+source-wordcount: '913'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ## ISP如何檢視非參與活動？ {#how-do-isps-view-non-engagement-activity-}
 
-多年來，ISP一直使用使用者的參與回饋量度來決定要放置訊息的位置，或是否要傳送訊息。 使用者 [參與](/help/engagement.md) 由正面和負面意見組成，ISP會持續監控。 沒有參與可能是負面參與的主要貢獻因素之一。 從傳遞能力的角度來看，持續傳送行銷活動給沒有參與的使用者也會降低IP位址和網域的整體信譽。
+多年來，ISP一直使用使用者的參與回饋量度來決定要放置訊息的位置，或是否要傳送訊息。 使用者[參與](/help/engagement.md)包含正面和負面回饋，ISP會持續監視。 沒有參與可能是負面參與的主要貢獻因素之一。 從傳遞能力的角度來看，持續傳送行銷活動給沒有參與的使用者也會降低IP位址和網域的整體信譽。
 
 Gmail、Microsoft®和OATH等ISP會將非參與視為無用的電子郵件，並開始將郵件重新導向至垃圾郵件資料夾。 此外，這些訂閱者可能不再擁有電子郵件帳戶，這可用作「回收」垃圾郵件陷阱。 這表示位址在一段時間內無效，且所有訊息都會被拒絕。 如果您的訂閱者管理系統沒有移除「硬跳出」地址，郵件可能會落入垃圾郵件陷阱，進而導致重大傳送問題。
 
@@ -75,8 +75,8 @@ Gmail、Microsoft®和OATH等ISP會將非參與視為無用的電子郵件，並
 
 **Adobe Campaign**
 
-* [追蹤Campaign Classic中的記錄](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)
-* [追蹤Campaign Standard中的記錄](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)
+* [追蹤Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)中的記錄檔
+* [追蹤Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)中的記錄檔
 
 **Adobe客戶歷程管理**
 
