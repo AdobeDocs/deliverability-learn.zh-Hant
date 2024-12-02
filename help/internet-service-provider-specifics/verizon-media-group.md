@@ -1,6 +1,6 @@
 ---
 title: Verizon Media Group（Yahoo、AOL、Verizon 等）
-description: '''''[!DNL Verizon Media Group]''通常是大多數B2C清單的前三個網域之一。 他們的行為有些獨特，因為如果出現信譽問題，他們通常會限制或大量郵件。」'
+description: 在大多數B2C清單中，[!DNL Verizon Media Group]通常是前三個網域之一。 他們的行為有些獨特，因為如果出現信譽問題，他們通常會限制或大量郵件。
 topics: Deliverability
 jira: KT-5320
 doc-type: article
