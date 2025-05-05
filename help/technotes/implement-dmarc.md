@@ -99,7 +99,7 @@ DMARC記錄有多個稱為DMARC標籤的元件。 每個標籤都有一個值，
 
 >[!NOTE]
 >
->如果您的Campaign執行個體託管於AWS上，則可以使用控制面板為子網域實作DMARC。 [瞭解如何使用控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html)實作DMARC記錄。
+>如果您的Campaign執行個體託管於AWS上，則可以使用控制面板為子網域實作DMARC。 [瞭解如何使用控制面板](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/txt-records/dmarc.html?lang=zh-Hant)實作DMARC記錄。
 
 DMARC失敗的常見原因在於「寄件者」與「錯誤收件者」或「傳迴路徑」位址之間未對齊。 若要避免此問題，在設定DMARC時，建議在傳遞範本中仔細檢查您的「寄件者」和「寄件者錯誤」位址設定。
 

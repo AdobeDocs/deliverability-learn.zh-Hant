@@ -45,8 +45,8 @@ ht-degree: 3%
 
 若要尋找受此問題影響的收件者，或當此問題再次發生在任何其他ISP身上時，請參閱下列指示：
 
-* 若為Campaign Classicv7和Campaign v8，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
-* 如需Campaign Standard，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
+* 若為Campaign Classicv7和Campaign v8，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=zh-Hant#unquarantine-bulk){_blank}。
+* 如需Campaign Standard，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=zh-Hant#unquarantine-bulk){_blank}。
 
 ### Adobe Journey Optimizer{#ajo-update}
 
@@ -54,5 +54,5 @@ ht-degree: 3%
 
 識別之後，可以使用&#x200B;**[!UICONTROL Delete]**&#x200B;按鈕從隱藏清單中手動移除這些地址。 這些地址隨後可包含在未來的電子郵件行銷活動中。
 
-在[本節](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}中瞭解更多資訊。
+在[本節](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=zh-Hant#remove-from-suppression-list){_blank}中瞭解更多資訊。
 

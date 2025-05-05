@@ -66,8 +66,8 @@ Adobe平台上新寄件者的上線流程包括設定您的傳送網域，並確
 **Campaign**
 
 * 在[本節](/help/additional-resources/ac-domain-name-setup.md)中瞭解如何將子網域完全委派給Adobe Campaign Classic或Standard。
-* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派至Adobe Campaign Classic。*
-* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html) - *瞭解如何將子網域完全委派至Adobe Campaign Standard。*
+* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hant) - *瞭解如何將子網域完全委派至Adobe Campaign Classic。*
+* [控制面板：完整子網域委派（教學課程）](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/subdomain-delegation.html?lang=zh-Hant) - *瞭解如何將子網域完全委派至Adobe Campaign Standard。*
 * 在[本節](/help/additional-resources/acc-technical-recommendations.md#feedback-loop-acc)中進一步瞭解如何為Campaign Classic執行個體實作回饋迴路。
 
 ## 其他資源

@@ -39,7 +39,7 @@ MX規則（郵件交換器）是管理傳送伺服器與接收伺服器之間通
 
 >[!NOTE]
 >
->如需Adobe Campaign Classic中MX管理的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration)。
+>如需Adobe Campaign Classic中MX管理的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=zh-Hant#mx-configuration)。
 
 ### TLS {#tls}
 
@@ -88,13 +88,13 @@ v=spf1 ip4:12.34.56.78/32 ip4:12.34.56.79/32 ~all
 
 >[!NOTE]
 >
->對於託管或混合式安裝，如果您已升級至[Enhanced MTA](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html#sending-messages)，Enhanced MTA會對所有網域的所有郵件完成DKIM電子郵件驗證簽署。
+>對於託管或混合式安裝，如果您已升級至[Enhanced MTA](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-with-enhanced-mta.html?lang=zh-Hant#sending-messages)，Enhanced MTA會對所有網域的所有郵件完成DKIM電子郵件驗證簽署。
 
 搭配Adobe Campaign Classic使用[DKIM](/help/additional-resources/authentication.md#dkim)需要下列先決條件：
 
 **Adobe Campaign選項宣告**：在Adobe Campaign中，DKIM私密金鑰是以DKIM選擇器和網域為基礎。 目前無法以不同的選取器為相同的網域/子網域建立多個私密金鑰。 無法定義哪一個選取器網域/子網域必須用於平台或電子郵件中的驗證。 平台將選取其中一個私密金鑰，這表示驗證很有可能失敗。
 
-* 如果您已設定Adobe Campaign執行個體的DomainKeys，您只需要在[網域管理規則](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#email-management-rules)中選取&#x200B;**dkim**。 如果沒有，請遵循與DomainKeys （取代DKIM）相同的設定步驟（私人/公開金鑰）。
+* 如果您已設定Adobe Campaign執行個體的DomainKeys，您只需要在[網域管理規則](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=zh-Hant#email-management-rules)中選取&#x200B;**dkim**。 如果沒有，請遵循與DomainKeys （取代DKIM）相同的設定步驟（私人/公開金鑰）。
 * 不需要為相同的網域同時啟用DomainKeys和DKIM，因為DKIM是DomainKeys的改良版本。
 * 下列網域目前驗證DKIM：AOL、Gmail。
 
@@ -199,7 +199,7 @@ Gmail， Outlook.com， Yahoo！ 和Microsoft Outlook支援此方法。 直接�
 
 規則必須包含產生命令列的指令碼，且必須包含在電子郵件標頭中。
 
-在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules)中瞭解如何在Adobe Campaign v7/v8中建立型別規則。
+在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=zh-Hant#typology-rules)中瞭解如何在Adobe Campaign v7/v8中建立型別規則。
 
 >[!NOTE]
 >

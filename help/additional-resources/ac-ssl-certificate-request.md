@@ -83,7 +83,7 @@ ht-degree: 1%
 以下是一些要遵循的最佳實務：
 
 * 對每個委派的子網域引發一個請求。
-* 您可以將多個子網域合併為單一CSR請求，但僅限於相同環境中。 例如，在Campaign Classic中，行銷伺服器、[中間來源伺服器](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/mid-sourcing-server.html)和[執行執行個體](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/configuring-instances.html#execution-instance)是三個不同的環境。
+* 您可以將多個子網域合併為單一CSR請求，但僅限於相同環境中。 例如，在Campaign Classic中，行銷伺服器、[中間來源伺服器](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/mid-sourcing-server.html?lang=zh-Hant)和[執行執行個體](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/configuring-instances.html?lang=zh-Hant#execution-instance)是三個不同的環境。
 * 在續約SSL憑證之前，您必須先取得新的CSR。 請勿使用一年或更久以前的舊CSR檔案。
 
 您需要提供下列資訊。
@@ -199,7 +199,7 @@ ht-degree: 1%
 
 * 建立支援票證，以便在憑證到期日之前至少兩週要求更新的憑證。 除非CSR詳細資料已變更，否則您不需要請求其他CSR。
 
-* 如果您有[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)的存取權，而且您的環境是由AWS環境中的Adobe所託管，您可以使用「控制面板」在憑證過期前更新憑證。 請參閱[此章節](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates)深入瞭解。
+* 如果您有[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)的存取權，而且您的環境是由AWS環境中的Adobe所託管，您可以使用「控制面板」在憑證過期前更新憑證。 請參閱[此章節](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hant#monitoring-certificates)深入瞭解。
 
 ### 步驟8 — 更新任何特定設定 {#update-configuration}
 
@@ -207,7 +207,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->對於Campaign Classic，要更新的URL主要位於[部署精靈](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard)和[外部帳戶](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html) （追蹤、映象頁面和公用資源網域）中。 如需Campaign Standard，請參閱[品牌組態](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity)。
+>對於Campaign Classic，要更新的URL主要位於[部署精靈](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html?lang=zh-Hant#deployment-wizard)和[外部帳戶](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html?lang=zh-Hant) （追蹤、映象頁面和公用資源網域）中。 如需Campaign Standard，請參閱[品牌組態](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html?lang=zh-Hant#about-brand-identity)。
 
 更新設定後，新電子郵件將使用HTTPS URL而不是HTTP傳送。 若要檢查URL現在是否安全，您可以快速執行下列測試：
 
@@ -218,8 +218,8 @@ ht-degree: 1%
 
 **Campaign Classic**
 
-* [控制面板：新增SSL憑證（教學課程）](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) — 瞭解如何新增SSL憑證來保護您的子網域。
+* [控制面板：新增SSL憑證（教學課程）](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=zh-Hant) — 瞭解如何新增SSL憑證來保護您的子網域。
 
 **Campaign Standard**
 
-* [控制面板：新增SSL憑證（教學課程）](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) — 瞭解如何新增SSL憑證來保護您的子網域。
+* [控制面板：新增SSL憑證（教學課程）](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=zh-Hant) — 瞭解如何新增SSL憑證來保護您的子網域。

@@ -29,8 +29,8 @@ ht-degree: 16%
 
 **Analytics**
 
-* [如何提高參與度和保留率（教學課程）](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=en#mobile-app-analytics)： *使用同類群組的行為來識別參與的對象，並瞭解行動應用程式中促成繫結的根本原因。 使用區段IQ中的資料科學演演算法來瞭解區段之間的差異和相似性。*
+* [如何提高參與度和保留率（教學課程）](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/mobile-app-analytics/measuring-mobile-analytics/how-to-increase-engagement-and-retention-rates.html?lang=zh-Hant#mobile-app-analytics)： *使用同類群組的行為來識別參與的對象，並瞭解行動應用程式中促成繫結的根本原因。 使用區段IQ中的資料科學演演算法來瞭解區段之間的差異和相似性。*
 
 **Campaign Standard**
 
-* [AI支援電子郵件：預測性參與計分](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html#predictive-scoring)
+* [AI支援電子郵件：預測性參與計分](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html?lang=zh-Hant#predictive-scoring)

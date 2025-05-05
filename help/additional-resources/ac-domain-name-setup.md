@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->您也可以使用「控制面板」（提供測試版）設定新子網域。 請參閱[此章節](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#must-read)深入瞭解。
+>您也可以使用「控制面板」（提供測試版）設定新子網域。 請參閱[此章節](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=zh-Hant#must-read)深入瞭解。
 
 ## 子網域
 
@@ -201,7 +201,7 @@ marketing.example.com. NS d.ns.campaign.adobe.com.
 
 這可讓您檢視委派給Adobe Campaign的所有子網域，以及要求續約其SSL憑證。
 
-如需詳細資訊，請參閱[專屬文件](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html#subdomains-and-certificates)。
+如需詳細資訊，請參閱[專屬文件](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=zh-Hant#subdomains-and-certificates)。
 
 >[!NOTE]
 >

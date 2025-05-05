@@ -75,8 +75,8 @@ Gmail、Microsoft®和OATH等ISP會將非參與視為無用的電子郵件，並
 
 **Adobe Campaign**
 
-* [追蹤Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#tracking-logs)中的記錄檔
-* [追蹤Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html#tracking-logs)中的記錄檔
+* [追蹤Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=zh-Hant#tracking-logs)中的記錄檔
+* [追蹤Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/sending-and-tracking-messages/tracking-messages.html?lang=zh-Hant#tracking-logs)中的記錄檔
 
 **Adobe客戶歷程管理**
 
