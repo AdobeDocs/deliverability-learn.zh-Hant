@@ -9,7 +9,7 @@ auto-video-transcripts: true
 source-git-commit: 0d78f4c588ae55c61a7e40e07a3b8d33ce84cb01
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,15 +37,15 @@ ht-degree: 100%
    + [歡迎電子郵件](/help/first-impressions/welcome-emails.md)
 + [最佳化傳遞能力的內容最佳實務](/help/content-best-practices-for-optimal-delivery.md)
 + [發件人永久性](/help/sender-permanence.md)
-+ 網路服務提供商具體資訊 {#internet-service-provider-specifics}
-   + [概覽](/help/internet-service-provider-specifics/overview.md)
++ 網路服務提供者具體資訊 {#internet-service-provider-specifics}
+   + [概觀](/help/internet-service-provider-specifics/overview.md)
    + [Gmail](/help/internet-service-provider-specifics/gmail.md)
    + [Microsoft（Hotmail、Outlook、Windows Live 等）](/help/internet-service-provider-specifics/microsoft.md)
    + [Verizon Media Group（Yahoo、AOL、Verizon 等）](/help/internet-service-provider-specifics/verizon-media-group.md)
 + [持續監控](/help/ongoing-monitoring.md)
 + [付諸實踐](/help/putting-it-in-practice.md)
 + 附錄：其他資源 {#additional-resources}
-   + [概覽](/help/additional-resources/general-resources.md)
+   + [概觀](/help/additional-resources/general-resources.md)
    + [取消訂閱規範](/help/unsubscribe-dos-and-do-nots.md)
    + 一般資源 {#generic-resources}
       + [關於垃圾郵件陷阱](/help/additional-resources/all-about-spam-traps.md)
@@ -55,12 +55,12 @@ ht-degree: 100%
       + [重新參與的最佳實務](/help/additional-resources/re-engagement.md)
       + [即時黑洞清單](/help/additional-resources/blocklist-databases.md)
       + [疑難排解](/help/additional-resources/troubleshooting.md)
-   + [!DNL Adobe Campaign] 的資源 {#campaign}
+   + [!DNL Adobe Campaign]的資源 {#campaign}
       + [網域名稱設定](/help/additional-resources/ac-domain-name-setup.md)
       + [SSL 憑證請求流程](/help/additional-resources/ac-ssl-certificate-request.md)
       + [開始新平台](/help/additional-resources/ac-starting-new-platform.md)
       + [Campaign Classic - 技術建議](/help/additional-resources/acc-technical-recommendations.md)
-   + 技術備忘稿 {#technotes}
+   + 技術說明{#technotes}
       + [實施 DMARC](/help/technotes/implement-dmarc.md)
       + [實施 BIMI](/help/technotes/implement-bimi.md)
       + [在 Italia 線上中斷後更新退回](/help/technotes/update-bounces-after-it-outage.md)
