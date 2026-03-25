@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
-source-git-commit: e7427d6109f3201affa58decde36294d1631bf5b
+source-git-commit: b859229410ca0199f9e9d57025a9fe022834a217
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 2%
+source-wordcount: '423'
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 * 依IP位址：列出傳送垃圾郵件或可能轉送垃圾郵件的IP位址。
 * 依寄件者網域：列出傳送垃圾郵件或設定錯誤的寄件者網域（退回郵件地址的完整網域）。
-* 依網域：列出在垃圾郵件內容所含連結和影像的URL中找到的網域（向註冊機構註冊的高層網域）。 在Adobe解決方案中，通常考慮的網域是用來追蹤的地址。
+* 依網域：列出在垃圾郵件內容所含連結和影像的URL中找到的網域（向註冊機構註冊的高層網域）。 在Adobe解決方案中，要考量的網域通常是用於追蹤的地址。
 
 以下列出最廣泛使用的RBL。 如需更完整的清單，請參閱[https://www.dnsstuff.com/](https://tools.dnsstuff.com/)。
 
@@ -41,18 +41,20 @@ ht-degree: 2%
 
   請參閱[https://www.uribl.com/](https://www.uribl.com/)
 
-  此清單可識別定期出現在宣告為垃圾訊息的郵件中的網域。 如果您的網域出現在此清單上，可能會大幅影響您的傳遞能力。 您應立即通知傳遞服務及[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
+  此清單可識別定期出現在宣告為垃圾訊息的郵件中的網域。 如果您的網域出現在此清單上，可能會大幅影響您的傳遞能力。 您應立即通知傳遞服務和[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
 
 * **SURBL**
 
   請參閱[https://surbl.org/](https://surbl.org/)
 
-  SURBL會識別定期出現在垃圾郵件中的網站。 如果您的網域出現在此清單上，可能會大幅影響您的傳遞能力。 您應立即通知傳遞服務及[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
+  SURBL會識別定期出現在垃圾郵件中的網站。 如果您的網域出現在此清單上，可能會大幅影響您的傳遞能力。 您應立即通知傳遞服務和[Adobe客戶服務](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)。
 
 * **iX Manitu**
 
   這是IP清單，在德國有廣泛的使用。 請參閱[https://www.heise.de/ix/nixspam/](https://www.heise.de/ix/nixspam/)
 
-<!--* SORBS
+<!--
+* SORBS
 
-  [https://www.nl.sorbs.net](https://www.nl.sorbs.net) compiles a list of IP addresses that are reputed to be dynamic IP address (i.e. attributed temporarily to ISP subscribers) or "open relay" addresses. Certain domains check whether the IP address of a sender is not listed on this site before accepting email. Checking the IP addresses on this site can prove useful.-->
+  [https://www.nl.sorbs.net](https://www.nl.sorbs.net) compiles a list of IP addresses that are reputed to be dynamic IP address (i.e. attributed temporarily to ISP subscribers) or "open relay" addresses. Certain domains check whether the IP address of a sender is not listed on this site before accepting email. Checking the IP addresses on this site can prove useful.
+-->

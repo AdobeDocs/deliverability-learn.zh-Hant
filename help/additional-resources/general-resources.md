@@ -6,10 +6,10 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 75538ef8-8e4b-4940-8d11-42ebd7c65e93
-source-git-commit: 3616470b31f45d589d323a6b90c7fd5df3b467b7
+source-git-commit: b859229410ca0199f9e9d57025a9fe022834a217
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 31%
+source-wordcount: '124'
+ht-degree: 32%
 
 ---
 
@@ -27,19 +27,20 @@ ht-degree: 31%
 
 * [關於垃圾郵件陷阱](../../help/additional-resources/all-about-spam-traps.md)
 * [透過 IP 暖身提高您的電子郵件信譽](../../help/additional-resources/increase-reputation-with-ip-warming.md)
-* [驗證](../../help/additional-resources/authentication.md)
+* [Authentication](../../help/additional-resources/authentication.md)
 * [複製](../../help/additional-resources/duplicates.md)
 * [重新參與的最佳實務](../../help/additional-resources/re-engagement.md)
 * [即時黑洞清單](../../help/additional-resources/blocklist-databases.md)
 * [疑難排解](../../help/additional-resources/troubleshooting.md)
 
-  <!--
-    [IP Certification](../../help/additional-resources/ip-certification.md)
-    [Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)-->
+<!--
+[IP Certification](../../help/additional-resources/ip-certification.md)
+[Third-party monitoring tools](../../help/additional-resources/third-party-monitoring-tools.md)
+-->
 
 ## 產品特定資源
 
-此外，本節還列出許多產品專屬資源，協助您實作傳遞能力並成功使用Adobe解決方案。
+此外，本節還提供許多產品專屬資源，協助您實作傳遞能力並成功使用Adobe解決方案。
 
 **[!DNL Adobe Campaign]**
 
