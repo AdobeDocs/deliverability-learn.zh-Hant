@@ -7,10 +7,10 @@ hide: true
 hidefromtoc: true
 role: Admin
 level: Beginner
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+source-git-commit: e1a2c58e92da00186d91c7acfd8fd7300133a51c
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 3%
+source-wordcount: '459'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 ## 影響{#outage-impact}
 
-如同在網際網路服務提供者(ISP)發生中斷的大多數情況一樣，透過Campaign或Journey Optimizer傳送的某些電子郵件會錯誤標示為跳出。 這不僅會影響Adobe，也會影響所有嘗試在中斷期間將電子郵件傳送到Italia Online的客戶。
+如同在網際網路服務提供者(ISP)發生中斷的大多數情況一樣，透過Campaign或Journey Optimizer傳送的某些電子郵件會錯誤標示為跳出。 這不僅影響Adobe，也影響了在中斷期間嘗試將電子郵件傳送到Italia Online的所有人。
 
 症狀如下：
 
@@ -45,8 +45,8 @@ ht-degree: 3%
 
 若要尋找受此問題影響的收件者，或當此問題再次發生在任何其他ISP身上時，請參閱下列指示：
 
-* 若為Campaign Classicv7和Campaign v8，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=zh-Hant#unquarantine-bulk){_blank}。
-* 如需Campaign Standard，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=zh-Hant#unquarantine-bulk){_blank}。
+* 若為Campaign Classic v7和Campaign v8，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
+* 若為Campaign Standard，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
 
 ### Adobe Journey Optimizer{#ajo-update}
 
@@ -54,5 +54,5 @@ ht-degree: 3%
 
 識別之後，可以使用&#x200B;**[!UICONTROL Delete]**&#x200B;按鈕從隱藏清單中手動移除這些地址。 這些地址隨後可包含在未來的電子郵件行銷活動中。
 
-在[本節](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=zh-Hant#remove-from-suppression-list){_blank}中瞭解更多資訊。
+請參閱[此章節](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}深入瞭解。
 
