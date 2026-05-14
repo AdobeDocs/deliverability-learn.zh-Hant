@@ -10,9 +10,28 @@ role: Admin, Leader
 level: Beginner
 team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+TQID: https://experienceleague.adobe.com/FWlVtNGACEM6dKsnYQJU-z04mP902M5EXZmxxsKDyqU
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+  - id: c5f60233-d5ea-4453-a799-0ad258b4d399
+  - id: e2290edd-b061-4880-9d79-dee306cf5aa9
+  - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
+  - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: 923
 ht-degree: 2%
 
 ---
@@ -25,7 +44,7 @@ ht-degree: 2%
 
 時代變了，有些ISP （例如Gmail和Yahoo）現在將網域信譽合併為附加至寄件者電子郵件信譽的額外點。 您的網域信譽是以您的傳送網域為基礎，而不是以您的IP位址為基礎。 這表示在ISP篩選決定方面，您的品牌優先。
 
-Adobe平台上新寄件者的上線流程包括設定您的傳送網域，並確保您的基礎架構已正確建立。 您應與專家合作，瞭解您計畫長期使用哪些網域。 以下是一些可塑造良好網域策略的秘訣：
+Adobe平台上新寄件者上線流程的一部分，包括設定您的傳送網域，並確保您的基礎架構已正確建立。 您應與專家合作，瞭解您計畫長期使用哪些網域。 以下是一些可塑造良好網域策略的秘訣：
 
 * 在您選擇的網域中儘可能清晰地反映品牌，讓使用者不會將郵件錯誤地識別為垃圾郵件。 範例包括newsletter.foo.com、receipts.foo.com等。
 * 您不應使用您的上層或公司網域，因為這會影響從您的組織傳送郵件給ISP。
@@ -45,9 +64,9 @@ Adobe平台上新寄件者的上線流程包括設定您的傳送網域，並確
 
 在幕後，Adobe平台會處理有關退信、投訴、取消訂閱等資料。 這些意見回圈的設定是傳遞能力的重要方面。 投訴可能會損害聲譽，因此您應該使用電子郵件地址向目標受眾提出投訴。 請務必注意，Gmail不會將這些資料提供回來。 清單取消訂閱標題和參與篩選對Gmail訂閱者尤其重要，他們現在構成了訂閱者資料庫的大多數。
 
-## 驗證 {#authentication}
+## Authentication {#authentication}
 
-驗證是ISP用來驗證傳送者身分的程式。 最常見的兩種驗證通訊協定是[!DNL Sender Policy Framework] (SPF)和[!DNL DomainKeys Identified Mail] (DKIM)。 一般使用者看不到這些訊息，但可協助ISP篩選來自已驗證寄件者的電子郵件。 [!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC)越來越熱門，雖然其原則尚未被所有ISP納入其聲譽系統。
+驗證是ISP用來驗證傳送者身分的程式。 最常見的兩種驗證通訊協定是[!DNL Sender Policy Framework] (SPF)和[!DNL DomainKeys Identified Mail] (DKIM)。 一般使用者看不到這些訊息，但可協助ISP篩選來自已驗證寄件者的電子郵件。[!DNL Domain-based Message Authentication Reporting and Conformance] (DMARC)越來越熱門，雖然其政策尚未被所有ISP納入其聲譽系統。
 
 ### SPF
 
@@ -55,11 +74,11 @@ Adobe平台上新寄件者的上線流程包括設定您的傳送網域，並確
 
 ### DKIM
 
-[!DNL Domain Keys Identified Mail] (DKIM)是一種驗證方法，用來偵測偽造的寄件者地址（通常稱為欺騙）。 如果DKIM已啟用，接收者可以確認寄件者是否獲得授權，可以從該網域傳送郵件。
+[!DNL Domain Keys Identified Mail] (DKIM)是用來偵測偽造寄件者位址的驗證方法（通常稱為假冒）。 如果已啟用DKIM，接收者可以確認寄件者是否獲得授權，可以從該網域傳送郵件。
 
 ### DMARC
 
-[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)是一種驗證方法，可讓網域擁有者保護其網域不受未授權使用。 DMARC使用SPF或DKIM （或兩者）來允許網域擁有者控制驗證失敗的郵件發生的情況：傳送、隔離或拒絕。
+[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)是一種驗證方法，可讓網域擁有者保護其網域免受未經授權的使用。 DMARC使用SPF或DKIM （或兩者），讓網域擁有者控制驗證失敗的郵件會發生什麼情況：已傳遞、已隔離或已拒絕。
 
 ## 產品特定資源
 

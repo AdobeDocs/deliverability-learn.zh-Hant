@@ -8,9 +8,19 @@ doc-type: article
 activity: understand
 team: TM
 exl-id: 1007b0ea-7a62-4b46-ba32-191df64a15be
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
+TQID: https://experienceleague.adobe.com/KG0GoucZ5XT-U2VHzaH1DschMaYb62EJvYzordlrw1E
+product_v2:
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: 576
 ht-degree: 0%
 
 ---
@@ -30,7 +40,7 @@ ht-degree: 0%
 **儘快傳送您的訊息**
 如果您提供促銷活動，新訂閱者可能會先在網站上等待收到電子郵件，然後再進行購買。 在此即使延遲5至10分鐘，也可能導致銷售失敗。 即使您沒有促銷活動，他們目前仍對您的品牌表示興趣。 因此，當他們的興趣達到頂峰時，您需要與他們互動，而不是在稍後再冒險。
 
-**建立強式主旨行和前置標題**
+**建立強式主旨行和預先標題**
 您不僅需要感謝他們註冊，還需要引起他們的注意，並提供他們想要開啟電子郵件的理由。 別忘了利用頁首的額外空間，打造您的個案。
 
 **設定期望**
@@ -42,7 +52,7 @@ ht-degree: 0%
 **保持簡潔**
 您有許多話要說，而且新訂閱者很想聽。 但您的第一則訊息應簡短簡明、切合實際，而且不會讓人不知所措。
 
-**傳送一連串電子郵件**
+**傳送一系列電子郵件**
 如前所述，您有許多話要跟細心的觀眾說。 建立完整的歡迎系列（3-5封電子郵件）可讓您將每個系列保持在適當位置，同時仍涵蓋您想要分享的所有資訊。 這也會促進訂閱者持續興趣，進而帶來持續的正面參與、提升聲譽並改善傳遞能力。
 
 **取得個人**
