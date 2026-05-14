@@ -8,9 +8,15 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: ffacc1b1-bf3f-466e-9a1d-63aad4d2ec45
-source-git-commit: 9444f8601f2f349398ee5deb9d5f4d4f7abb44f5
-workflow-type: ht
-source-wordcount: '495'
+TQID: https://experienceleague.adobe.com/qandgsfuAA4E9uHfZ0jrgpkjs-kt9Izs8k-HvtgDF7A
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b0bb9048-d951-48d8-8232-45cf248a7e27id: e64968b2-4ee5-47f9-8cae-0588f184b9ebid: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+workflow-type: tm+mt
+source-wordcount: 495
 ht-degree: 100%
 
 ---
@@ -23,7 +29,7 @@ ht-degree: 100%
 
 回收的垃圾郵件陷阱是曾經有效但不再使用的地址。 要盡可能保持清晰的清單，一個關鍵方法是定期傳送電子郵件至您的整個清單，並適當地管理被拒收的電子郵件。 這有助於隔離已放棄的電子郵件地址，並阻止其繼續使用。
 
-在某些情況下，地址可在 30 天內循環使用。 定期傳送電子郵件是維持白名單品質的重要關鍵，同時也應定期排除非使用中的使用者。**重新參與行銷活動**，通常是複雜電子郵件行銷方案的一部分。此行銷活動可讓傳送者嘗試讓原本不會再收到郵件的使用者回來。
+在某些情況下，地址可在 30 天內循環使用。 定期發送是維持清單整潔的重要方面，也是定期抑制不活躍用戶的重要方面。 **重新參與行銷活動**&#x200B;通常是複雜電子郵件行銷方案的一部分。 此行銷活動可讓傳送者嘗試讓原本不會再收到郵件的使用者回來。
 
 ## 錯字
 

@@ -9,9 +9,14 @@ role: Admin, Leader, User
 level: Beginner
 team: TM
 exl-id: a7319c85-32b5-4a9e-bee9-24f13630c408
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+TQID: https://experienceleague.adobe.com/JU2Mswl8hi0LmTN9XQAUn2n0I4Ye4xpdKK5PnPuL9dY
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: 473
 ht-degree: 0%
 
 ---
@@ -24,11 +29,11 @@ ht-degree: 0%
 
 ## 哪些資料重要
 
-[!DNL Gmail]著重於使用者對大部分篩選決定的意見回饋。 雖然我們無法得知這些決策牽涉的秘訣，但大多數行銷人員還是能監控一些通用標準。 開啟率和點按率可讓您深入瞭解目標對象的參與情形，並可用來提升正面信譽及高收件匣放置率。
+[!DNL Gmail]著重於使用者對大部分篩選決定的意見回饋。 雖然我們無法得知這些決策牽涉的秘訣，但大多數行銷人員還是能監控一些通用標準。 開啟率和點按率可讓insight參與目標對象的互動，並可用來促進正面信譽和高收件匣放置率。
 
 ## 哪些資料可供使用
 
-[!DNL Gmail]確實提供有限的深入分析，讓他們瞭解如何透過其[!DNL Gmail Postmaster]工具檢視您的傳送實務。 此工具可讓您以高階方式檢視您傳送的IP和網域信譽、驗證結果和投訴問題。
+[!DNL Gmail]確實提供有限的insight，讓他們知道如何透過其[!DNL Gmail Postmaster]工具檢視您的傳送實務。 此工具可讓您以高階方式檢視您傳送的IP和網域信譽、驗證結果和投訴問題。
 
 >[!NOTE]
 >

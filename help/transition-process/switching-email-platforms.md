@@ -10,10 +10,15 @@ role: Admin
 level: Beginner
 team: ACS
 exl-id: 5444d576-5bc1-4fa6-9956-c63dc3c60440
-source-git-commit: 6b312cdbba496818337c97ec4f42962aea757901
+TQID: https://experienceleague.adobe.com/sxCdMHKqdCZ3z2xp-aMYKiFfqu5Y-iDhk8FeergrgZw
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b0bb9048-d951-48d8-8232-45cf248a7e27
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 7%
+source-wordcount: 215
+ht-degree: 8%
 
 ---
 
@@ -25,7 +30,7 @@ ht-degree: 7%
 
 ![轉換程式](../assets/transition-process.png)
 
-保暖IP位址和網域的時間可能有所不同，但一般寄件者通常需要最多八週的基準，才能在大部分的第1級ISP (Gmail、Microsoft、Verizon/Yahoo/AOL等)建立聲譽。
+保暖IP位址和網域的時間可能有所不同，但一般寄件者通常需要最多八週的基準，才能在大部分的第1級ISP （Gmail、Microsoft、Verizon/Yahoo/AOL等）建立聲譽。
 
 在接下來的幾節中，我們將調查一些關鍵領域，以聚焦於正確上線：
 

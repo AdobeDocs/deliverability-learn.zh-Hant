@@ -6,10 +6,16 @@ doc-type: article
 activity: understand
 team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
-source-git-commit: 0be68f5674904aa105985a6e5fc4771c41f7fe48
+TQID: https://experienceleague.adobe.com/zM1boPuxPGJbjlSk1ncR7vTvrhe529sv-OCZwNTCHRE
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b3b8a63f-51fc-40f6-a7d2-a31c5d49fb45id: c5f60233-d5ea-4453-a799-0ad258b4d399id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '2124'
-ht-degree: 1%
+source-wordcount: 2374
+ht-degree: 4%
 
 ---
 
@@ -47,14 +53,14 @@ ht-degree: 1%
 | 低保證憑證 | 低保證憑證（也稱為網域驗證憑證）僅包括憑證中的網域名稱（不包括企業/組織名稱）。 |
 | PEM （隱私權增強郵件） | 副檔名為.pem的憑證，其中包含ASCII (Base64)資料。 這類憑證以「 — — — 開始憑證 — — — 」行開頭。 |
 | 根憑證 | 憑證授權單位會以樹狀結構的形式發行憑證。 根憑證是樹狀結構的最上層憑證。 |
-| SAN （主體替代名稱） | 主體替代名稱是應該作為單一SSL憑證的一部分簽署的其他主機名稱（網站、IP位址、通用名稱等）。 |
+| SAN （主體替代名稱） | 主旨的替代名稱是其他主機名稱（網站、IP位址、通用名稱等） 應該簽署為單一SSL憑證的一部分。 |
 | 自我簽署憑證 | 由建立者簽署的憑證，而非受信任的憑證授權單位。 自我簽署憑證可以啟用與CA簽署的憑證相同等級的加密，但有兩個主要缺點：<ul><li>訪客的連線可能會被劫持，使得攻擊者能夠檢視所有傳送的資料（因而降低了加密連線的目的）</li><li> 無法像受信任的憑證一樣撤銷憑證。</li></ul> |
 | SSL （安全通訊端層） | 在網頁伺服器和瀏覽器之間建立加密連結的標準安全性技術。 |
-| 萬用字元憑證 | 萬用字元憑證可保護單一網域名稱(例如*.adobe.com)上不限數量的一級子網域。 |
+| 萬用字元憑證 | 萬用字元憑證可保護單一網域名稱（例如*.adobe.com）上不限數量的一級子網域。 |
 
 ## 主要步驟
 
-1. 要求Adobe提供憑證申請檔(CSR)並提供必要資訊（國家/地區、州、城市、組織名稱、組織單位名稱等）。
+1. 要求憑證簽署要求(CSR)檔案，並提供必要資訊（國家、州、城市、組織名稱、組織單位名稱等） 前往Adobe。
 1. 驗證Adobe產生的CSR檔案，並驗證您提供的所有資訊是否正確。
 1. 使用CSR詳細資料來產生由受信任的憑證授權單位<!--taking care of asking for using the subjectAltName SSL extension (SAN) if it is for several domain names, and get/purchase the resulting certificate (ideally) in PEM format for Apache server-->簽署的憑證。
 1. 驗證SSL憑證，並確認其符合CSR。
@@ -67,7 +73,7 @@ ht-degree: 1%
 
 ### 先決條件
 
-您必須識別網域名稱和功能（追蹤、映象頁面、網頁應用程式等），才能確保安全。
+您必須識別網域名稱和功能（追蹤、映象頁面、網頁應用程式等） 以保護。
 >[!NOTE]
 >
 >Adobe可協助定義要涉及的網域名稱和函式。 如需詳細資訊，請聯絡您的Adobe客戶團隊。
@@ -83,7 +89,7 @@ ht-degree: 1%
 以下是一些要遵循的最佳實務：
 
 * 對每個委派的子網域引發一個請求。
-* 您可以將多個子網域合併為單一CSR請求，但僅限於相同環境中。 例如，在Campaign Classic中，行銷伺服器、[中間來源伺服器](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/mid-sourcing-server.html?lang=zh-Hant)以及[執行執行個體](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/configuring-instances.html?lang=zh-Hant#execution-instance)是三個不同的環境。
+* 您可以將多個子網域合併為單一CSR請求，但僅限於相同環境中。 例如，在Campaign Classic中，行銷伺服器、[中間來源伺服器](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/install-campaign-on-prem/mid-sourcing-server.html)以及[執行執行個體](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/configuring-instances.html#execution-instance)是三個不同的環境。
 * 在續約SSL憑證之前，您必須先取得新的CSR。 請勿使用一年或更久以前的舊CSR檔案。
 
 您需要提供下列資訊。
@@ -107,7 +113,7 @@ ht-degree: 1%
 
 | 要提供的資訊 | 範例值 | 備註 |
 |--- |--- |--- |
-| 國家/地區[C] | 美國 | 這必須是雙字母代碼。 在[這裡](https://www.ssl.com/csrs/country_codes/)存取完整的國家清單。</br>*注意：如果是英國，請使用GB （不是UK）。* |
+| 國家/地區[C] | 美國 | 這必須是雙字母代碼。 在[這裡](https://www.ssl.com/csrs/country_codes/)存取完整的國家清單。</br>*注意：如果是英國，請使用GB （不是英國）。* |
 | 州/省（名稱） [ST] | 伊利諾 | 若適用。 值必須是完整名稱，而非縮寫。 |
 | 城市/地區名稱[L] | 芝加哥 | |
 | 組織名稱[O] | ACME | |
@@ -199,7 +205,7 @@ ht-degree: 1%
 
 * 建立支援票證，以便在憑證到期日之前至少兩週要求更新的憑證。 除非CSR詳細資料已變更，否則您不需要請求其他CSR。
 
-* 如果您有[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)的存取權，而且您的環境是由AWS環境中的Adobe所託管，您可以使用「控制面板」在憑證過期前更新憑證。 請參閱[此章節](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=zh-Hant#monitoring-certificates)深入瞭解。
+* 如果您有[控制面板](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=zh-Hant)的存取權，而且您的環境是由AWS環境中的Adobe所託管，您可以使用「控制面板」在憑證過期前更新憑證。 請參閱[此章節](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html#monitoring-certificates)深入瞭解。
 
 ### 步驟8 — 更新任何特定設定 {#update-configuration}
 
@@ -207,7 +213,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->對於Campaign Classic，要更新的URL主要位於[部署精靈](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard)和[外部帳戶](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html?lang=zh-Hant) （追蹤、映象頁面和公用資源網域）中。 若為Campaign Standard，請參閱[品牌組態](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html?lang=zh-Hant#about-brand-identity)。
+>對於Campaign Classic，要更新的URL主要位於[部署精靈](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/initial-configuration/deploying-an-instance.html#deployment-wizard)和[外部帳戶](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html) （追蹤、映象頁面和公用資源網域）中。 若為Campaign Standard，請參閱[品牌組態](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/branding.html#about-brand-identity)。
 
 更新設定後，新電子郵件將使用HTTPS URL而不是HTTP傳送。 若要檢查URL現在是否安全，您可以快速執行下列測試：
 
@@ -218,8 +224,8 @@ ht-degree: 1%
 
 **Campaign Classic**
 
-* [控制面板：新增SSL憑證（教學課程）](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=zh-Hant) — 瞭解如何新增SSL憑證來保護您的子網域。
+* [控制面板：新增SSL憑證（教學課程）](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) — 瞭解如何新增SSL憑證來保護您的子網域。
 
 **Campaign Standard**
 
-* [控制面板：新增SSL憑證（教學課程）](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=zh-Hant) — 瞭解如何新增SSL憑證來保護您的子網域。
+* [控制面板：新增SSL憑證（教學課程）](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html) — 瞭解如何新增SSL憑證來保護您的子網域。

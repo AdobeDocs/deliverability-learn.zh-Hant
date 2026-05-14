@@ -6,12 +6,18 @@ role: Admin
 level: Beginner
 doc-type: Feature Video
 duration: 0
-last-substantial-update: 2024-02-27T00:00:00Z
+last-substantial-update: 2024-02-27T00:00:00.000Z
 jira: KT-15029
 exl-id: d8ca4d48-c6c1-45a9-bf6a-3f58ee161a53
-source-git-commit: 964230b60e345ffc624860e978beb6b08ad4c0b2
+TQID: https://experienceleague.adobe.com/YRkDn6lXosAOfAtZrWRoNstTK-MGWl8Y3PicB6iDTJY
+product_v2: id: b27e5950-9033-45ac-9f86-eb22e567f615id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: f71e690b-4480-4b67-9ef5-88f42f9cdfdbid: f82558ea-6af5-44eb-a424-5b3389abb0a3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: 928
 ht-degree: 0%
 
 ---
@@ -56,7 +62,7 @@ ht-degree: 0%
 
 + 您可以提供訂閱者選項，這可以透過偏好設定中心/選擇退出方案來管理。
 
-**DO：**&#x200B;在電子郵件範本中使用List Unsubscribe標頭，以便在電子郵件頂端顯示取消訂閱連結的電子郵件使用者端(例如：gmail.com)輕易找到使用者習慣於尋找取消訂閱的位置。
+**DO：**&#x200B;在電子郵件範本中使用List Unsubscribe標頭，以便在電子郵件頂端顯示取消訂閱連結的電子郵件使用者端（例如：gmail.com）輕易找到使用者習慣於尋找取消訂閱的位置。
 
 
 ## 請勿這麼做
