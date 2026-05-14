@@ -54,7 +54,7 @@ ht-degree: 41%
 **Adobe Campaign Standard**
 
 * [監視傳遞](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=zh-Hant)
-* [傳遞摘要](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/delivery-summary.html)
+* [傳遞摘要](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/list-of-reports/delivery-summary.html?lang=zh-Hant)
 * [監視傳遞性](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/monitor-deliverability.html?lang=zh-Hant#testing-and-sending)
 
 ## 其他資源
