@@ -11,28 +11,37 @@ exl-id: 350950dc-4703-402a-8e22-3862f4e21d52
 TQID: https://experienceleague.adobe.com/Pq8XpNwqzMbxggauciqILSUqX6BT4OCiDffc7ZgDhWc
 product_v2:
   - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b0bb9048-d951-48d8-8232-45cf248a7e27
+    internal-label: Forms
   - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+    internal-label: Resources
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+    internal-label: Data quality
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+    internal-label: Security
+source-git-commit: 7fbfe34d5576041c8b595fc4b3f7dc596a4263fb
 workflow-type: tm+mt
-source-wordcount: 1670
+source-wordcount: '1670'
 ht-degree: 5%
-
 ---
-
-# 解決系列和清單成長問題
+# 解決集合與清單成長
 
 新電子郵件地址的最佳來源是直接來源，例如在您的網站或實體商店中註冊。 在這些情況下，您可以控制體驗，以確保它是正面的，並且訂閱者有興趣從您的品牌取得電子郵件。
 
@@ -66,7 +75,7 @@ ht-degree: 5%
 
 ## 資料品質與衛生
 
-收集資料只是挑戰的一部分。 您也必須確保資料正確無誤，而且可供使用。 您應該已具備基本格式篩選器。 例如，如果電子郵件地址不包含&quot;@&quot;或&quot;。&quot;，則該電子郵件地址無效。 請務必不允許常見的別名位址，這些位址也稱為角色帳戶（例如「資訊」、「管理員」、「銷售」、「支援」）。 角色帳戶可能會帶來風險，因為其性質上，收件者包含一組人員，而非單一訂閱者。 期望和容忍度在群組內可能有所不同，這可能會造成投訴、不同參與度、取消訂閱和一般混淆。
+收集資料只是挑戰的一部分。 您也必須確保資料正確無誤，而且可供使用。 您應該已具備基本格式篩選器。 如果電子郵件地址不包含&quot;@&quot;或&quot;。&quot; 例如。 請務必不允許常見的別名位址，這些位址也稱為角色帳戶（例如「資訊」、「管理員」、「銷售」、「支援」）。 角色帳戶可能會帶來風險，因為其性質上，收件者包含一組人員，而非單一訂閱者。 期望和容忍度在群組內可能有所不同，這可能會造成投訴、不同參與度、取消訂閱和一般混淆。
 
 以下是電子郵件地址資料可能會遇到的常見問題的幾個解決方案：
 
