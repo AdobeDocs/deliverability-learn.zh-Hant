@@ -6,26 +6,34 @@ exl-id: a11e88cf-bf37-42cc-9c09-1d58360459b7
 hide: true
 role: Admin
 level: Beginner
-TQID: https://experienceleague.adobe.com/hPHB9s3PH7E9L3omZMTWZA2ZB0d1JS5vEfawQOjnBLw
+TQID: 'https://experienceleague.adobe.com/hPHB9s3PH7E9L3omZMTWZA2ZB0d1JS5vEfawQOjnBLw'
 product_v2:
   - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b3b8a63f-51fc-40f6-a7d2-a31c5d49fb45
+    internal-label: Configuration
   - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
+    internal-label: Resources
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+    internal-label: Beginner
+source-git-commit: d66463b8c8097e19fd50b9b033e6b21165d7e8c9
 workflow-type: tm+mt
-source-wordcount: 459
+source-wordcount: '459'
 ht-degree: 4%
-
 ---
-
 # 在 Italia 線上中斷後更新不正確的永久性硬退件 {#update-bounce-italia}
 
 ## 內容{#outage-context}
@@ -58,7 +66,7 @@ ht-degree: 4%
 若要尋找受此問題影響的收件者，或當此問題再次發生在任何其他ISP身上時，請參閱下列指示：
 
 * 若為Campaign Classic v7和Campaign v8，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
-* 若為Campaign Standard，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=zh-Hant#unquarantine-bulk){_blank}。
+* 若為Campaign Standard，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
 
 ### Adobe Journey Optimizer{#ajo-update}
 
@@ -66,5 +74,5 @@ ht-degree: 4%
 
 識別之後，可以使用&#x200B;**[!UICONTROL Delete]**&#x200B;按鈕從隱藏清單中手動移除這些地址。 這些地址隨後可包含在未來的電子郵件行銷活動中。
 
-請參閱[此章節](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=zh-Hant#remove-from-suppression-list){_blank}深入瞭解。
+請參閱[此章節](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}深入瞭解。
 
