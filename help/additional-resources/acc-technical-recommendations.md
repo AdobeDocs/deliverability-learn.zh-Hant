@@ -94,7 +94,7 @@ MX規則（郵件交換器）是管理傳送伺服器與接收伺服器之間通
 
 >[!NOTE]
 >
->如需Adobe Campaign Classic中MX管理的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html#mx-configuration)。
+>如需Adobe Campaign Classic中MX管理的詳細資訊，請參閱[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/email-deliverability.html?lang=zh-Hant#mx-configuration)。
 
 ### TLS {#tls}
 
@@ -254,7 +254,7 @@ Gmail， Outlook.com， Yahoo！ 和Microsoft Outlook支援此方法。 直接�
 
 規則必須包含產生命令列的指令碼，且必須包含在電子郵件標頭中。
 
-在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html#typology-rules)中瞭解如何在Adobe Campaign v7/v8中建立型別規則。
+在[本節](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=zh-Hant#typology-rules)中瞭解如何在Adobe Campaign v7/v8中建立型別規則。
 
 >[!NOTE]
 >
