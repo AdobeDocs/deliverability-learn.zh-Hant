@@ -12,12 +12,12 @@ team: ACS
 exl-id: 7d61c81c-aa40-47a6-9869-1953a6ad22b2
 TQID: https://experienceleague.adobe.com/d-g20BCwyBJuEoiyccvHXRWxoEKSsxAkUPYV2Dw6OPw
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
     internal-label: Resources
@@ -27,13 +27,11 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 161
+source-wordcount: '161'
 ht-degree: 17%
-
 ---
-
 # IP 預熱期間的 ISP 特定考量事項
 
 ISP有不同的規則和不同的流量檢視方式。 例如，Gmail是最複雜的ISP之一，因為除了所有其他信譽度量外，他們還會非常嚴格地檢視參與度（開啟和點按）。 這需要自訂計畫，一開始只鎖定參與度最高的使用者。 其他ISP也可能需要相同的服務。 與您的Adobe傳遞顧問合作以達成特定計畫。

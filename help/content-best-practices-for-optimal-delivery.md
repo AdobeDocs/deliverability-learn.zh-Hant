@@ -12,12 +12,12 @@ team: TM
 exl-id: f0172fa5-1c7e-4ccc-8ac5-4357611d13ec
 TQID: https://experienceleague.adobe.com/6RrdVnQp69iMHQ6tcdB7peoGqC6FqHH8v4dQDXrAPqY
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: f71e690b-4480-4b67-9ef5-88f42f9cdfdb
     internal-label: Resources
@@ -29,13 +29,11 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 210
+source-wordcount: '210'
 ht-degree: 10%
-
 ---
-
 # 最佳化傳遞能力的內容最佳實務
 
 內容是關鍵。 您已閱讀我們對於相關性的觀點，但以下是最佳化內容傳遞能力的幾個額外秘訣：
@@ -48,8 +46,8 @@ ht-degree: 10%
 
 **Campaign Classic**
 
-* [控制您的訊息內容](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html?lang=zh-Hant)
+* [控制您的訊息內容](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/deliverability-management/control-message-content.html)
 
 **Campaign Standard**
 
-* [控制電子郵件內容](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html?lang=zh-Hant#testing-and-sending)
+* [控制電子郵件內容](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/managing-deliverability/control-email-content.html#testing-and-sending)

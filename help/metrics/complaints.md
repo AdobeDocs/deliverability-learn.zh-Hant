@@ -10,12 +10,12 @@ team: ACS
 exl-id: 0343820d-f5af-4b8a-bcab-dbb47ae7aecb
 TQID: https://experienceleague.adobe.com/W9G0ZPGeIm5KmVHu5-VuMd-Kb-4x4f7qhBPnpskxqqA
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
     internal-label: Reporting
@@ -32,13 +32,11 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 307
+source-wordcount: '307'
 ht-degree: 100%
-
 ---
-
 # 投訴
 
 當使用者指出收到不想要或未預期的電子郵件時，就會提出投訴。 當訂閱者按下垃圾訊息按鈕時，此訂閱者動作通常會透過訂閱者的電子郵件用戶端或透過第三方垃圾訊息報告系統來記錄。
@@ -49,7 +47,7 @@ ht-degree: 100%
 
 ## 第三方投訴
 
-有幾個反垃圾郵件群組允許在更廣的層級回報垃圾郵件。 這些第三方使用的投訴量度可用來標示電子郵件內容以識別垃圾電子郵件。 此過程也稱為指紋識別。 這些第三方投訴方式的使用者通常對電子郵件比較熟悉，因此，如果沒有得到回應，他們可能會比其他投訴產生更大的影響。
+有幾個反垃圾郵件群組允許在更廣的層級回報垃圾郵件。 這些第三方使用的投訴量度可用來標記電子郵件內容以識別垃圾電子郵件。 此過程也稱為指紋比對。 這些第三方投訴方式的使用者通常對電子郵件比較熟悉，因此，如果沒有得到回應，他們可能會比其他投訴產生更大的影響。
 
 >[!NOTE]
 >

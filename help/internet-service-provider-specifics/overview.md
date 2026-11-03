@@ -1,5 +1,5 @@
 ---
-title: 網路服務提供者具體資訊
+title: 網際網路服務供應商具體資訊
 description: ISP並不完全相同。 他們在決定哪些電子郵件可允許進入其使用者的收件匣時，以及哪些電子郵件會篩選到垃圾郵件資料夾或完全無法通過時，會專注於不同的事項。 我們將快速瀏覽一些ISP之間的重要差異。 這不代表所有ISP的完整清單或涵蓋所有可能的差異。
 topics: Deliverability
 jira: KT-
@@ -11,12 +11,12 @@ team: TM
 exl-id: cf0c9ccf-ae67-4f95-a8cf-1e23b657aa16
 TQID: https://experienceleague.adobe.com/jDzYZLNiq1nBtLQQQt0iCb3LErxuWERpGxmgJOjyEd4
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -27,13 +27,11 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 156
+source-wordcount: '156'
 ht-degree: 14%
-
 ---
-
 # 網路服務提供者具體資訊
 
 ISP並不完全相同。 他們在決定哪些電子郵件可允許進入其使用者的收件匣時，以及哪些電子郵件會篩選到垃圾郵件資料夾或完全無法通過時，會專注於不同的事項。

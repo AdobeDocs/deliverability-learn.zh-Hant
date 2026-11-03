@@ -12,12 +12,12 @@ team: ACS
 exl-id: 5a36b821-bcec-4c4f-ae7e-a697df1bb56d
 TQID: https://experienceleague.adobe.com/n9Vw-9SRtvqrwlohQOu07-u8ZlR5vY7kbexQlMemTk0
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -42,13 +42,11 @@ topic_v2:
     internal-label: Email marketing
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 962
+source-wordcount: '962'
 ht-degree: 2%
-
 ---
-
 # 參與
 
 參與已成為影響收件匣放置決策的單一最重要因素。 多年來，ISP將焦點從內容相關篩選器轉移到行為模型，嚴重依賴正面和負面參與動作。 正面參與主要包括開啟、點按、轉送和回覆。 負面參與包括刪除但不開啟、忽略、取消訂閱和標籤為垃圾訊息。 接收明確的許可權是正面電子郵件參與的基礎。 一旦品牌取得許可，應定期透過頻率和內容測量並符合客戶的期望，以培育這種關係。
@@ -91,13 +89,13 @@ ht-degree: 2%
 
 **Adobe Campaign Classic**
 
-* [定義正確客群](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html?lang=zh-Hant#communication-channels)
-* [壓力規則](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html?lang=zh-Hant)
+* [定義正確客群](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html#communication-channels)
+* [壓力規則](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html)
 
 **Adobe Campaign Standard**
 
-* [定義正確客群](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html?lang=zh-Hant)
-* [疲勞規則](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html?lang=zh-Hant)
+* [定義正確客群](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/define-the-right-audience.html)
+* [疲勞規則](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/working-with-typology-rules/fatigue-rules.html)
 
 ## 其他資源
 

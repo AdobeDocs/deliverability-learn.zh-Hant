@@ -10,12 +10,12 @@ team: ACS
 exl-id: 4b280f90-73b9-4b88-adb8-57b6a46ddad7
 TQID: https://experienceleague.adobe.com/mNz7Z6yQjlK7-NShGkgXNR8hp9kKUXDl9nHzMG4j3Q4
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -31,22 +31,20 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 327
+source-wordcount: '327'
 ht-degree: 100%
-
 ---
-
 # 膨脹和封鎖
 
 ## 膨脹
 
-膨脹是指將郵件傳送到 ISP 的垃圾郵件或垃圾資料夾。 當低於正常的開啟率（有時還有點按率）與高傳遞率配對時，就可進行識別。 電子郵件數量激增的原因因 ISP 而異。 不過，通常如果訊息放在批量資料夾中，則影響傳送信譽的標幟（例如清單衛生）需要重新評估。 這是信譽在下降的訊號，這個問題需要立即修正，以免影響進一步的宣傳活動。 與您的 Adobe 傳遞顧問合作，根據您的情況修正任何膨脹問題。
+膨脹是指將郵件傳送到 ISP 的垃圾郵件或垃圾資料夾。 當低於正常的開啟率（有時還有點按率）與高傳遞率配對時，就可進行識別。 電子郵件被歸入垃圾郵件資料夾的原因因 ISP 而異。 不過，通常如果訊息放在批量資料夾中，則影響傳送信譽的標幟（例如清單衛生）需要重新評估。 這是信譽在下降的訊號，這個問題需要立即修正，以免影響進一步的宣傳活動。 與您的 Adobe 傳遞顧問合作，根據您的情況修正任何膨脹問題。
 
 ## 封鎖
 
-當垃圾郵件指標達到專有的 ISP 閾值，而 ISP 開始阻止發件人發送的郵件（明顯地透過嘗試而被拒的郵件）時，就會發生封鎖。 有各種類型的封鎖。 通常封鎖會發生在 IP 位址的特定位置，但也可能發生在傳送網域或實體層級。 解決封鎖需要具體的專業知識，請連絡您的 Adobe 傳遞顧問以取得協助。
+當垃圾郵件指標達到專有的 ISP 閾值，而 ISP 開始阻止發件人發送的郵件（明顯地透過嘗試而被拒的郵件）時，就會發生封鎖。 有各種類型的封鎖。 通常，封鎖會針對特定 IP 位址發生，但也可能發生在傳送網域或實體層級。 解決封鎖需要具體的專業知識，請連絡您的 Adobe 傳遞顧問以取得協助。
 
 ## 加入封鎖清單
 

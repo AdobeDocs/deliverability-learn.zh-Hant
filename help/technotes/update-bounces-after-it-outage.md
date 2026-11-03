@@ -8,12 +8,12 @@ role: Admin
 level: Beginner
 TQID: 'https://experienceleague.adobe.com/hPHB9s3PH7E9L3omZMTWZA2ZB0d1JS5vEfawQOjnBLw'
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -29,7 +29,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d66463b8c8097e19fd50b9b033e6b21165d7e8c9
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 4%
@@ -66,7 +66,7 @@ ht-degree: 4%
 若要尋找受此問題影響的收件者，或當此問題再次發生在任何其他ISP身上時，請參閱下列指示：
 
 * 若為Campaign Classic v7和Campaign v8，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
-* 若為Campaign Standard，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=zh-Hant#unquarantine-bulk){_blank}。
+* 若為Campaign Standard，請參閱[此頁面](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=en#unquarantine-bulk){_blank}。
 
 ### Adobe Journey Optimizer{#ajo-update}
 
@@ -74,5 +74,5 @@ ht-degree: 4%
 
 識別之後，可以使用&#x200B;**[!UICONTROL Delete]**&#x200B;按鈕從隱藏清單中手動移除這些地址。 這些地址隨後可包含在未來的電子郵件行銷活動中。
 
-請參閱[此章節](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html?lang=zh-Hant#remove-from-suppression-list){_blank}深入瞭解。
+請參閱[此章節](https://experienceleague.adobe.com/docs/journey-optimizer/using/configuration/monitor-reputation/manage-suppression-list.html#remove-from-suppression-list){_blank}深入瞭解。
 

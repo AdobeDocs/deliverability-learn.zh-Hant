@@ -8,12 +8,12 @@ team: ACS
 exl-id: 6c9ade01-3052-4311-af80-888294820024
 TQID: https://experienceleague.adobe.com/cQa5nOTSJwxDGX-QkXGez5dpm5N-8I7QZ-LsEW0FRLo
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -42,13 +42,11 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 666
+source-wordcount: '668'
 ht-degree: 9%
-
 ---
-
 # 開始新平台 {#starting-new-platform}
 
 在設定要與Adobe Campaign搭配使用的新平台時，維護您的網域和IP位址信譽至關重要。
@@ -70,9 +68,9 @@ ISP自然會懷疑從未用來傳送電子郵件，且突然開始傳送大量�
 * 如果您有此資訊，請&#x200B;**將無效的地址匯入隔離資料表**。
 啟動平台時，通常會在第一次使用位址清單時發生，而且該清單可能並非完全合格。 如果您傳送至無效的位址或蜜罐位址，將降低平台的聲譽。
 
-   * 如果您有無效地址清單，在第一次傳送之前先將其匯入隔離表格符合您的最大利益。 隔離表格可透過&#x200B;**[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic)和&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard)功能表取得。
+  * 如果您有無效地址清單，在第一次傳送之前先將其匯入隔離表格符合您的最大利益。 隔離表格可透過&#x200B;**[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** (Campaign Classic)和&#x200B;**[!UICONTROL Administration > Channels > Quarantines > Addresses]** (Campaign Standard)功能表取得。
 
-   * 儘管如此，如果您想要重新認定無效的位址，最好在平台聲譽建立後逐位這樣做，以便「稀釋」一段時間內使用錯誤的位址。
+  * 儘管如此，如果您想要重新認定無效的位址，最好在平台聲譽建立後逐位這樣做，以便「稀釋」一段時間內使用錯誤的位址。
 
 * **透過限制mtachild數目來限制傳輸率**。 如需調整這類技術設定的詳細資訊，請聯絡您的Adobe Campaign管理員。
 
@@ -92,11 +90,11 @@ ISP自然會懷疑從未用來傳送電子郵件，且突然開始傳送大量�
 
 * [透過隔離最佳化您的傳遞](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
 * [識別整個平台的隔離地址](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#identifying-quarantined-addresses-for-the-entire-platform)
-* [使用多個波段傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=zh-Hant#sending-using-multiple-waves)
+* [使用多個波段傳送](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves)
 * [傳送監視](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=zh-Hans#sending-messages)
 
 **Adobe Campaign Standard**
 
-* [透過隔離最佳化您的傳遞](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=zh-Hant#optimizing-your-delivery-through-quarantines)
-* [識別整個平台的隔離地址](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=zh-Hant)
+* [透過隔離最佳化您的傳遞](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html#optimizing-your-delivery-through-quarantines)
+* [識別整個平台的隔離地址](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html)
 * [監視傳遞](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=zh-Hant)

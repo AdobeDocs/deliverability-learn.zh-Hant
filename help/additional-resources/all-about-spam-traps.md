@@ -8,12 +8,12 @@ team: ACS
 exl-id: 45cdcda0-70e4-47f4-8713-a834500e7881
 TQID: https://experienceleague.adobe.com/NsX4YXwncyoIMoPbzNY2YA0bwTmOccNt19GaBFVT4qk
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: c5f60233-d5ea-4453-a799-0ad258b4d399
     internal-label: Database
@@ -27,13 +27,11 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 442
+source-wordcount: '442'
 ht-degree: 1%
-
 ---
-
 # 關於垃圾郵件陷阱
 
 [垃圾郵件陷阱](/help/metrics/spam-traps.md)是有效的地址，在傳送電子郵件至時沒有錯誤訊息。 垃圾郵件陷阱的主要任務是：識別沒有資料衛生程式的垃圾郵件傳送者或發件人。
@@ -61,13 +59,13 @@ ht-degree: 1%
 以下幾點可協助您檢查流程：
 
 * 收集功能障礙：
-   * 您的電子郵件地址來自何處？ 有多少來源用於收集這些地址？ 您能夠識別他們嗎？ 內部/共同註冊？
-   * 您的選擇加入系統是否正常運作？
-   * 您是否檢查過地址的網域和別名？ 請使用下表完成此操作！
+  * 您的電子郵件地址來自何處？ 有多少來源用於收集這些地址？ 您能夠識別他們嗎？ 內部/共同註冊？
+  * 您的選擇加入系統是否正常運作？
+  * 您是否檢查過地址的網域和別名？ 請使用下表完成此操作！
 * 資料庫衛生程式：
-   * 您對於過去12個月的非作用中地址有何程式？
-   * 您是否正在將軟退信的隔離處理為「非作用中使用者」？
-   * 您上次處理資料庫並嘗試清理資料庫的時間為何？ 請定期進行。
+  * 您對於過去12個月的非作用中地址有何程式？
+  * 您是否正在將軟退信的隔離處理為「非作用中使用者」？
+  * 您上次處理資料庫並嘗試清理資料庫的時間為何？ 請定期進行。
 
 ## 要避免的別名和網域
 

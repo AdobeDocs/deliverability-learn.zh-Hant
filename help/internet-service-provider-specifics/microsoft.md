@@ -11,12 +11,12 @@ team: TM
 exl-id: d706cb90-828a-4ab3-8f93-c9bd71553d63
 TQID: https://experienceleague.adobe.com/pbp5vbHUIHSL9zL9gQf4LpIhEYZI1umEesy3czbJx-4
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: ea90ebee-5c84-42d9-8b21-006bdabc95a3
     internal-label: Reporting
@@ -35,13 +35,11 @@ topic_v2:
     internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 335
-ht-degree: 1%
-
+source-wordcount: '335'
+ht-degree: 2%
 ---
-
 # [!DNL Microsoft] （[!DNL Hotmail]、[!DNL Outlook]、[!DNL Windows Live]等）
 
 根據您清單的組成，[!DNL Microsoft]通常為第二大或第三大提供者，他們的確處理的是與其他ISP稍微不同的流量。
@@ -60,7 +58,7 @@ ht-degree: 1%
 
 [!DNL Microsoft]傳統上專注於在他們的信譽評估和篩選決定中傳送IP。 他們也在積極擴展其傳送網域功能。 兩者主要受到投訴和垃圾郵件陷阱等傳統信譽影響者的推動。 Return Path Certification計畫也會嚴重影響傳遞能力，該計畫具有特定的定量和定性計畫要求。
 
-## Insights
+## 洞察
 
 [!DNL Microsoft]結合其所有接收網域，以建立及追蹤傳送信譽。 這包括[!DNL Hotmail]、[!DNL Outlook]、MSN、[!DNL Windows Live]等，以及任何公司Office 365裝載的電子郵件。 [!DNL Microsoft]可能對磁碟區的波動特別敏感，所以請考慮套用特定策略來從大型傳送中提升和降低，而不是允許以磁碟區為基礎的突然變更。
 
