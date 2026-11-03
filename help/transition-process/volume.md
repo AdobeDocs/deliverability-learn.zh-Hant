@@ -12,12 +12,12 @@ team: ACS
 exl-id: 1bc56061-0c64-4033-b49c-66618916bca6
 TQID: https://experienceleague.adobe.com/piIfp9yQkAa1F1bkO9zM7PcOConZhTrwARo4Y8wtMsQ
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: e64968b2-4ee5-47f9-8cae-0588f184b9eb
     internal-label: Programs
@@ -31,13 +31,11 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 600
+source-wordcount: '600'
 ht-degree: 1%
-
 ---
-
 # 卷
 
 您傳送的郵件量對建立良好的信譽至關重要。 站在ISP的角度來看 — 如果您開始看到來自不認識的人的大量流量，將會令人擔憂。 立即傳送大量郵件是有風險的，並且肯定會造成通常難以解決的信譽問題。 如果您因為傳送太快而導致聲譽不佳、膨脹和封鎖問題，可能會令人沮喪、耗時和成本高昂。
@@ -54,7 +52,7 @@ ht-degree: 1%
 * **監視您的回覆電子郵件帳戶**。 使用noreply@xyz.com或不回應對您的客戶來說是不好的體驗。
 * 非作用中地址可能對傳遞能力產生負面影響。 **重新啟用及重新使用您目前平台**&#x200B;的許可權，而非新IP。
 * **網域** — 使用您公司實際網域的子網域的傳送網域
-   * 例如，如果您的公司網域是xyz.com，email.xyz.com為ISP提供的信譽會高於xyzemail.com
+  * 例如，如果您的公司網域是xyz.com，email.xyz.com為ISP提供的信譽會高於xyzemail.com
 * **透明度** — 您的電子郵件網域的註冊詳細資料應公開提供，且不應為私人。
 
 在許多情況下，異動郵件不會遵循傳統的促銷暖身方法。 由於交易式郵件的性質，顯然很難控制其數量，因為它通常需要使用者互動來觸發電子郵件觸控。 在某些情況下，異動郵件可以簡單地在沒有正式計畫的情況下進行轉換。 在其他情況下，隨著時間轉換每個訊息型別可能更適合讓磁碟區緩慢增長。 例如，您可以依照以下步驟進行轉換：

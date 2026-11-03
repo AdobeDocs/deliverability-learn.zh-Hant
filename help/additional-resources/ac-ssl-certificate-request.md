@@ -8,12 +8,12 @@ team: ACS
 exl-id: 8a78abd3-afba-49a7-a2ae-8b2c75326749
 TQID: https://experienceleague.adobe.com/zM1boPuxPGJbjlSk1ncR7vTvrhe529sv-OCZwNTCHRE
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: b3b8a63f-51fc-40f6-a7d2-a31c5d49fb45
     internal-label: Configuration
@@ -34,13 +34,11 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 2374
+source-wordcount: '2377'
 ht-degree: 4%
-
 ---
-
 # SSL 憑證請求流程
 
 一旦您將網域委派給Adobe以傳送電子郵件（請參閱[網域名稱設定](/help/additional-resources/ac-domain-name-setup.md)），Adobe將會針對特定功能建立並使用特定子網域。
@@ -164,10 +162,10 @@ ht-degree: 4%
 提供CSR檔案後，您必須使用CSR檔案為適當的網域購買並產生SSL憑證。
 
 * SSL憑證：
-   * 必須為Apache PEM格式；
-   * 長度不應超過2048位元；
-   * 必須由有效的CA （憑證授權單位）簽署；
-   * 必須包括CSR檔案中提到的所有SAN （主體替代名稱）。
+  * 必須為Apache PEM格式；
+  * 長度不應超過2048位元；
+  * 必須由有效的CA （憑證授權單位）簽署；
+  * 必須包括CSR檔案中提到的所有SAN （主體替代名稱）。
 * 如果有一個或多個中間憑證，您必須向Adobe提供根憑證和所有中間憑證。
 * 您可以設定任何憑證有效期，但Adobe建議選擇足夠長的時間（例如兩年）。
 

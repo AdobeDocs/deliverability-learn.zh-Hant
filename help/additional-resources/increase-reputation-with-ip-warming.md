@@ -8,12 +8,12 @@ team: ACS
 exl-id: b553a13e-2055-4abc-b784-fd52792380d0
 TQID: https://experienceleague.adobe.com/07BzF8Y6CjP6kyDToHiOUhhW8aE0joGemWI6M7r8BZE
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: b0bb9048-d951-48d8-8232-45cf248a7e27
     internal-label: Forms
@@ -40,13 +40,11 @@ topic_v2:
     internal-label: Data quality
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 1596
+source-wordcount: '1596'
 ht-degree: 2%
-
 ---
-
 # 透過 IP 暖身提高您的電子郵件信譽
 
 <!--
@@ -65,7 +63,7 @@ Adobe要求客戶共用其設定，以協助Adobe傳遞團隊瞭解您的獨特�
 
 **相關主題：**
 
-* [如何在切換電子郵件平台時順暢地轉變](../../help/transition-process/switching-email-platforms.md)
+* [如何在切換電子郵件平台時順利過渡](../../help/transition-process/switching-email-platforms.md)
 * [IP策略](../../help/transition-process/infrastructure.md#ip-strategy)
 * [IP 預熱期間的 ISP 特定考量事項](../../help/transition-process/isp-specific-considerations-during-ip-warming.md)
 

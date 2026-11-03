@@ -1,6 +1,6 @@
 ---
 title: 基礎架構
-description: 了解適當地建構電子郵件基礎結構所需的條件。
+description: 了解正確建構電子郵件基礎結構所需的條件。
 topics: Deliverability
 jira: KT-7052
 thumbnail: kt7052.jpg
@@ -12,12 +12,12 @@ team: ACS
 exl-id: 4025d95c-cc77-4e0c-9904-aaf60019b18c
 TQID: https://experienceleague.adobe.com/FWlVtNGACEM6dKsnYQJU-z04mP902M5EXZmxxsKDyqU
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: b0bb9048-d951-48d8-8232-45cf248a7e27
     internal-label: Forms
@@ -42,13 +42,11 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 923
+source-wordcount: '923'
 ht-degree: 2%
-
 ---
-
 # 基礎架構
 
 成功傳送取決於堅實的基礎。 電子郵件基礎架構是核心元素。 正確建構的電子郵件基礎結構包括多個元件，即網域和IP位址。 這些元件就像您傳送之電子郵件背後的機器，通常是傳送信譽的錨點。 傳遞能力顧問會確保在實作期間已正確設定這些元素，但由於信譽元素，因此您必須瞭解此基本知識。

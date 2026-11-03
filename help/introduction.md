@@ -11,12 +11,12 @@ team: ACS
 exl-id: 929e325a-514d-49e3-91cf-c8383bb9465e
 TQID: https://experienceleague.adobe.com/DJri5ynJJTd6RG2MDH4EqamoEnjT1Jg3-ilM9fZqA0M
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: b0bb9048-d951-48d8-8232-45cf248a7e27
     internal-label: Forms
@@ -35,32 +35,30 @@ level_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 461
+source-wordcount: '461'
 ht-degree: 100%
-
 ---
-
 # 傳遞能力最佳實務簡介
 
-對於每個寄件者的成功行銷方案，電子郵件傳遞能力是關鍵部分，必須具備不斷變化的標準及規則。 ISP 持續需要防止寄送垃圾郵件的發送者，因此他們必須開發複雜的篩選技術來保護客戶。 電子郵件傳送者可能會無意中陷入這些刻意的安排。 若要在這個數位世界中有效率地行動，需要定期調整您的電子郵件策略，並考量關鍵的可傳遞性趨勢，以便最佳地觸及到您的客群。
+電子郵件傳遞能力是每個寄件者行銷方案成功的關鍵部分，其特徵在於不斷變化的準則及規則。 ISP 持續需要防止寄送垃圾郵件的發送者，因此他們必須開發複雜的篩選技術來保護客戶。 電子郵件傳送者可能會無意中陷入這些刻意的安排。 若要在這個數位世界中有效率地行動，需要定期調整您的電子郵件策略，並考量關鍵的傳遞能力趨勢，以便最佳地觸及到您的客群。
 
-根據[!DNL Lifewire]的統計，目前有超過 38 億個電子郵件地址。 此外，社交媒體顧問[!DNL Lori Lewis]和[!DNL Chad Callahan]報告稱，每分鐘會傳送 1.88 億封電子郵件，涵蓋全球一半以上的人口。 但是，以最低轉換率傳送電子郵件數量上限的日子已經過去。 現實是，單單考慮量產，就會讓高度參與的客戶面臨無法收到電子郵件的風險。 您作為寄件者，可能會因此有重大的收入影響。 將電子郵件視為具有無限潛力的低成本通道，既具有挑戰性，又十分脆弱。
+根據[!DNL Lifewire]的統計，目前有超過 38 億個電子郵件地址。 此外，社交媒體顧問[!DNL Lori Lewis]和[!DNL Chad Callahan]報告稱，每分鐘會傳送 1.88 億封電子郵件，涵蓋全球一半以上的人口。 但是，為了極低的轉換而大量傳送電子郵件的時代已經過去。 現實是，單單考慮數量，就會讓高度參與的客戶面臨無法收到電子郵件的風險。 這可能會對您身為寄件者的收入造成重大影響。 將電子郵件視為具有無限潛力的低成本管道，既具有挑戰性，又十分脆弱。
 
-在這個數位時代，人們期待耳目一新，而且得強調快速。 他們希望與所有選擇互動的人心有靈犀，這場競爭非常激烈。 在電腦、行動電話和智慧型家用設備等裝置，以及即時訊息、電子郵件、網路、推播和社交媒體應用程式等支援的內容之間，消費者會不斷受到內容轟炸。 如果訊息不令人信服，就很容易遭到刪除或遭完全放棄。
+在這個數位時代，人們期待迅速獲得驚豔的體驗。 他們希望與所有選擇互動的人心有靈犀，這場競爭非常激烈。 在電腦、行動電話和智慧型家用設備等裝置，以及即時訊息、電子郵件、網路、推播和社交媒體應用程式等支援的內容之間，消費者會不斷受到內容轟炸。 如果訊息不夠吸引人，他們很可能會刪除它，或完全停止互動。
 
 讓我們面對現實。 如今，您比以往任何時候都更需要脫穎而出。 這表示要為客戶提供獨特、個人化且高度相關的客戶體驗。 否則，您就有可能永遠失去客戶。 必須有整合、動態、多頻道的策略來激勵客群保持參與。
 
-使用本指南來了解關鍵的傳遞能力術語、概念和方法，使您能夠保持領先地位。 善用此工具，讓電子郵件頻道在行銷組合中保持領先地位，保有高度優先處理的傳遞能力、收件匣刊登，確保收入。
+使用本指南來了解關鍵的傳遞能力術語、概念和方法，使您能夠保持領先地位。 善用此工具，讓電子郵件頻道在行銷組合中保持領先地位，並優先重視傳遞能力、進入收件匣的表現，以及您的收入。
 
-本《傳遞能力最佳實踐指南》涵蓋以下主題：
+本《傳遞能力最佳做法指南》涵蓋以下主題：
 
 1. [傳遞能力策略和定義](/help/deliverability-strategy-and-definition.md)
 2. [傳遞能力的量度](/help/metrics/metrics-overview.md)
 3. [參與](/help/engagement.md)
-4. [轉變過程 - 變換電子郵件平台](/help/transition-process/switching-email-platforms.md)
-5. [第一印象 - 列出集合和歡迎電子郵件](/help/first-impressions/address-collection-and-list-growth.md)
+4. [轉變過程 - 切換電子郵件平台](/help/transition-process/switching-email-platforms.md)
+5. [第一印象 - 清單收集和歡迎電子郵件](/help/first-impressions/address-collection-and-list-growth.md)
 6. [最佳化傳遞能力的內容最佳實務](/help/content-best-practices-for-optimal-delivery.md)
 7. [發件人永久性](/help/sender-permanence.md)
 8. [網路服務提供者具體資訊](/help/internet-service-provider-specifics/overview.md)

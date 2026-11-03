@@ -12,12 +12,12 @@ level: Beginner
 exl-id: e6a855ba-a929-477f-a339-6861a755a529
 TQID: https://experienceleague.adobe.com/TPAHWvztP0NQNBYnixqOpIoWXdhb6ak1ypeTZJvSSHs
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -31,13 +31,11 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 229
+source-wordcount: '229'
 ht-degree: 13%
-
 ---
-
 # 目標定位條件
 
 傳送新流量時，請只在IP暖化的早期階段鎖定參與度最高的使用者。 這有助於從一開始建立良好的信譽，在吸引較少參與的受眾之前有效地建立信任。 以下是參與的基本公式：

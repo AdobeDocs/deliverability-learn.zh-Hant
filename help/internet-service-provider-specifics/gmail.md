@@ -11,12 +11,12 @@ team: TM
 exl-id: a7319c85-32b5-4a9e-bee9-24f13630c408
 TQID: https://experienceleague.adobe.com/JU2Mswl8hi0LmTN9XQAUn2n0I4Ye4xpdKK5PnPuL9dY
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,13 +30,11 @@ level_v2:
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 473
+source-wordcount: '473'
 ht-degree: 0%
-
 ---
-
 # [!DNL Gmail]
 
 [!DNL Gmail]在大部分寄件者的電子郵件清單中佔最大比例。 他們對待電子郵件的態度也往往與其他人略有不同。
@@ -59,7 +57,7 @@ ht-degree: 0%
 
 [!DNL Gmail]追蹤IP、網域，甚至品牌信譽。 變更您的IP或網域（或兩者）將無法讓您輕易地改變不良信譽。 快速或創意修復可能很誘人，但配置時間和精力修復收件匣位置提升的信譽問題的根源會有效得多。
 
-## Insights
+## 洞察
 
 [!DNL Gmail]次檢視的參與訂閱者與大多數寄件者傳統上不同。 寄件者可將作用中或參與清單定義為在30、90或180天內（視商業模式而定）開啟電子郵件的使用者。 另一方面，[!DNL Gmail]正在檢視其使用者與您的訊息互動的頻率。
 

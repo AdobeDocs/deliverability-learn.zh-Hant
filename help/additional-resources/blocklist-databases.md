@@ -8,12 +8,12 @@ team: ACS
 exl-id: 4155b89f-a636-404c-8951-563c1b4d0289
 TQID: https://experienceleague.adobe.com/dsyoiAT3fYro3L8HkRT6OuXGfBqaVOJNy-IoFXQK37I
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: c5f60233-d5ea-4453-a799-0ad258b4d399
     internal-label: Database
@@ -30,13 +30,11 @@ level_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 423
+source-wordcount: '423'
 ht-degree: 9%
-
 ---
-
 # 即時黑洞清單
 
 有幾個組織維護著被垃圾郵件傳送者使用的IP位址和網域資料庫。 諮詢這些網站有助於瞭解為什麼某些郵件會遭到拒絕為垃圾郵件。 通常可以請求移除錯誤地新增到這些清單中的地址。

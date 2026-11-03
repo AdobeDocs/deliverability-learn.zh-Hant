@@ -8,12 +8,12 @@ jira: KT-14079
 exl-id: 6b911bcc-a531-466a-8bd3-7fa469b96cc7
 TQID: https://experienceleague.adobe.com/dPuoipUKH36RSGUfhzOV1Xhu9qQTLYV4zu6Vw0Be-xY
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: b0bb9048-d951-48d8-8232-45cf248a7e27
     internal-label: Forms
@@ -34,13 +34,11 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 1162
+source-wordcount: '1162'
 ht-degree: 0%
-
 ---
-
 # 實作[!DNL Brand Indicators for Message Identification] (BIMI)
 
 [!DNL Brand Indicators for Message Identification] (BIMI)是業界標準，可讓核准的標誌出現在參與平台中寄件者的電子郵件旁邊。

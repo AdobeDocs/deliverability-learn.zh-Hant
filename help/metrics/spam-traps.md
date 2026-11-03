@@ -10,12 +10,12 @@ team: ACS
 exl-id: ffacc1b1-bf3f-466e-9a1d-63aad4d2ec45
 TQID: https://experienceleague.adobe.com/qandgsfuAA4E9uHfZ0jrgpkjs-kt9Izs8k-HvtgDF7A
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -36,16 +36,14 @@ level_v2:
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 495
+source-wordcount: '495'
 ht-degree: 100%
-
 ---
-
 # 垃圾郵件陷阱
 
-垃圾郵件陷阱有助於識別來自詐騙寄件者或未遵循電子郵件最佳實踐者的郵件。 垃圾郵件陷阱電子郵件地址通常不會公開發佈，幾乎無法識別。 向垃圾郵件陷阱發送電子郵件可能會根據陷阱類型和 ISP 的不同嚴重性影響您的聲譽。 在以下幾節中進一步瞭解不同類型的垃圾郵件陷阱。
+垃圾郵件陷阱有助於識別來自詐騙寄件者或未遵循電子郵件最佳實踐者的郵件。 垃圾郵件陷阱電子郵件地址通常不會公開發佈，幾乎無法識別。 將電子郵件寄送到垃圾郵件陷阱，可能會影響您的聲譽，而且影響的嚴重程度會因陷阱類型和 ISP 而異。 在以下幾節中進一步瞭解不同類型的垃圾郵件陷阱。
 
 ## 回收
 
@@ -55,7 +53,7 @@ ht-degree: 100%
 
 ## 錯字
 
-錯字垃圾訊息陷阱是包含拼字錯誤或錯誤的位址。 這通常發生在 Gmail 等主要網域的已知錯誤拼字（例如：gmial 是常見的錯字）。 ISP 和其他區塊清單運算子將註冊已知的壞網域，以用作垃圾郵件陷阱，以識別垃圾郵件發送者並測量發送者的健康狀況。 防止錯誤垃圾訊息陷阱的最佳方式是使用&#x200B;**雙重選擇加入程式**&#x200B;來收集清單。
+錯字垃圾郵件陷阱是包含拼字錯誤或格式錯誤的位址。 這通常發生在 Gmail 等主要網域的已知錯誤拼字（例如：gmial 是常見的錯字）。 ISP 和其他區塊清單運算子將註冊已知的壞網域，以用作垃圾郵件陷阱，以識別垃圾郵件發送者並測量發送者的健康狀況。 防止錯誤垃圾訊息陷阱的最佳方式是使用&#x200B;**雙重選擇加入程式**&#x200B;來收集清單。
 
 ## 原始
 

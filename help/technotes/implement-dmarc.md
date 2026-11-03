@@ -7,12 +7,12 @@ level: Beginner
 exl-id: f1c14b10-6191-4202-9825-23f948714f1e
 TQID: https://experienceleague.adobe.com/gvO7rHqY-Dm6nUq9ssccY7Kt1xobV-pqLc26iITgmRA
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: e2290edd-b061-4880-9d79-dee306cf5aa9
     internal-label: Implementation
@@ -33,13 +33,11 @@ topic_v2:
     internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 1326
+source-wordcount: '1326'
 ht-degree: 9%
-
 ---
-
 # 實作[!DNL Domain-based Message Authentication, Reporting and Conformance] (DMARC)
 
 本檔案的用途是向讀者提供更多有關電子郵件驗證方法DMARC的資訊。 透過說明DMARC的運作方式及其各種原則選項，讀者將能更瞭解DMARC對電子郵件傳遞能力的影響。
@@ -77,7 +75,7 @@ DMARC為選用，雖然並非必要，但為免費，可讓電子郵件接收者
 
 1. 分析您收到並使用的意見回饋(p=none)，這會告知接收者，對於驗證失敗的訊息不執行任何動作，但仍會傳送電子郵件報告給寄件者。 此外，如果合法郵件驗證失敗，請檢閱並修正 SPF/DKIM 的問題。
 1. 確定SPF和DKIM是否校準並傳遞所有合法電子郵件的驗證，然後將原則移至(p=quarantine)，這會告知接收電子郵件伺服器隔離驗證失敗的電子郵件（這通常意味著將這些郵件放在垃圾郵件資料夾中）。
-1. 將原則調整為（p=拒絕）。 p=reject 原則會告訴接收者，完全拒絕 (退回) 驗證失敗的網域的所有電子郵件。 啟用此原則後，只有經過網域驗證為 100% 驗證的電子郵件才有機會進入收件匣。
+1. 將原則調整為（p=拒絕）。 p=reject 原則會告訴接收者，完全拒絕 (退回) 該網域中任何驗證失敗的電子郵件。 啟用此原則後，只有經過網域驗證為 100% 驗證的電子郵件才有機會進入收件匣。
 
    >[!NOTE]
    >

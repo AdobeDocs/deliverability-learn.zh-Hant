@@ -8,12 +8,12 @@ team: ACS
 exl-id: 4d52d197-d20e-450c-bfcf-e4541c474be4
 TQID: https://experienceleague.adobe.com/ZSfcx8FGb6eAHVK-PVAjd1354b55o5n3oRfWg4A5vrg
 product_v2:
-  - id: b27e5950-9033-45ac-9f86-eb22e567f615
-    internal-label: Marketo Engage
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: b27e5950-9033-45ac-9f86-eb22e567f615
+    internal-label: Marketo Engage
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -48,13 +48,11 @@ topic_v2:
     internal-label: Email marketing
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 75df8537199680e5f1fc4b98cefdb05220fee7bf
+source-git-commit: e42624dbef2c89b15908bc1cf2f590b6ca347447
 workflow-type: tm+mt
-source-wordcount: 2107
+source-wordcount: '2119'
 ht-degree: 2%
-
 ---
-
 # 網域名稱設定
 
 本檔案說明網域名稱設定和委派的業務和技術需求。 您將需要選取電子郵件傳送子網域，以及選擇性地選取對外子網域，以託管您所使用Adobe平台的網頁元件（登陸頁面、退出頁面）。
